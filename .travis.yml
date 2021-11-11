@@ -1,0 +1,19 @@
+language: python
+python:
+  - "3.7"
+script:
+  python database-list.py
+deploy:
+  provider: pages
+  local_dir: gh-pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
+notifications:
+  email:
+    recipients:
+      - joseph_anderson@fitnyc.edu
+    on_success: never # default: change
+    on_failure: always # default: always
