@@ -12,6 +12,7 @@ params = {
     'asset_types': '10',
     'expand': 'permitted_uses,az_types,az_props,subjects',
 }
+print(params)
 
 databases = requests.get(endpoint, params=params).json()
 
