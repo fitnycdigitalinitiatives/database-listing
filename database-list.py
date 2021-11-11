@@ -19,3 +19,4 @@ databases = requests.get(endpoint, params=params).json()
 filename = "gh-pages/databases.json"
 with open(filename, "w") as outfile:
     json.dump(databases, outfile, indent=4)
+    print(json.dump(databases, outfile, indent=4))
