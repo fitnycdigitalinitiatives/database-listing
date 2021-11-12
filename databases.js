@@ -2,19 +2,80 @@ $(document).ready(function() {
   var proxy_url = 'https://libproxy.fitsuny.edu/login?url='
   $.getJSON("databases.json", function(databases) {
       databases.sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : -1);
-      list_databasesAZ(databaseConstruct(databases), databases);
+      var queryParams = new URLSearchParams(window.location.search);
+      if (queryParams.toString() && (queryParams.has('letter') || queryParams.has('subject'))) {
+        if (queryParams.has('letter')) {
+          let theLetter = queryParams.get('letter').toUpperCase();
+          //create full list and then get sublist for that letter specifically
+          var initialaTOZList = createAtoZList(databases);
+          if (theLetter in initialaTOZList) {
+            navConstruct(initialaTOZList, databases);
+            $('#atoz button:disabled').prop('disabled', false);
+            $(`#atoz button[data-target='${theLetter}']`).prop('disabled', true);
+            const subList = {};
+            subList[theLetter] = initialaTOZList[theLetter];
+            list_databasesAZ(subList, databases);
+          } else {
+            console.log("This is not a valid A to Z letter");
+            cleanStartup(databases);
+          }
+        } else if (queryParams.has('subject')) {
+          let theSubjectID = queryParams.get('subject');
+          let theFullSubjectList = createSubjectList(databases);
+          if (theSubjectID in theFullSubjectList) {
+            var initialaTOZList = createAtoZList(databases);
+            navConstruct(initialaTOZList, databases);
+            let theSubjectName = theFullSubjectList[theSubjectID];
+            const subList = {};
+            $.each(databases, function(i, database) {
+              if (database.az_types) {
+                $.each(database.az_types, function(i, subject) {
+                  if (subject.id == theSubjectID) {
+                    firstLetter = database.name.charAt(0).toUpperCase();
+                    if (firstLetter in subList) {
+                      subList[firstLetter].push(database);
+                    } else {
+                      subList[firstLetter] = [database];
+                    }
+                  }
+                });
+              }
+            });
+            //enable and disable buttons
+            $('#atoz button').prop('disabled', true);
+            $(`#atoz button[data-target='All']`).prop('disabled', false);
+            $('#search').find('input').val("");
+            list_databasesAZ(subList, databases);
+            $('#databases-title').children().remove();
+            $('#subject-browse').val(theSubjectID);
+            $('#databases-title').append(`<br><small class="text-muted">${theSubjectName}</small>`);
+          } else {
+            console.log("This is not a valid subject ID");
+            cleanStartup(databases);
+          }
+
+        }
+      } else {
+        cleanStartup(databases);
+      }
+
     })
     .fail(function() {
       console.log("error");
     });
 
+  function cleanStartup(databases) {
+    var initialaTOZList = createAtoZList(databases);
+    navConstruct(initialaTOZList, databases);
+    list_databasesAZ(initialaTOZList, databases);
+  }
+
   function createListing(database) {
     var url = database.meta.enable_proxy ? proxy_url + database.url : database.url;
     var database_listing = `
-        <div class='database py-4 border-bottom'>
-        <div class="row">
-          <div class="col-auto pe-0">
-            <button class="bg-transparent border-0 h3" type="button" data-bs-toggle="collapse" data-bs-target="#database-${database.id}" aria-expanded="false" aria-controls="database-${database.id}" aria-label="Expand">
+        <div class='row database py-4 border-bottom'>
+          <div class="col-auto">
+            <button class="bg-transparent border-0 p-0 h3 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#database-${database.id}" aria-expanded="false" aria-controls="database-${database.id}" aria-label="Expand">
               <i class="bi bi-plus-circle" title="Expand" aria-hidden="true"></i>
             </button>
           </div>
@@ -28,12 +89,13 @@ $(document).ready(function() {
             </div>
           </div>
         </div>
-
-        </div>
       `;
     database_listing = $(database_listing);
     if (database.enable_trial) {
-      database_listing.find('h3').append(`<span class="badge bg-primary rounded-pill fs-6 align-text-top">Trial</span>`);
+      database_listing.find('h3').append(`<span class="badge bg-primary rounded-pill fs-6 align-top">Trial</span>`);
+    }
+    if (database.enable_new) {
+      database_listing.find('h3').append(`<span class="badge bg-primary rounded-pill fs-6 align-top">New</span>`);
     }
     if (database.description) {
       database_listing.find('.database-body').append(`<p>${database.description}</p>`);
@@ -83,12 +145,18 @@ $(document).ready(function() {
           }
         });
         //enable and disable buttons
-        $('#atoz button:disabled').prop('disabled', false);
+        $('#atoz button').prop('disabled', true);
+        $(`#atoz button[data-target='All']`).prop('disabled', false);
         $('#search').find('input').val("");
         list_databasesAZ(subList, cleanDatabaseList);
         $('#databases-title').children().remove();
         $('#subject-browse').val(subjectID);
         $('#databases-title').append(`<br><small class="text-muted">${subjectName}</small>`);
+        // Update URL Query.
+        var queryParams = new URLSearchParams(window.location.search);
+        queryParams.delete("letter");
+        queryParams.set("subject", subjectID);
+        history.replaceState(null, null, "?" + queryParams.toString());
       });
     });
   }
@@ -109,25 +177,25 @@ $(document).ready(function() {
     });
     $("html, body").scrollTop(0);
     $('#databases').fadeIn();
-    // add anchors
-    anchors.add('h2');
     activateSubjects(cleanDatabaseList);
 
   }
 
   function listSearchResults(query, results, cleanDatabaseList) {
     $('#databases').hide().empty();
-    $('#atoz button:disabled').prop('disabled', false);
     $('#databases-title').children().remove();
     $('#subject-browse').val('all');
     $('#databases').append(`<h2 class="mt-4 mb-3 display-5">Results for "${query}"</h2>`);
     if (results.length > 0) {
+      $('#atoz button').prop('disabled', true);
+      $(`#atoz button[data-target='All']`).prop('disabled', false);
       $.each(results, function(i, result) {
         var thisDatabase = cleanDatabaseList[result["ref"]];
         $('#databases').append(createListing(thisDatabase));
       });
       activateSubjects(cleanDatabaseList);
     } else {
+      $('#atoz button:disabled').prop('disabled', false);
       var noResults = `
       <div>
       <p class="lead">
@@ -141,9 +209,8 @@ $(document).ready(function() {
     $('#databases').fadeIn();
   }
 
-  function databaseConstruct(databases) {
+  function createAtoZList(databases) {
     const aTOzList = {};
-    const subjectList = {};
     $.each(databases, function(i, database) {
       firstLetter = database.name.charAt(0).toUpperCase();
       if (firstLetter in aTOzList) {
@@ -151,20 +218,31 @@ $(document).ready(function() {
       } else {
         aTOzList[firstLetter] = [database];
       }
+    });
+    return aTOzList;
+  }
+
+  function createSubjectList(databases) {
+    const subjectList = {};
+    $.each(databases, function(i, database) {
       $.each(database.az_types, function(index, subject) {
         if (!(subject.name in subjectList)) {
-          subjectList[subject.name] = subject.id;
+          subjectList[subject.id] = subject.name;
         }
       });
     });
+    return subjectList;
+  }
+
+  function navConstruct(aTOzList, databases) {
     // Create Subject/Search navigation
     var subSearchNav = `
-    <div class="row  mt-4">
-      <div class="col-auto">
+    <div class="row justify-content-between mt-4">
+      <div class="col-12 col-sm col-md-5 col-xxl-4 mb-3 mb-sm-0">
       <select class="form-select" id="subject-browse" aria-label="Browse databases by subject">
       </select>
       </div>
-      <div class="col-auto">
+      <div class="col-12 col-sm col-md-5 col-xxl-4">
         <form id="search">
           <div class="input-group">
             <input type="search" class="form-control" placeholder="Search databases" aria-label="Search databases">
@@ -178,7 +256,7 @@ $(document).ready(function() {
     `;
     subSearchNav = $(subSearchNav);
     var opts_list = '';
-    $.each(subjectList, function(subjectName, subjectID) {
+    $.each(createSubjectList(databases), function(subjectID, subjectName) {
       opts_list += `
       <option value="${subjectID}">${subjectName}</option>
       `;
@@ -215,11 +293,17 @@ $(document).ready(function() {
           }
         });
         //enable and disable buttons
-        $('#atoz button:disabled').prop('disabled', false);
+        $('#atoz button').prop('disabled', true);
+        $(`#atoz button[data-target='All']`).prop('disabled', false);
         $('#search').find('input').val("");
         list_databasesAZ(subList, databases);
         $('#databases-title').children().remove();
         $('#databases-title').append(`<br><small class="text-muted">${subjectName}</small>`);
+        // Update URL Query.
+        var queryParams = new URLSearchParams(window.location.search);
+        queryParams.delete("letter");
+        queryParams.set("subject", subjectValue);
+        history.replaceState(null, null, "?" + queryParams.toString());
       }
     });
 
@@ -264,7 +348,12 @@ $(document).ready(function() {
             },
           }
         });
-        listSearchResults(query, results, databases)
+        listSearchResults(query, results, databases);
+        // Update URL Query.
+        var queryParams = new URLSearchParams(window.location.search);
+        queryParams.delete("letter");
+        queryParams.delete("subject");
+        history.replaceState(null, null, window.location.pathname);
       }
 
     });
@@ -272,9 +361,9 @@ $(document).ready(function() {
 
     // Create A to Z navigation
     aTOzNav = `
-    <ul class="nav nav-fill mt-4" role="tablist" id="atoz">
+    <ul class="nav justify-content-center justify-content-md-evenly mt-4 mt-lg-5" role="tablist" id="atoz">
       <li class="nav-item" role="presentation">
-        <button class="nav-link bg-transparent border-0 px-0 me-2" type="button" role="tab" data-target="All" aria-controls="All" aria-selected="true" disabled>All</button>
+        <button class="nav-link bg-transparent border-0 px-0 me-4 me-md-0" type="button" role="tab" data-target="All" aria-controls="All" aria-selected="true" disabled>All</button>
       </li>
     </ul>
     `;
@@ -282,7 +371,7 @@ $(document).ready(function() {
     $.each(aTOzList, function(initial) {
       letterLink = `
       <li class="nav-item" role="presentation">
-        <button class="nav-link bg-transparent border-0 px-0 me-2" type="button" role="tab" data-target="${initial}" aria-controls="${initial.toLowerCase()}" aria-selected="false">${initial}</button>
+        <button class="nav-link bg-transparent border-0 px-0 me-4 me-md-0" type="button" role="tab" data-target="${initial}" aria-controls="${initial.toLowerCase()}" aria-selected="false">${initial}</button>
       </li>
       `;
       $(aTOzNav).append(letterLink);
@@ -299,15 +388,22 @@ $(document).ready(function() {
         var letter = $(this).data('target');
         if (letter == 'All') {
           list_databasesAZ(aTOzList, databases);
+          // Update URL Query.
+          var queryParams = new URLSearchParams(window.location.search);
+          queryParams.delete("letter");
+          queryParams.delete("subject");
+          history.replaceState(null, null, window.location.pathname);
         } else {
           const subList = {};
           subList[letter] = aTOzList[letter];
           list_databasesAZ(subList, databases);
+          // Update URL Query.
+          var queryParams = new URLSearchParams(window.location.search);
+          queryParams.set("letter", letter);
+          queryParams.delete("subject");
+          history.replaceState(null, null, "?" + queryParams.toString());
         }
       });
     });
-
-
-    return aTOzList;
   }
 });
