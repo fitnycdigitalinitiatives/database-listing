@@ -91,6 +91,7 @@ $(document).ready(function() {
         </div>
       `;
     database_listing = $(database_listing);
+    database_body = database_listing.find('.database-body');
     if (database.enable_trial) {
       database_listing.find('h3').append(`<span class="badge bg-primary rounded-pill fs-6 align-top">Trial</span>`);
     }
@@ -98,13 +99,17 @@ $(document).ready(function() {
       database_listing.find('h3').append(`<span class="badge bg-primary rounded-pill fs-6 align-top">New</span>`);
     }
     if (database.description) {
-      database_listing.find('.database-body').append(`<p>${database.description}</p>`);
+      database_body.append(`<p>${database.description}</p>`);
     }
     if (database.meta.more_info) {
-      database_listing.find('.database-body').append(`<p>${database.meta.more_info}</p>`);
+      database_body.append(`<p>${database.meta.more_info}</p>`);
+    }
+    if (database.alt_names) {
+      database_body.append(`<h4><small>Also Known As<small></h4>`);
+      database_body.append(`<p>${database.alt_names}</p>`);
     }
     if (database.az_types) {
-      database_listing.find('.database-body').append(`<h4><small>Related Topics<small></h4>`);
+      database_body.append(`<h4><small>Related Topics<small></h4>`);
       subjectNav = `
       <ul class="nav subject-nav" role="tablist">
       </ul>
@@ -118,7 +123,7 @@ $(document).ready(function() {
         `;
         $(subjectNav).append(subjectLink);
       });
-      database_listing.find('.database-body').append(subjectNav);
+      database_body.append(subjectNav);
     }
     return database_listing;
   }
@@ -212,11 +217,26 @@ $(document).ready(function() {
   function createAtoZList(databases) {
     const aTOzList = {};
     $.each(databases, function(i, database) {
-      firstLetter = database.name.charAt(0).toUpperCase();
+      let firstLetter = database.name.charAt(0).toUpperCase();
       if (firstLetter in aTOzList) {
         aTOzList[firstLetter].push(database);
       } else {
         aTOzList[firstLetter] = [database];
+      }
+      if (database.alt_names) {
+        $.each(database.alt_names.split(","), function(index, altName) {
+          altName = altName.trim();
+          let altfirstLetter = altName.charAt(0).toUpperCase();
+          let altDatabase = JSON.parse(JSON.stringify(database));
+          altDatabase["name"] = `${altName} (see ${database.name})`;
+          altDatabase["alt_names"] = "";
+          altDatabase["id"] += "-" + index;
+          if (altfirstLetter in aTOzList) {
+            aTOzList[altfirstLetter].push(altDatabase);
+          } else {
+            aTOzList[altfirstLetter] = [altDatabase];
+          }
+        });
       }
     });
     return aTOzList;
@@ -310,12 +330,14 @@ $(document).ready(function() {
     // Create Search Index
     var searchIndex = elasticlunr(function() {
       this.addField('title');
+      this.addField('alt_names');
       this.addField('body');
       this.addField('subjects');
       this.setRef('id');
+      this.saveDocument(false);
     });
     $.each(databases, function(key, database) {
-      var subjectString = ''
+      var subjectString = '';
       $.each(database.az_types, function(index, subject) {
         if (index == 0) {
           subjectString += subject.name;
@@ -326,6 +348,7 @@ $(document).ready(function() {
       var doc = {
         "id": key,
         "title": database.name,
+        "alt_names": database.alt_names,
         "body": database.description + database.meta.more_info,
         "subjects": subjectString
       }
@@ -340,13 +363,17 @@ $(document).ready(function() {
             title: {
               boost: 2
             },
+            alt_names: {
+              boost: 2
+            },
             body: {
               boost: 1
             },
             subjects: {
               boost: 1
             },
-          }
+          },
+          bool: "AND"
         });
         listSearchResults(query, results, databases);
         // Update URL Query.
