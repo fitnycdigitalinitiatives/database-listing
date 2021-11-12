@@ -12319,7 +12319,7 @@
         "id": "64203792",
         "name": "Bloomsbury Fashion Central",
         "description": "Access to:<br />\r\nBerg Fashion Library<br />\r\nFashion Photography Archive<br />\r\nFairchild Books Library<br />\r\nBloomsbury Fashion Business Cases<br />\r\nCoverage of world fashion from 1500 BCE to present, including books, scholarly articles, and an extensive image collection including the V&A Museum's fashion collection (1600 images); the Philadelphia Museum of Art (2800 images); the Bath Fashion Museum (970 images); the Commercial Pattern Archive (2200 images); the Metropolitan Museum of Art's Costume Institute collection (2000 images); and the MoMu Fashion Museum, Belgium (600 images).<br />\r\n<br />\r\nUse an incognito browser to access this resource.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyfashioncentral.com",
+        "url": "https://www.bloomsburyfashioncentral.com",
         "site_id": "942",
         "type_id": "10",
         "owner_id": "21364",
@@ -12332,13 +12332,80 @@
             "tn_alt_text": "",
             "more_info": "",
             "desc_pos": 1,
-            "enable_proxy": 0
+            "enable_proxy": 1
         },
         "created": "2021-11-05 16:27:36",
-        "updated": "2021-11-05 16:27:36",
+        "updated": "2021-11-11 23:05:21",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48289,
+                "name": "Companies & Brands / Industry Profiles",
+                "site_id": 942
+            },
+            {
+                "id": 48291,
+                "name": "E-books",
+                "site_id": 942
+            },
+            {
+                "id": 48293,
+                "name": "Encyclopedias / Dictionaries / Directories",
+                "site_id": 942
+            },
+            {
+                "id": 48294,
+                "name": "Exhibition Design & Museum Studies",
+                "site_id": 942
+            },
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48301,
+                "name": "Graphic & Communication Design / Packaging",
+                "site_id": 942
+            },
+            {
+                "id": 48305,
+                "name": "Images",
+                "site_id": 942
+            },
+            {
+                "id": 48311,
+                "name": "Multimedia",
+                "site_id": 942
+            },
+            {
+                "id": 48319,
+                "name": "Scholarly Journals",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            }
+        ],
         "enable_new": 0,
         "enable_trial": 0,
         "enable_popular": 0,
