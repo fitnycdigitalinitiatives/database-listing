@@ -1847,7 +1847,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 16:54:59",
+        "updated": "2021-11-12 17:41:57",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -1883,7 +1883,7 @@
         "enable_popular": 1,
         "internal_note": "",
         "library_review": "",
-        "alt_names": "Doneger\r\nDCS\r\nDoneger Creative Services",
+        "alt_names": "Doneger, DCS, Doneger Creative Services",
         "subjects": [
             {
                 "id": "25086",
@@ -2838,7 +2838,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 18:13:46",
+        "updated": "2021-11-12 17:44:57",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -2874,7 +2874,7 @@
         "enable_popular": 1,
         "internal_note": "",
         "library_review": "",
-        "alt_names": "Gale Virtual Reference Library\r\nGVRL",
+        "alt_names": "Gale Virtual Reference Library, GVRL",
         "subjects": [
             {
                 "id": "25085",
@@ -9469,7 +9469,7 @@
     {
         "id": "34685845",
         "name": "Sophicolor",
-        "description": "Extensive cotton color swatch collections<br />\r\n<br />\r\nRegister for an account here using your FIT email. Select \"Design Clients\" -- https://www.sophicolor.com/register<br />\r\n<br />\r\nIn the Company field, enter \"FIT,\" and for job title enter \"FIT Student\" or \"FIT Faculty\" <br />\r\n<br />\r\nYou will receive an email from Sophicolor once your account has been approved.",
+        "description": "A color service with more than 4,500 unique colors. Includes Trend Intelligence with the latest color palettes.<br />\r\n<br />\r\nExtensive cotton color swatch collections<br />\r\n<br />\r\nRegister for an account here using your FIT email. Select \"Design Clients\" -- https://www.sophicolor.com/register<br />\r\n<br />\r\nIn the Company field, enter \"FIT,\" and for job title enter \"FIT Student\" or \"FIT Faculty\" <br />\r\n<br />\r\nYou will receive an email from Sophicolor once your account has been approved.",
         "url": "https://sophicolor.com/register",
         "site_id": "942",
         "type_id": "10",
@@ -9486,7 +9486,7 @@
             "enable_proxy": 0
         },
         "created": "2017-08-09 18:26:36",
-        "updated": "2021-11-11 16:39:15",
+        "updated": "2021-11-12 17:28:48",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -9522,7 +9522,7 @@
         "enable_popular": 0,
         "internal_note": "",
         "library_review": "",
-        "alt_names": "A color service with more than 4,500 unique colors. Includes Trend Intelligence with the latest color palettes.",
+        "alt_names": "",
         "subjects": [
             {
                 "id": "25085",
@@ -10409,7 +10409,7 @@
             "enable_proxy": 0
         },
         "created": "2018-10-08 17:52:39",
-        "updated": "2021-11-10 17:18:21",
+        "updated": "2021-11-12 17:42:44",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -10430,7 +10430,7 @@
         "enable_popular": 0,
         "internal_note": "",
         "library_review": "",
-        "alt_names": "BCIN, the Bibliographic Database of the Conservation Information Network"
+        "alt_names": "Bibliographic Database of the Conservation Information Network"
     },
     {
         "id": "44830144",
