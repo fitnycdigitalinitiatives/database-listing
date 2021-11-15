@@ -81,7 +81,7 @@ $(document).ready(function() {
           </div>
           <div class="col">
             <h3>
-              <a class="text-decoration-none" href="${database.meta.enable_proxy ? proxy_url + database.url : database.url}">
+              <a class="text-decoration-none" href="${database.url}">
                 ${database.name}
               </a>
             </h3>
