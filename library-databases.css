@@ -231,23 +231,27 @@
   margin-bottom: .5rem;
 }
 
+#databases .database .database-title .badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: .85rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: top;
+  border-radius: 0.25rem;
+  background-color: #0036F9;
+  margin-left: .25rem;
+}
+
 #databases .database .database-link {
-  color: #000000;
-  background: none;
   font-weight: inherit;
 }
 
-#databases .database .database-link:hover {
-  color: #0036F9;
-}
-
-#databases .database .database-link i {
-  font-size: 1rem;
-  color: #FF2EAA;
-}
-
-#databases .database .database-link:hover i {
-  color: #0036F9;
+#databases .database .database-link .arrow {
+  bottom: 7px;
 }
 
 #databases .database .database-body {
@@ -299,10 +303,18 @@
   #databases .database .button-col .accordion__icon {
     vertical-align: middle;
   }
+
+  #databases .database .database-link .arrow {
+    bottom: 9px;
+  }
 }
 
 @media (min-width: 1025px) {
   #databases .database .button-col .accordion__icon {
     vertical-align: initial;
+  }
+
+  #databases .database .database-link .arrow {
+    bottom: 10px;
   }
 }
