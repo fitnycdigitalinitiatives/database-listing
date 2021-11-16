@@ -91,6 +91,10 @@ $(document).ready(function() {
   }
 
   function createListing(database) {
+    let databaseName = database.name;
+    let lastWord = databaseName.split(" ").pop();
+    databaseName = databaseName.substring(0, databaseName.lastIndexOf(" "));
+    databaseName = databaseName + " " + "<span class='last-word'>" + lastWord + "<span class='arrow'></span></span>";
     var database_listing = `
         <div class='database'>
           <div class="button-col">
@@ -99,9 +103,8 @@ $(document).ready(function() {
           </div>
           <div class="listing-col">
             <h3 class="database-title">
-              <a class="database-link" href="${database.url}" target="_blank">
-                ${database.name}
-                <i class="fas fa-caret-right"></i>
+              <a class="database-link link--arrow" href="${database.url}" target="_blank">
+                ${databaseName}
               </a>
             </h3>
             <div class="database-body" id="database-${database.id}">
