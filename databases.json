@@ -1726,7 +1726,7 @@
         "id": "2354004",
         "name": "Demographics Now",
         "description": "Provides demographic data for any location in the United States, from the national level down to a specific neighborhood",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://infotrac.galegroup.com/itweb/fitsuny?db=DNO",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://infotrac.galegroup.com/itweb/fitsuny?db=DNOW",
         "site_id": "942",
         "type_id": "10",
         "owner_id": "21364",
@@ -1742,7 +1742,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 17:39:57",
+        "updated": "2021-11-16 20:42:57",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,

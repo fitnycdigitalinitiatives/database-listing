@@ -226,7 +226,7 @@ $(document).ready(function() {
     $('#databases').hide().empty();
     $('#databases-subtitle').text('Search');
     $('#subject-browse').val('all');
-    $('#databases').append(`<h2 class="mt-4 mb-3 display-5">Results for "${query}"</h2>`);
+    $('#databases').append(`<h2 class="mt-4 mb-3 display-5">Results for "${sanitizeHTML(query)}"</h2>`);
     if (results.length > 0) {
       $('#atoz button').prop('disabled', true);
       $(`#atoz button[data-target='All']`).prop('disabled', false);
@@ -248,6 +248,10 @@ $(document).ready(function() {
     }
     $("html, body").scrollTop(0);
     $('#databases').fadeIn();
+  }
+
+  function sanitizeHTML(text) {
+    return $('<div>').text(text).html();
   }
 
   function createAtoZList(databases) {
