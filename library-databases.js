@@ -1,5 +1,20 @@
 $(document).ready(function() {
-  $.getJSON("databases.json", function(databases) {
+  //1st append the container to the page
+  $('main').append(`
+    <div class="container container--big">
+      <section>
+        <h2 id="databases-title">Databases
+        <br>
+        <div id="databases-subtitle">
+        A to Z
+        </div>
+        </h2>
+        <div id="databases">
+        </div>
+      </section>
+    </div>
+  `);
+  $.getJSON("https://fitnycdigitalinitiatives.github.io/database-listing/databases.json", function(databases) {
       databases.sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : -1);
       var queryParams = new URLSearchParams(window.location.search);
       if (queryParams.toString() && (queryParams.has('letter') || queryParams.has('subject'))) {
@@ -45,9 +60,8 @@ $(document).ready(function() {
             $(`#atoz button[data-target='All']`).prop('disabled', false);
             $('#search').find('input').val("");
             list_databasesAZ(subList, databases);
-            $('#databases-title').children().remove();
             $('#subject-browse').val(theSubjectID);
-            $('#databases-title').append(`<br><small class="text-muted">${theSubjectName}</small>`);
+            $('#databases-subtitle').text(theSubjectName);
           } else {
             console.log("This is not a valid subject ID");
             cleanStartup(databases);
@@ -61,13 +75,11 @@ $(document).ready(function() {
     })
     .fail(function() {
       console.log("error");
+      $('#databases-subtitle').text('Error');
       var error = `
-      <div>
-      <h2>Error</h2>
-      <p class="lead">
+      <p>
         It seems that there is currently a technical issue preventing us from loading the database listings. Please try reloading the page or viewing the database listings <a href="https://fitnyc.libguides.com/az.php">here</a> instead. If you are still having difficulties please contact us using our <a href="http://fitnyc.libanswers.com/">Ask the Library</a> service.
       </p>
-      </div>
       `;
       $('#databases').append(error);
     });
@@ -80,19 +92,19 @@ $(document).ready(function() {
 
   function createListing(database) {
     var database_listing = `
-        <div class='row database py-4 border-bottom'>
-          <div class="col-auto">
-            <button class="bg-transparent border-0 p-0 h3 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#database-${database.id}" aria-expanded="false" aria-controls="databases" aria-label="Expand">
-              <i class="bi bi-plus-circle" title="Expand" aria-hidden="true"></i>
+        <div class='database'>
+          <div class="button-col">
+            <button class="accordion__icon" type="button" data-target="#database-${database.id}" aria-expanded="false" aria-controls="databases" aria-label="Expand">
             </button>
           </div>
-          <div class="col">
-            <h3>
-              <a class="text-decoration-none" href="${database.url}">
+          <div class="listing-col">
+            <h3 class="database-title">
+              <a class="database-link" href="${database.url}" target="_blank">
                 ${database.name}
+                <i class="fas fa-caret-right"></i>
               </a>
             </h3>
-            <div class="database-body collapse" id="database-${database.id}">
+            <div class="database-body" id="database-${database.id}">
             </div>
           </div>
         </div>
@@ -118,20 +130,35 @@ $(document).ready(function() {
     if (database.az_types) {
       database_body.append(`<h4><small>Related Topics<small></h4>`);
       subjectNav = `
-      <ul class="nav subject-nav" role="tablist">
+      <ul class="subject-nav" role="tablist">
       </ul>
       `;
       subjectNav = $(subjectNav);
       $.each(database.az_types, function(i, subject) {
         subjectLink = `
-        <li class="nav-item" role="presentation">
-          <button class="nav-link bg-transparent border-0 p-0 me-4 btn-sm text-dark" type="button" role="tab" data-target="${subject.id}" data-name="${subject.name}" aria-controls="databases" aria-selected="false">${subject.name}</button>
+        <li role="presentation">
+          <button type="button" role="tab" data-target="${subject.id}" data-name="${subject.name}" aria-controls="databases" aria-selected="false">
+          ${subject.name}
+          <i class="fas fa-caret-right"></i>
+          </button>
         </li>
         `;
         $(subjectNav).append(subjectLink);
       });
       database_body.append(subjectNav);
     }
+    $(database_listing).find('button').click(function() {
+      let target = $(this).data('target');
+      if ($(`${target}`).hasClass('active')) {
+        $(`${target}`).slideUp(function() {
+          $(this).toggleClass('active');
+        });
+      } else {
+        $(`${target}`).slideDown(function() {
+          $(this).toggleClass('active');
+        });
+      }
+    });
     return database_listing;
   }
 
@@ -161,9 +188,8 @@ $(document).ready(function() {
         $(`#atoz button[data-target='All']`).prop('disabled', false);
         $('#search').find('input').val("");
         list_databasesAZ(subList, cleanDatabaseList);
-        $('#databases-title').children().remove();
         $('#subject-browse').val(subjectID);
-        $('#databases-title').append(`<br><small class="text-muted">${subjectName}</small>`);
+        $('#databases-subtitle').text(subjectName);
         // Update URL Query.
         var queryParams = new URLSearchParams(window.location.search);
         queryParams.delete("letter");
@@ -178,7 +204,7 @@ $(document).ready(function() {
     $.each(databaseList, function(initial, letterGroup) {
       var groupDiv = `
         <div>
-        <h2 class="mt-4 display-3" id="${initial.toLowerCase()}">${initial}</h2>
+        <h2 class="letter-header" id="${initial.toLowerCase()}">${initial}</h2>
         </div>
       `;
       groupDiv = $(groupDiv);
@@ -195,7 +221,7 @@ $(document).ready(function() {
 
   function listSearchResults(query, results, cleanDatabaseList) {
     $('#databases').hide().empty();
-    $('#databases-title').children().remove();
+    $('#databases-subtitle').text('Search');
     $('#subject-browse').val('all');
     $('#databases').append(`<h2 class="mt-4 mb-3 display-5">Results for "${query}"</h2>`);
     if (results.length > 0) {
@@ -264,17 +290,17 @@ $(document).ready(function() {
   function navConstruct(aTOzList, databases) {
     // Create Subject/Search navigation
     var subSearchNav = `
-    <div class="row justify-content-between mt-4">
-      <div class="col-12 col-sm col-md-5 col-xxl-4 mb-3 mb-sm-0">
-      <select class="form-select" id="subject-browse" aria-label="Browse databases by subject">
-      </select>
+    <div id="databases-subsearch">
+      <div>
+        <select id="subject-browse" aria-label="Browse databases by subject">
+        </select>
       </div>
-      <div class="col-12 col-sm col-md-5 col-xxl-4">
+      <div>
         <form id="search">
           <div class="input-group">
-            <input type="search" class="form-control" placeholder="Search databases" aria-label="Search databases">
-            <button class="btn btn-secondary" type="submit" aria-label="Search">
-              <i class="bi bi-search" title="Search" aria-hidden="true"></i>
+            <input type="search" placeholder="Search databases" aria-label="Search databases">
+            <button type="submit" aria-label="Search">
+              <i class="fa fa-search" title="Search" aria-hidden="true"></i>
             </button>
           </div>
         </form>
@@ -299,7 +325,7 @@ $(document).ready(function() {
       var subjectValue = $(this).val();
       var subjectName = $(this).children('option:selected').text();
       if (subjectValue == "all") {
-        $('#databases-title').children().remove();
+        $('#databases-subtitle').text('A to Z');
         $('#atoz button:disabled').prop('disabled', false);
         $("#atoz button[data-target='All']").prop('disabled', true);
         list_databasesAZ(aTOzList, databases);
@@ -324,8 +350,7 @@ $(document).ready(function() {
         $(`#atoz button[data-target='All']`).prop('disabled', false);
         $('#search').find('input').val("");
         list_databasesAZ(subList, databases);
-        $('#databases-title').children().remove();
-        $('#databases-title').append(`<br><small class="text-muted">${subjectName}</small>`);
+        $('#databases-subtitle').text(subjectName);
         // Update URL Query.
         var queryParams = new URLSearchParams(window.location.search);
         queryParams.delete("letter");
@@ -395,17 +420,17 @@ $(document).ready(function() {
 
     // Create A to Z navigation
     aTOzNav = `
-    <ul class="nav justify-content-center justify-content-md-evenly mt-4 mt-lg-5" role="tablist" id="atoz">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link bg-transparent border-0 px-0 me-4 me-md-0" type="button" role="tab" data-target="All" aria-controls="databases" aria-selected="true" disabled>All</button>
+    <ul role="tablist" id="atoz">
+      <li role="presentation">
+        <button type="button" role="tab" data-target="All" aria-controls="databases" aria-selected="true" disabled>All</button>
       </li>
     </ul>
     `;
     aTOzNav = $(aTOzNav);
     $.each(aTOzList, function(initial) {
       letterLink = `
-      <li class="nav-item" role="presentation">
-        <button class="nav-link bg-transparent border-0 px-0 me-4 me-md-0" type="button" role="tab" data-target="${initial}" aria-controls="databases" aria-selected="false">${initial}</button>
+      <li role="presentation">
+        <button type="button" role="tab" data-target="${initial}" aria-controls="databases" aria-selected="false">${initial}</button>
       </li>
       `;
       $(aTOzNav).append(letterLink);
@@ -416,11 +441,11 @@ $(document).ready(function() {
         //enable and disable buttons
         $('#atoz button:disabled').prop('disabled', false);
         $(this).prop('disabled', true);
-        $('#databases-title').children().remove();
         $('#subject-browse').val('all');
         $('#search').find('input').val("");
         var letter = $(this).data('target');
         if (letter == 'All') {
+          $('#databases-subtitle').text('A to Z');
           list_databasesAZ(aTOzList, databases);
           // Update URL Query.
           var queryParams = new URLSearchParams(window.location.search);
@@ -428,6 +453,7 @@ $(document).ready(function() {
           queryParams.delete("subject");
           history.replaceState(null, null, window.location.pathname);
         } else {
+          $('#databases-subtitle').text(letter);
           const subList = {};
           subList[letter] = aTOzList[letter];
           list_databasesAZ(subList, databases);

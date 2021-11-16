@@ -1,0 +1,53 @@
+/* ignore below */
+@import url("https://use.typekit.net/cwb3alf.css");
+
+body {
+  font-family: "halyard-text", sans-serif;
+  font-weight: 300;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "halyard-display", sans-serif;
+  font-weight: bold;
+}
+
+.page-intro {
+  background-color: #F3F1F1;
+  padding: 40px 15px 25px;
+  font-size: 18px;
+  line-height: 1.28;
+  margin: 0 0 30px;
+}
+
+@media (min-width:700px) {
+  .page-intro {
+    padding: 51px 30px 48px;
+    font-size: 20px;
+    line-height: 1.35;
+    margin: 0 0 34px;
+  }
+}
+
+@media (min-width:1025px) {
+  .page-intro {
+    padding: 65px 130px 53px 50px;
+    font-size: 30px;
+    line-height: 1.34;
+    margin: 0 0 37px;
+  }
+}
+
+.page-intro--blue {
+  background-color: #BCDADF;
+}
