@@ -99,9 +99,9 @@ $(document).ready(function() {
 
       } else if (queryParams.has('search')) {
         var initialaTOZList = createAtoZList(databases);
-        let theQuery = queryParams.get('search');
+        let theQuery = decodeURIComponent(queryParams.get('search'));
         let searchIndex = navConstruct(initialaTOZList, databases);
-        $('#search input').val(decodeURIComponent(theQuery));
+        $('#search input').val(theQuery);
         var results = searchIndex.search(theQuery, {
           fields: {
             title: {
@@ -163,10 +163,10 @@ $(document).ready(function() {
       database_listing.find('h3').append(`<span class="badge bg-primary rounded-pill fs-6 align-top">New</span>`);
     }
     if (database.description) {
-      database_body.append(`<p>${database.description}</p>`);
+      database_body.append(`<p>${linkify(database.description)}</p>`);
     }
     if (database.meta.more_info) {
-      database_body.append(`<p>${database.meta.more_info}</p>`);
+      database_body.append(`<p>${linkify(database.meta.more_info)}</p>`);
     }
     if (database.alt_names) {
       database_body.append(`<h4><small>Also Known As<small></h4>`);
@@ -180,11 +180,14 @@ $(document).ready(function() {
       `;
       subjectNav = $(subjectNav);
       $.each(database.az_types, function(i, subject) {
+        let subjectName = subject.name;
+        let lastSubjectWord = subjectName.split(" ").pop();
+        subjectName = subjectName.substring(0, subjectName.lastIndexOf(" "));
+        subjectName = subjectName + " " + "<span class='last-word'>" + lastSubjectWord + "<span class='arrow'></span></span>";
         subjectLink = `
         <li role="presentation">
-          <button type="button" role="tab" data-target="${subject.id}" data-name="${subject.name}" aria-controls="databases" aria-selected="false">
-          ${subject.name}
-          <i class="fas fa-caret-right"></i>
+          <button class="link--arrow" type="button" role="tab" data-target="${subject.id}" data-name="${subject.name}" aria-controls="databases" aria-selected="false">
+          ${subjectName}
           </button>
         </li>
         `;
@@ -205,6 +208,24 @@ $(document).ready(function() {
       }
     });
     return database_listing;
+  }
+
+  function linkify(inputText) {
+    var replacedText, replacePattern1, replacePattern2, replacePattern3;
+
+    //URLs starting with http://, https://, or ftp://
+    replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+    replacedText = inputText.replace(replacePattern1, '<a href="$1" target="_blank">$1</a>');
+
+    //URLs starting with "www." (without // before it, or it'd re-link the ones done above).
+    replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+    replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank">$2</a>');
+
+    //Change email addresses to mailto:: links.
+    replacePattern3 = /(([a-zA-Z0-9\-\_\.])+@[a-zA-Z\_]+?(\.[a-zA-Z]{2,6})+)/gim;
+    replacedText = replacedText.replace(replacePattern3, '<a href="mailto:$1">$1</a>');
+
+    return replacedText;
   }
 
   function activateSubjects(cleanDatabaseList) {
