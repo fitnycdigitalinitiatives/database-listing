@@ -290,6 +290,7 @@
   text-decoration: none;
   font-size: .875rem;
   text-align: left;
+  font-weight: inherit;
 }
 
 #databases .database .database-body .subject-nav button:hover {
