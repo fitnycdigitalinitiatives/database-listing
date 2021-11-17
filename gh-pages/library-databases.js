@@ -1,88 +1,130 @@
 $(document).ready(function() {
-  //1st append the container to the page
-  $('main').append(`
-    <div class="container container--big">
-      <section>
-        <h2 id="databases-title">Databases
-        <br>
-        <div id="databases-subtitle">
-        A to Z
-        </div>
-        </h2>
-        <div id="databases">
-        </div>
-      </section>
-    </div>
-  `);
   $.getJSON("https://fitnycdigitalinitiatives.github.io/database-listing/databases.json", function(databases) {
       databases.sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : -1);
-      var queryParams = new URLSearchParams(window.location.search);
-      if (queryParams.toString() && (queryParams.has('letter') || queryParams.has('subject'))) {
-        if (queryParams.has('letter')) {
-          let theLetter = queryParams.get('letter').toUpperCase();
-          //create full list and then get sublist for that letter specifically
-          var initialaTOZList = createAtoZList(databases);
-          if (theLetter in initialaTOZList) {
-            navConstruct(initialaTOZList, databases);
-            $('#atoz button:disabled').prop('disabled', false);
-            $(`#atoz button[data-target='${theLetter}']`).prop('disabled', true);
-            const subList = {};
-            subList[theLetter] = initialaTOZList[theLetter];
-            list_databasesAZ(subList, databases);
-          } else {
-            console.log("This is not a valid A to Z letter");
-            cleanStartup(databases);
-          }
-        } else if (queryParams.has('subject')) {
-          let theSubjectID = queryParams.get('subject');
-          let theFullSubjectList = createSubjectList(databases);
-          if (theSubjectID in theFullSubjectList) {
-            var initialaTOZList = createAtoZList(databases);
-            navConstruct(initialaTOZList, databases);
-            let theSubjectName = theFullSubjectList[theSubjectID];
-            const subList = {};
-            $.each(databases, function(i, database) {
-              if (database.az_types) {
-                $.each(database.az_types, function(i, subject) {
-                  if (subject.id == theSubjectID) {
-                    firstLetter = database.name.charAt(0).toUpperCase();
-                    if (firstLetter in subList) {
-                      subList[firstLetter].push(database);
-                    } else {
-                      subList[firstLetter] = [database];
-                    }
-                  }
-                });
-              }
-            });
-            //enable and disable buttons
-            $('#atoz button').prop('disabled', true);
-            $(`#atoz button[data-target='All']`).prop('disabled', false);
-            $('#search').find('input').val("");
-            list_databasesAZ(subList, databases);
-            $('#subject-browse').val(theSubjectID);
-            $('#databases-subtitle').text(theSubjectName);
-          } else {
-            console.log("This is not a valid subject ID");
-            cleanStartup(databases);
-          }
-
-        }
-      } else {
-        cleanStartup(databases);
+      initiateStartup(databases);
+      window.onpopstate = function() {
+        $('#database-container').remove();
+        initiateStartup(databases);
       }
-
     })
     .fail(function() {
       console.log("error");
-      $('#databases-subtitle').text('Error');
-      var error = `
-      <p>
-        It seems that there is currently a technical issue preventing us from loading the database listings. Please try reloading the page or viewing the database listings <a href="https://fitnyc.libguides.com/az.php">here</a> instead. If you are still having difficulties please contact us using our <a href="http://fitnyc.libanswers.com/">Ask the Library</a> service.
-      </p>
-      `;
-      $('#databases').append(error);
+      //1st append the container to the page
+      $('main').append(`
+        <div class="container container--big" id="database-container">
+          <section>
+            <h2 id="databases-title">Databases
+            <br>
+            <div id="databases-subtitle">
+            Error
+            </div>
+            </h2>
+            <div id="databases">
+              <p>
+                It seems that there is currently a technical issue preventing us from loading the database listings. Please try reloading the page or viewing the database listings <a href="https://fitnyc.libguides.com/az.php">here</a> instead. If you are still having difficulties please contact us using our <a href="http://fitnyc.libanswers.com/">Ask the Library</a> service.
+              </p>
+            </div>
+          </section>
+        </div>
+      `);
     });
+
+  function initiateStartup(databases) {
+    //1st append the container to the page
+    $('main').append(`
+      <div class="container container--big" id="database-container">
+        <section>
+          <h2 id="databases-title">Databases
+          <br>
+          <div id="databases-subtitle">
+          A to Z
+          </div>
+          </h2>
+          <div id="databases">
+          </div>
+        </section>
+      </div>
+    `);
+    var queryParams = new URLSearchParams(window.location.search);
+    if (queryParams.toString() && (queryParams.has('letter') || queryParams.has('subject') || queryParams.has('search'))) {
+      if (queryParams.has('letter')) {
+        let theLetter = queryParams.get('letter').toUpperCase();
+        //create full list and then get sublist for that letter specifically
+        var initialaTOZList = createAtoZList(databases);
+        if (theLetter in initialaTOZList) {
+          navConstruct(initialaTOZList, databases);
+          $('#atoz button:disabled').prop('disabled', false);
+          $(`#atoz button[data-target='${theLetter}']`).prop('disabled', true);
+          $('#databases-subtitle').text(theLetter);
+          const subList = {};
+          subList[theLetter] = initialaTOZList[theLetter];
+          list_databasesAZ(subList, databases);
+        } else {
+          console.log("This is not a valid A to Z letter");
+          cleanStartup(databases);
+        }
+      } else if (queryParams.has('subject')) {
+        let theSubjectID = queryParams.get('subject');
+        let theFullSubjectList = createSubjectList(databases);
+        if (theSubjectID in theFullSubjectList) {
+          var initialaTOZList = createAtoZList(databases);
+          navConstruct(initialaTOZList, databases);
+          let theSubjectName = theFullSubjectList[theSubjectID];
+          const subList = {};
+          $.each(databases, function(i, database) {
+            if (database.az_types) {
+              $.each(database.az_types, function(i, subject) {
+                if (subject.id == theSubjectID) {
+                  firstLetter = database.name.charAt(0).toUpperCase();
+                  if (firstLetter in subList) {
+                    subList[firstLetter].push(database);
+                  } else {
+                    subList[firstLetter] = [database];
+                  }
+                }
+              });
+            }
+          });
+          //enable and disable buttons
+          $('#atoz button').prop('disabled', true);
+          $(`#atoz button[data-target='All']`).prop('disabled', false);
+          $('#search').find('input').val("");
+          list_databasesAZ(subList, databases);
+          $('#subject-browse').val(theSubjectID);
+          $('#databases-subtitle').text(theSubjectName);
+        } else {
+          console.log("This is not a valid subject ID");
+          cleanStartup(databases);
+        }
+
+      } else if (queryParams.has('search')) {
+        var initialaTOZList = createAtoZList(databases);
+        let theQuery = queryParams.get('search');
+        let searchIndex = navConstruct(initialaTOZList, databases);
+        $('#search input').val(decodeURIComponent(theQuery));
+        var results = searchIndex.search(theQuery, {
+          fields: {
+            title: {
+              boost: 2
+            },
+            alt_names: {
+              boost: 2
+            },
+            body: {
+              boost: 1
+            },
+            subjects: {
+              boost: 1
+            },
+          },
+          bool: "AND"
+        });
+        listSearchResults(theQuery, results, databases);
+      }
+    } else {
+      cleanStartup(databases);
+    }
+  }
 
   function cleanStartup(databases) {
     var initialaTOZList = createAtoZList(databases);
@@ -196,8 +238,9 @@ $(document).ready(function() {
         // Update URL Query.
         var queryParams = new URLSearchParams(window.location.search);
         queryParams.delete("letter");
+        queryParams.delete("search");
         queryParams.set("subject", subjectID);
-        history.replaceState(null, null, "?" + queryParams.toString());
+        history.pushState(null, null, "?" + queryParams.toString());
       });
     });
   }
@@ -226,7 +269,12 @@ $(document).ready(function() {
     $('#databases').hide().empty();
     $('#databases-subtitle').text('Search');
     $('#subject-browse').val('all');
-    $('#databases').append(`<h2 class="mt-4 mb-3 display-5">Results for "${sanitizeHTML(query)}"</h2>`);
+    $('#databases').append(`
+      <h2 class="search-title">
+        Results for "${sanitizeHTML(query)}"
+      </h2>
+      <p>(sorted according to relevance)</p>
+    `);
     if (results.length > 0) {
       $('#atoz button').prop('disabled', true);
       $(`#atoz button[data-target='All']`).prop('disabled', false);
@@ -361,8 +409,9 @@ $(document).ready(function() {
         // Update URL Query.
         var queryParams = new URLSearchParams(window.location.search);
         queryParams.delete("letter");
+        queryParams.delete("search");
         queryParams.set("subject", subjectValue);
-        history.replaceState(null, null, "?" + queryParams.toString());
+        history.pushState(null, null, "?" + queryParams.toString());
       }
     });
 
@@ -419,7 +468,8 @@ $(document).ready(function() {
         var queryParams = new URLSearchParams(window.location.search);
         queryParams.delete("letter");
         queryParams.delete("subject");
-        history.replaceState(null, null, window.location.pathname);
+        queryParams.set("search", encodeURIComponent(query));
+        history.pushState(null, null, "?" + queryParams.toString());
       }
 
     });
@@ -458,7 +508,8 @@ $(document).ready(function() {
           var queryParams = new URLSearchParams(window.location.search);
           queryParams.delete("letter");
           queryParams.delete("subject");
-          history.replaceState(null, null, window.location.pathname);
+          queryParams.delete("search");
+          history.pushState(null, null, window.location.pathname);
         } else {
           $('#databases-subtitle').text(letter);
           const subList = {};
@@ -468,9 +519,11 @@ $(document).ready(function() {
           var queryParams = new URLSearchParams(window.location.search);
           queryParams.set("letter", letter);
           queryParams.delete("subject");
-          history.replaceState(null, null, "?" + queryParams.toString());
+          queryParams.delete("search");
+          history.pushState(null, null, "?" + queryParams.toString());
         }
       });
     });
+    return searchIndex;
   }
 });

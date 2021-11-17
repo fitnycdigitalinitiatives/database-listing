@@ -1,3 +1,7 @@
+#database-container {
+  margin-bottom: 73px;
+}
+
 /* title */
 #databases-subtitle {
   font-size: 80%;
@@ -156,12 +160,17 @@
 /* listings */
 #databases h2 {
   margin-top: 1.5rem;
+  font-weight: 300;
 }
 
 #databases .letter-header {
   font-size: 3rem;
   font-weight: 300;
   line-height: 1.2;
+}
+
+#databases .search-title {
+  margin-bottom: 0;
 }
 
 #databases .database {
