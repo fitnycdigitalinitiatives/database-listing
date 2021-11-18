@@ -482,6 +482,8 @@ $(document).ready(function() {
     });
     $("#search").submit(function(event) {
       event.preventDefault();
+      $(this).find('input').blur();
+      $(this).find('button').blur();
       var query = $(this).find('input').val();
       if (query) {
         var results = searchIndex.search(query, {
