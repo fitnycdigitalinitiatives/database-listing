@@ -40,7 +40,7 @@ $(document).ready(function() {
           A to Z
           </div>
           </h2>
-          <div id="databases">
+          <div id="databases" role="region" aria-live="polite">
           </div>
         </section>
       </div>
@@ -55,6 +55,8 @@ $(document).ready(function() {
           navConstruct(initialaTOZList, databases);
           $('#atoz button:disabled').prop('disabled', false);
           $(`#atoz button[data-target='${theLetter}']`).prop('disabled', true);
+          $('#atoz button[aria-selected="true"]').attr('aria-selected', "false");
+          $(`#atoz button[data-target='${theLetter}']`).attr('aria-selected', "true");
           $('#databases-subtitle').text(theLetter);
           const subList = {};
           subList[theLetter] = initialaTOZList[theLetter];
@@ -88,6 +90,7 @@ $(document).ready(function() {
           //enable and disable buttons
           $('#atoz button').prop('disabled', true);
           $(`#atoz button[data-target='All']`).prop('disabled', false);
+          $('#atoz button[aria-selected="true"]').attr('aria-selected', "false");
           $('#search').find('input').val("");
           list_databasesAZ(subList, databases);
           $('#subject-browse').val(theSubjectID);
@@ -196,6 +199,9 @@ $(document).ready(function() {
       database_body.append(subjectNav);
     }
     $(database_listing).find('button').click(function() {
+      $(this).attr('aria-expanded', function(i, attr) {
+        return attr == 'true' ? 'false' : 'true'
+      });
       let target = $(this).data('target');
       if ($(`${target}`).hasClass('active')) {
         $(`${target}`).slideUp(function() {
@@ -204,6 +210,7 @@ $(document).ready(function() {
       } else {
         $(`${target}`).slideDown(function() {
           $(this).toggleClass('active');
+
         });
       }
     });
@@ -252,6 +259,7 @@ $(document).ready(function() {
         //enable and disable buttons
         $('#atoz button').prop('disabled', true);
         $(`#atoz button[data-target='All']`).prop('disabled', false);
+        $('#atoz button[aria-selected="true"]').attr('aria-selected', "false");
         $('#search').find('input').val("");
         list_databasesAZ(subList, cleanDatabaseList);
         $('#subject-browse').val(subjectID);
@@ -299,6 +307,7 @@ $(document).ready(function() {
     if (results.length > 0) {
       $('#atoz button').prop('disabled', true);
       $(`#atoz button[data-target='All']`).prop('disabled', false);
+      $('#atoz button[aria-selected="true"]').attr('aria-selected', "false");
       $.each(results, function(i, result) {
         var thisDatabase = cleanDatabaseList[result["ref"]];
         $('#databases').append(createListing(thisDatabase));
@@ -306,6 +315,7 @@ $(document).ready(function() {
       activateSubjects(cleanDatabaseList);
     } else {
       $('#atoz button:disabled').prop('disabled', false);
+      $('#atoz button[aria-selected="true"]').attr('aria-selected', "false");
       var noResults = `
       <div>
       <p class="lead">
@@ -372,13 +382,13 @@ $(document).ready(function() {
     var subSearchNav = `
     <div id="databases-subsearch">
       <div>
-        <select id="subject-browse" aria-label="Browse databases by subject">
+        <select id="subject-browse" aria-label="Browse databases by subject" aria-controls="databases">
         </select>
       </div>
       <div>
         <form id="search">
           <div class="input-group">
-            <input type="search" placeholder="Search databases" aria-label="Search databases">
+            <input type="search" placeholder="Search databases" aria-label="Search databases" aria-controls="databases">
             <button type="submit" aria-label="Search">
               <i class="fa fa-search" title="Search" aria-hidden="true"></i>
             </button>
@@ -408,6 +418,8 @@ $(document).ready(function() {
         $('#databases-subtitle').text('A to Z');
         $('#atoz button:disabled').prop('disabled', false);
         $("#atoz button[data-target='All']").prop('disabled', true);
+        $('#atoz button[aria-selected="true"]').attr('aria-selected', "false");
+        $("#atoz button[data-target='All']").attr('aria-selected', "true");
         list_databasesAZ(aTOzList, databases);
       } else {
         const subList = {};
@@ -428,6 +440,7 @@ $(document).ready(function() {
         //enable and disable buttons
         $('#atoz button').prop('disabled', true);
         $(`#atoz button[data-target='All']`).prop('disabled', false);
+        $('#atoz button[aria-selected="true"]').attr('aria-selected', "false");
         $('#search').find('input').val("");
         list_databasesAZ(subList, databases);
         $('#databases-subtitle').text(subjectName);
@@ -523,6 +536,8 @@ $(document).ready(function() {
         //enable and disable buttons
         $('#atoz button:disabled').prop('disabled', false);
         $(this).prop('disabled', true);
+        $('#atoz button[aria-selected="true"]').attr('aria-selected', "false");
+        $(this).attr('aria-selected', "true");
         $('#subject-browse').val('all');
         $('#search').find('input').val("");
         var letter = $(this).data('target');
