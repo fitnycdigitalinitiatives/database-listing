@@ -4,7 +4,7 @@ import os
 import json
 import requests
 
-endpoint = 'https://lgapi-us.libapps.com/1.1/assetsx'
+endpoint = 'https://lgapi-us.libapps.com/1.1/assets'
 params = {
     'site_id': '942',
     'key': os.environ["API_KEY"],
