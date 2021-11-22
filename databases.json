@@ -11216,7 +11216,7 @@
         "id": "54891888",
         "name": "Ebony Magazine Archive",
         "description": "Ebony magazine coverage from 1945-2014",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://libphttps://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=s6453565&groupid=main&profile=ehost&defaultdb=ear",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=s6453565&groupid=main&profile=ehost&defaultdb=ear",
         "site_id": "942",
         "type_id": "10",
         "owner_id": "21364",
@@ -11232,7 +11232,7 @@
             "enable_proxy": 1
         },
         "created": "2020-05-27 14:22:59",
-        "updated": "2021-11-10 17:44:36",
+        "updated": "2021-11-21 22:07:48",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": "EBSCO",
