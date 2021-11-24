@@ -14529,69 +14529,6 @@
         "alt_names": ""
     },
     {
-        "id": "64208576",
-        "name": "Performance Apparel Markets",
-        "description": "Full text of the quarterly publication covering global perspectives on performance / active sportswear and the fibers, fabrics and manufacturing processes used.",
-        "url": "https://textilesintelligence.com/tispam/",
-        "site_id": "942",
-        "type_id": "10",
-        "owner_id": "21364",
-        "az_vendor_id": "0",
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2021-11-05 19:11:39",
-        "updated": "2021-11-11 15:52:57",
-        "slug_id": "0",
-        "enable_hidden": "0",
-        "az_vendor_name": null,
-        "az_types": [
-            {
-                "id": 48295,
-                "name": "Fashion & Accessory Design",
-                "site_id": 942
-            },
-            {
-                "id": 48296,
-                "name": "Fashion Industry",
-                "site_id": 942
-            },
-            {
-                "id": 48307,
-                "name": "International Trade",
-                "site_id": 942
-            },
-            {
-                "id": 48319,
-                "name": "Scholarly Journals",
-                "site_id": 942
-            },
-            {
-                "id": 48322,
-                "name": "Textiles",
-                "site_id": 942
-            },
-            {
-                "id": 48323,
-                "name": "Trade Publications",
-                "site_id": 942
-            }
-        ],
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": "64208835",
         "name": "Project Gutenberg",
         "description": "Includes classic literature published before 1923. Full-text of over 60,000 ebooks in the public domain.",
