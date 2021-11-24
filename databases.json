@@ -14112,59 +14112,6 @@
         "alt_names": ""
     },
     {
-        "id": "64206673",
-        "name": "Global Apparel Markets",
-        "description": "Access to quarterly analysis on the global apparel industry, including relevant trend, trade, policy, and retailer information.",
-        "url": "https://textilesintelligence.com/tisgam/",
-        "site_id": "942",
-        "type_id": "10",
-        "owner_id": "21364",
-        "az_vendor_id": "0",
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2021-11-05 18:11:37",
-        "updated": "2021-11-10 19:53:13",
-        "slug_id": "0",
-        "enable_hidden": "0",
-        "az_vendor_name": null,
-        "az_types": [
-            {
-                "id": 48288,
-                "name": "Business & Economics",
-                "site_id": 942
-            },
-            {
-                "id": 48307,
-                "name": "International Trade",
-                "site_id": 942
-            },
-            {
-                "id": 48322,
-                "name": "Textiles",
-                "site_id": 942
-            },
-            {
-                "id": 48323,
-                "name": "Trade Publications",
-                "site_id": 942
-            }
-        ],
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": "64206750",
         "name": "Health Source Consumer Edition",
         "description": "Contains full-text articles, magazines, and reports from 1984 to present on fitness, nutrition, diabetes, aging, women's health, children's health and more with access to 80 full-text magazines, 110 full-text reference books, more than 18,800 Clinical Reference Systems reports.",
@@ -14836,69 +14783,6 @@
             {
                 "id": 48322,
                 "name": "Textiles",
-                "site_id": 942
-            }
-        ],
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": "64209613",
-        "name": "Textile Outlook International",
-        "description": "Comment and analysis of the global fiber, textile and apparel industries.",
-        "url": "https://textilesintelligence.com/tistoi/",
-        "site_id": "942",
-        "type_id": "10",
-        "owner_id": "21364",
-        "az_vendor_id": "0",
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2021-11-05 19:54:54",
-        "updated": "2021-11-11 16:50:08",
-        "slug_id": "0",
-        "enable_hidden": "0",
-        "az_vendor_name": null,
-        "az_types": [
-            {
-                "id": 48288,
-                "name": "Business & Economics",
-                "site_id": 942
-            },
-            {
-                "id": 48296,
-                "name": "Fashion Industry",
-                "site_id": 942
-            },
-            {
-                "id": 48307,
-                "name": "International Trade",
-                "site_id": 942
-            },
-            {
-                "id": 48319,
-                "name": "Scholarly Journals",
-                "site_id": 942
-            },
-            {
-                "id": 48322,
-                "name": "Textiles",
-                "site_id": 942
-            },
-            {
-                "id": 48323,
-                "name": "Trade Publications",
                 "site_id": 942
             }
         ],
