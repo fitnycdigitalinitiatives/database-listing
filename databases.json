@@ -5091,7 +5091,7 @@
     },
     {
         "id": "2354066",
-        "name": "New York Times Historical [1851-2016]",
+        "name": "New York Times Historical [1851-2018]",
         "description": "Full text of every issue, including articles, ads, obituaries, and more. May not contain content exclusive to nytimes.com.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://search.proquest.com/hnpnewyorktimes?accountid=27253",
         "site_id": "942",
@@ -5109,7 +5109,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 15:44:21",
+        "updated": "2022-01-05 21:09:40",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
