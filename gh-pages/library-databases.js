@@ -276,7 +276,9 @@ $(document).ready(function() {
 
   function list_databasesAZ(databaseList, cleanDatabaseList) {
     $('#databases').hide().empty();
-    $.each(databaseList, function(initial, letterGroup) {
+    var sortedInitials = Object.keys(databaseList).sort();
+    $.each(sortedInitials, function(key, initial) {
+      var letterGroup = databaseList[initial];
       var groupDiv = `
         <div>
         <h2 class="letter-header" id="${initial.toLowerCase()}">${initial}</h2>
@@ -524,7 +526,8 @@ $(document).ready(function() {
     </ul>
     `;
     aTOzNav = $(aTOzNav);
-    $.each(aTOzList, function(initial) {
+    var sortedInitials = Object.keys(aTOzList).sort();
+    $.each(sortedInitials, function(key, initial) {
       letterLink = `
       <li role="presentation">
         <button type="button" role="tab" data-target="${initial}" aria-controls="databases" aria-selected="false">${initial}</button>
