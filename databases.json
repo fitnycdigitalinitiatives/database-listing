@@ -14964,7 +14964,7 @@
         "id": "64937684",
         "name": "Art and Architecture Complete",
         "description": "",
-        "url": "https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=vth",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=vth",
         "site_id": "942",
         "type_id": "10",
         "owner_id": "15535",
@@ -14977,10 +14977,10 @@
             "tn_alt_text": "",
             "more_info": "",
             "desc_pos": 1,
-            "enable_proxy": 0
+            "enable_proxy": 1
         },
         "created": "2022-01-08 19:11:41",
-        "updated": "2022-01-08 19:13:12",
+        "updated": "2022-01-11 19:55:16",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": "EBSCO",
