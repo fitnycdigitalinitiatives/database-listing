@@ -13766,7 +13766,7 @@
     },
     {
         "id": "64205988",
-        "name": "Gale OneFile Military and Intelligenace",
+        "name": "Gale OneFile Military and Intelligence",
         "description": "Scholarly journals, magazines, and reports covering all aspects of past and present military affairs.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://infotrac.galegroup.com/itweb/fitsuny?db=PPMI",
         "site_id": "942",
@@ -13784,7 +13784,7 @@
             "enable_proxy": 1
         },
         "created": "2021-11-05 17:50:59",
-        "updated": "2021-11-10 19:36:43",
+        "updated": "2022-01-20 15:32:00",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -14670,7 +14670,7 @@
     {
         "id": "64209603",
         "name": "Taylor and Francis Online",
-        "description": "We have full-text access to the following Taylor & Francis publications:<br />\r\n<br />\r\nCostume (2012-2016; see Edinburgh University Press for 2000-current)<br />\r\nhttp://libproxy.fitsuny.edu:2243/loi/ycos20#.V1mTTLsrJpg<br />\r\n<br />\r\nDress<br />\r\nhttps://libproxy.fitsuny.edu:2102/loi/ydre20<br />\r\n<br />\r\nJournal of Textile Design, Research and Practice<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rftd20<br />\r\n<br />\r\nFashion Practice<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rffp20<br />\r\n<br />\r\nFashion Theory<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rfft20<br />\r\n<br />\r\nTextile<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rftx20",
+        "description": "We have full-text access to the following Taylor & Francis publications:<br />\r\n<br />\r\nCostume (2012-2016; see Edinburgh University Press for 2000-current)<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/ycos20<br />\r\n<br />\r\nDress<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/ydre20<br />\r\n<br />\r\nJournal of Textile Design, Research and Practice<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rftd20<br />\r\n<br />\r\nFashion Practice<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rffp20<br />\r\n<br />\r\nFashion Theory<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rfft20<br />\r\n<br />\r\nTextile<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rftx20",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/page/title-lists",
         "site_id": "942",
         "type_id": "10",
@@ -14687,7 +14687,7 @@
             "enable_proxy": 1
         },
         "created": "2021-11-05 19:54:01",
-        "updated": "2021-11-11 16:48:34",
+        "updated": "2022-01-20 15:27:21",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
