@@ -3635,7 +3635,7 @@
     },
     {
         "id": "2354039",
-        "name": "WGSN Lifestyles and Interiors",
+        "name": "WGSN Interiors",
         "description": "Trend reports & forecasting for lifestyles and interiors<br />\r\n<br />\r\nStudents must create an account and re-activate their account every 90 days: click to create or re-activate account: https://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nTo access  WGSN Lifestyle & Interiors:<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.wgsn.com/accounts/edu",
         "site_id": "942",
@@ -3653,7 +3653,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 17:30:16",
+        "updated": "2022-03-03 18:50:28",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
