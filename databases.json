@@ -11479,7 +11479,7 @@
         "id": "56069148",
         "name": "Chronicle of Higher Education",
         "description": "Go to  Chronicle.com (https://info.chronicle.com/dc/zbHR4ckLk3NHbAZ4q6lj2fQwfe3xQKH854YheSVthRKNa1OrLzEyqfxCILYS7YLpWpl1Pc5rkARhI7pwgbnxPA==/E0U0E21qKTR0f0pA3M0AE04) and click on the \u201cLog In\u201d link at top, right-hand side of the page or visit this link:<br />\r\nhttps://info.chronicle.com/dc/zbHR4ckLk3NHbAZ4q6lj2XLhhgkB65SjDNlJQ6bf_mECK4F8xB9TmUxE9SPCejbNdrD2TdMiFeIi00TDgnjAFNIMopnVH-PsXf2Ywj9tulA=/E0U0E21qKTR0f0pA3M0AE04<br />\r\n<br />\r\nChoose the  \u201cCreate an Account\u201d option<br />\r\n<br />\r\nCreate a free account  using your institutional email address. You also have the option to sign up for  The  Chronicle \u2019s free email newsletters during the registration process.<br />\r\n<br />\r\nActivate your account  by confirming your email address. Look for an email from  circulation@app.chronicle.com  with the subject line \u201cThe  Chronicle:  Confirm your email address.\u201d",
-        "url": "https://www.chronicle.com/",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.chronicle.com/",
         "site_id": "942",
         "type_id": "10",
         "owner_id": "21364",
@@ -11492,10 +11492,10 @@
             "tn_alt_text": "",
             "more_info": "",
             "desc_pos": 1,
-            "enable_proxy": 0
+            "enable_proxy": 1
         },
         "created": "2020-07-21 18:24:20",
-        "updated": "2021-11-10 17:34:13",
+        "updated": "2022-03-22 15:40:00",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
