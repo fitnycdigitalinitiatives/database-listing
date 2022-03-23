@@ -11492,10 +11492,10 @@
             "tn_alt_text": "",
             "more_info": "",
             "desc_pos": 1,
-            "enable_proxy": 1
+            "enable_proxy": 0
         },
         "created": "2020-07-21 18:24:20",
-        "updated": "2022-03-22 15:40:00",
+        "updated": "2022-03-23 18:36:45",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
