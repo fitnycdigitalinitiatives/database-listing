@@ -4300,8 +4300,8 @@
     },
     {
         "id": "2354049",
-        "name": "Kantar Media Ad$pender",
-        "description": "Not compatible with Safari browser<br />\r\n<br />\r\nMonitors advertising expenditures and occurrence information for 3+ million brands across 18 media.",
+        "name": "Kantar Ad Insights (formerly Kantar Ad$pender)",
+        "description": "Monitors advertising expenditures and occurrence information for 3+ million brands across 18 media.<br />\r\n<br />\r\nOn PCs, use Chrome or FireFox web browsers only.  <br />\r\nOn Macs, use Chrome NOT Safari<br />\r\n<br />\r\nIMPORTANT: Log out of Kantar when done. Do not just close the browser or window.",
         "url": "https://sites.fitnyc.edu/depts/library/restricted/proxy.htm#k",
         "site_id": "942",
         "type_id": "10",
@@ -4318,7 +4318,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 22:41:52",
+        "updated": "2022-03-23 18:45:08",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -11478,7 +11478,7 @@
     {
         "id": "56069148",
         "name": "Chronicle of Higher Education",
-        "description": "Go to  Chronicle.com (https://info.chronicle.com/dc/zbHR4ckLk3NHbAZ4q6lj2fQwfe3xQKH854YheSVthRKNa1OrLzEyqfxCILYS7YLpWpl1Pc5rkARhI7pwgbnxPA==/E0U0E21qKTR0f0pA3M0AE04) and click on the \u201cLog In\u201d link at top, right-hand side of the page or visit this link:<br />\r\nhttps://info.chronicle.com/dc/zbHR4ckLk3NHbAZ4q6lj2XLhhgkB65SjDNlJQ6bf_mECK4F8xB9TmUxE9SPCejbNdrD2TdMiFeIi00TDgnjAFNIMopnVH-PsXf2Ywj9tulA=/E0U0E21qKTR0f0pA3M0AE04<br />\r\n<br />\r\nChoose the  \u201cCreate an Account\u201d option<br />\r\n<br />\r\nCreate a free account  using your institutional email address. You also have the option to sign up for  The  Chronicle \u2019s free email newsletters during the registration process.<br />\r\n<br />\r\nActivate your account  by confirming your email address. Look for an email from  circulation@app.chronicle.com  with the subject line \u201cThe  Chronicle:  Confirm your email address.\u201d",
+        "description": "The Chronicle of Higher Education is dedicated to covering colleges and universities",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.chronicle.com/",
         "site_id": "942",
         "type_id": "10",
@@ -11495,7 +11495,7 @@
             "enable_proxy": 0
         },
         "created": "2020-07-21 18:24:20",
-        "updated": "2022-03-23 18:36:45",
+        "updated": "2022-03-23 20:08:27",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -11516,7 +11516,53 @@
         "enable_popular": 0,
         "internal_note": "",
         "library_review": "",
-        "alt_names": ""
+        "alt_names": "",
+        "subjects": [
+            {
+                "id": "106656",
+                "site_id": "942",
+                "name": "Academic Success and Research Help",
+                "ordering": "0",
+                "slug_id": "960985",
+                "subject_id": "106656",
+                "content_id": "56069148",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "182676",
+                "site_id": "942",
+                "name": "Faculty Guides",
+                "ordering": "0",
+                "slug_id": "1972301",
+                "subject_id": "182676",
+                "content_id": "56069148",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102750",
+                "site_id": "942",
+                "name": "Interdisciplinary Studies and Topics",
+                "ordering": "0",
+                "slug_id": "907236",
+                "subject_id": "102750",
+                "content_id": "56069148",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "26598",
+                "site_id": "942",
+                "name": "Liberal Arts & Sciences",
+                "ordering": "0",
+                "slug_id": "960987",
+                "subject_id": "26598",
+                "content_id": "56069148",
+                "featured": "0",
+                "content_id_count": "1"
+            }
+        ]
     },
     {
         "id": "56889535",
