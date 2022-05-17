@@ -15078,5 +15078,136 @@
                 "content_id_count": "1"
             }
         ]
+    },
+    {
+        "id": "66920256",
+        "name": "FIT Institutional Repository",
+        "description": "The FIT Institutional Repository is an open access digital archive designed to collect, preserve, and provide access to the intellectual and creative output of the FIT community (students, faculty and staff). The repository includes the entire collection of the FIT School of Graduate Studies graduate theses, and additional work from students and faculty, including text, image and video-based resources.",
+        "url": "https://institutionalrepository.fitnyc.edu/",
+        "site_id": "942",
+        "type_id": "10",
+        "owner_id": "49341",
+        "az_vendor_id": "0",
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": 1,
+            "enable_proxy": 0
+        },
+        "created": "2022-05-17 16:46:24",
+        "updated": "2022-05-17 16:49:05",
+        "slug_id": "0",
+        "enable_hidden": "0",
+        "az_vendor_name": null,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48294,
+                "name": "Exhibition Design & Museum Studies",
+                "site_id": 942
+            },
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48305,
+                "name": "Images",
+                "site_id": 942
+            },
+            {
+                "id": 48315,
+                "name": "Open Access",
+                "site_id": 942
+            }
+        ],
+        "enable_new": 0,
+        "enable_trial": 0,
+        "enable_popular": 0,
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "Institutional Repository, Dissertations & Theses @ Fashion Institute of Technology, Theses @ Fashion Institute of Technology",
+        "subjects": [
+            {
+                "id": "25085",
+                "site_id": "942",
+                "name": "Art, Design & Art History",
+                "ordering": "0",
+                "slug_id": "960972",
+                "subject_id": "25085",
+                "content_id": "66920256",
+                "featured": "1",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25088",
+                "site_id": "942",
+                "name": "Fashion & Accessory Design",
+                "ordering": "0",
+                "slug_id": "960977",
+                "subject_id": "25088",
+                "content_id": "66920256",
+                "featured": "1",
+                "content_id_count": "1"
+            },
+            {
+                "id": "106657",
+                "site_id": "942",
+                "name": "FIT Library Collections",
+                "ordering": "0",
+                "slug_id": "960981",
+                "subject_id": "106657",
+                "content_id": "66920256",
+                "featured": "1",
+                "content_id_count": "1"
+            },
+            {
+                "id": "114532",
+                "site_id": "942",
+                "name": "Images, Multimedia, & Visual Resources",
+                "ordering": "0",
+                "slug_id": "1042148",
+                "subject_id": "114532",
+                "content_id": "66920256",
+                "featured": "1",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102750",
+                "site_id": "942",
+                "name": "Interdisciplinary Studies and Topics",
+                "ordering": "0",
+                "slug_id": "907236",
+                "subject_id": "102750",
+                "content_id": "66920256",
+                "featured": "1",
+                "content_id_count": "1"
+            },
+            {
+                "id": "26598",
+                "site_id": "942",
+                "name": "Liberal Arts & Sciences",
+                "ordering": "0",
+                "slug_id": "960987",
+                "subject_id": "26598",
+                "content_id": "66920256",
+                "featured": "1",
+                "content_id_count": "1"
+            }
+        ]
     }
 ]
