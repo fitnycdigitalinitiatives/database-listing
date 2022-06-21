@@ -1829,9 +1829,9 @@
     },
     {
         "id": "2354007",
-        "name": "Tobe TDG",
+        "name": "Doneger Tobe",
         "description": "Trend reports & forecasting for fashion.\u00a0 Use the password listed for Doneger.",
-        "url": "https://sites.fitnyc.edu/depts/library/restricted/proxy.htm#d",
+        "url": "https://sites.google.com/fitnyc.edu/librarydatabases/home",
         "site_id": "942",
         "type_id": "10",
         "owner_id": "21364",
@@ -1847,7 +1847,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-12 17:41:57",
+        "updated": "2022-06-21 15:53:11",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -1883,7 +1883,7 @@
         "enable_popular": 1,
         "internal_note": "",
         "library_review": "",
-        "alt_names": "Doneger, DCS, Doneger Creative Services",
+        "alt_names": "Doneger, DCS, Doneger Creative Services, Tobe",
         "subjects": [
             {
                 "id": "25086",
@@ -3466,7 +3466,7 @@
         "id": "2354037",
         "name": "Home Furnishings Retailers Database [Chain Store Guide]",
         "description": "Covers buyer contacts and basic information on home furnishings retailers such as IKEA, Rooms To Go, Pier 1 Imports, and more. (To be included, retailers must have two units or operate one unit with sales of at least $10 million. Wholesalers and distributors must have sales of at least $1 million.)",
-        "url": "https://sites.fitnyc.edu/depts/library/restricted/proxy.htm#h",
+        "url": "https://sites.google.com/fitnyc.edu/librarydatabases/home",
         "site_id": "942",
         "type_id": "10",
         "owner_id": "21364",
@@ -3482,7 +3482,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 20:11:05",
+        "updated": "2022-06-21 15:53:52",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -4302,7 +4302,7 @@
         "id": "2354049",
         "name": "Kantar Ad Insights (formerly Kantar Ad$pender)",
         "description": "Monitors advertising expenditures and occurrence information for 3+ million brands across 18 media.<br />\r\n<br />\r\nOn PCs, use Chrome or FireFox web browsers only.  <br />\r\nOn Macs, use Chrome NOT Safari<br />\r\n<br />\r\nIMPORTANT: Log out of Kantar when done. Do not just close the browser or window.",
-        "url": "https://sites.fitnyc.edu/depts/library/restricted/proxy.htm#k",
+        "url": "https://sites.google.com/fitnyc.edu/librarydatabases/home",
         "site_id": "942",
         "type_id": "10",
         "owner_id": "21364",
@@ -4318,7 +4318,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2022-03-23 18:45:08",
+        "updated": "2022-06-21 19:23:26",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -4354,7 +4354,7 @@
         "enable_popular": 0,
         "internal_note": "",
         "library_review": "",
-        "alt_names": "",
+        "alt_names": "Adspender, Ad$pender, Insights, Advertising Insights",
         "subjects": [
             {
                 "id": "25087",
@@ -6633,8 +6633,8 @@
     {
         "id": "2354094",
         "name": "Salesman's Guide",
-        "description": "Buyer contact lists for retailers across North America. Includes Gift, Houseware and Home Textile Buyers, Independent Sales Representatives and Multi-Line Showrooms, and the Retail Buyer Database.<br />\r\n<br />\r\nClick on \"sign in\" at the top right corner to access the Salesman's Guide. <br />\r\n<br />\r\nReports cannot be downloaded.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.retailsalesconnect.com/fit-library.aspx",
+        "description": "Buyer contact lists for retailers across North America. Includes Gift, Houseware and Home Textile Buyers, Independent Sales Representatives and Multi-Line Showrooms, and the Retail Buyer Database.<br />\r\n<br />\r\n1) Enter username and password in Customer Login<br />\r\n2) Click Open on the far right in Purchased Product box <br />\r\n3) Logout when finished - limited to one user at a time<br />\r\n<br />\r\nReports cannot be downloaded",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://sites.google.com/fitnyc.edu/librarydatabases/home",
         "site_id": "942",
         "type_id": "10",
         "owner_id": "21364",
@@ -6650,7 +6650,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 16:17:15",
+        "updated": "2022-06-21 15:58:44",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -7288,7 +7288,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 17:04:13",
+        "updated": "2022-06-21 19:22:19",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -7319,7 +7319,7 @@
         "enable_popular": 1,
         "internal_note": "",
         "library_review": "",
-        "alt_names": "",
+        "alt_names": "WSJ",
         "subjects": [
             {
                 "id": "25087",
