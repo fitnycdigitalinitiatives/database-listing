@@ -2115,78 +2115,6 @@
         ]
     },
     {
-        "id": "2354013",
-        "name": "Energy & Power Source",
-        "description": "Full-text database of energy and power industry-related journals and magazines.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=enr",
-        "site_id": "942",
-        "type_id": "10",
-        "owner_id": "21364",
-        "az_vendor_id": "0",
-        "meta": {
-            "target": "0",
-            "enable_proxy": 1,
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "tn_alt_text": ""
-        },
-        "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 17:53:25",
-        "slug_id": "0",
-        "enable_hidden": "0",
-        "az_vendor_name": null,
-        "az_types": [
-            {
-                "id": 48319,
-                "name": "Scholarly Journals",
-                "site_id": 942
-            },
-            {
-                "id": 48320,
-                "name": "Sciences",
-                "site_id": 942
-            },
-            {
-                "id": 48321,
-                "name": "Sustainability & Environment",
-                "site_id": 942
-            }
-        ],
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": "",
-        "subjects": [
-            {
-                "id": "26598",
-                "site_id": "942",
-                "name": "Liberal Arts & Sciences",
-                "ordering": "0",
-                "slug_id": "960987",
-                "subject_id": "26598",
-                "content_id": "2354013",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "102767",
-                "site_id": "942",
-                "name": "Sustainability & Environment",
-                "ordering": "0",
-                "slug_id": "907319",
-                "subject_id": "102767",
-                "content_id": "2354013",
-                "featured": "0",
-                "content_id_count": "1"
-            }
-        ]
-    },
-    {
         "id": "2354015",
         "name": "Environment Complete",
         "description": "Full-text database that provides access to environment journals and monographs",
@@ -12165,49 +12093,6 @@
         "alt_names": ""
     },
     {
-        "id": "64202768",
-        "name": "Alt HealthWatch",
-        "description": "\"Complementary and alternative medicine\" articles and pamphlets from 1990 - current, indexing 1984 - current.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=awh",
-        "site_id": "942",
-        "type_id": "10",
-        "owner_id": "21364",
-        "az_vendor_id": "0",
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2021-11-05 16:06:48",
-        "updated": "2021-11-10 17:08:30",
-        "slug_id": "0",
-        "enable_hidden": "0",
-        "az_vendor_name": null,
-        "az_types": [
-            {
-                "id": 48302,
-                "name": "Health & Medicine",
-                "site_id": 942
-            },
-            {
-                "id": 48320,
-                "name": "Sciences",
-                "site_id": 942
-            }
-        ],
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": "64203189",
         "name": "Article First",
         "description": "Listings of online scholarly articles that are not necessarily available through FIT; check individual listings.",
@@ -12298,59 +12183,6 @@
             {
                 "id": 48287,
                 "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            }
-        ],
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": "64203279",
-        "name": "Associates Programs Source",
-        "description": "Contains a variety of topics of general interest from trade publications as well as popular magazines.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=oih",
-        "site_id": "942",
-        "type_id": "10",
-        "owner_id": "21364",
-        "az_vendor_id": "0",
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 16:18:03",
-        "updated": "2021-11-10 17:17:21",
-        "slug_id": "0",
-        "enable_hidden": "0",
-        "az_vendor_name": null,
-        "az_types": [
-            {
-                "id": 48288,
-                "name": "Business & Economics",
-                "site_id": 942
-            },
-            {
-                "id": 48292,
-                "name": "Education",
-                "site_id": 942
-            },
-            {
-                "id": 48300,
-                "name": "General & Multiple Topics",
-                "site_id": 942
-            },
-            {
-                "id": 48320,
-                "name": "Sciences",
                 "site_id": 942
             }
         ],
@@ -12742,54 +12574,6 @@
             {
                 "id": 48319,
                 "name": "Scholarly Journals",
-                "site_id": 942
-            }
-        ],
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": "64204420",
-        "name": "Computer Source",
-        "description": "Contains full-text for nearly 300 publications and indexing and abstracts for nearly 450 publications on computers, telecommunications, electronics, and the Internet, with most coverage starting in 1985.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=cph",
-        "site_id": "942",
-        "type_id": "10",
-        "owner_id": "21364",
-        "az_vendor_id": "0",
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 16:43:35",
-        "updated": "2021-11-10 17:36:26",
-        "slug_id": "0",
-        "enable_hidden": "0",
-        "az_vendor_name": null,
-        "az_types": [
-            {
-                "id": 48290,
-                "name": "Computers & Technology",
-                "site_id": 942
-            },
-            {
-                "id": 48320,
-                "name": "Sciences",
-                "site_id": 942
-            },
-            {
-                "id": 48323,
-                "name": "Trade Publications",
                 "site_id": 942
             }
         ],
@@ -13311,59 +13095,6 @@
         "alt_names": ""
     },
     {
-        "id": "64204909",
-        "name": "Entrepreneurial Studies Source",
-        "description": "Full-text database containing journals, books, videos, and company proxies providing insights on entrepreneurship and small businesses",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=ent",
-        "site_id": "942",
-        "type_id": "10",
-        "owner_id": "21364",
-        "az_vendor_id": "0",
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 17:12:43",
-        "updated": "2021-11-10 17:54:19",
-        "slug_id": "0",
-        "enable_hidden": "0",
-        "az_vendor_name": null,
-        "az_types": [
-            {
-                "id": 48288,
-                "name": "Business & Economics",
-                "site_id": 942
-            },
-            {
-                "id": 48289,
-                "name": "Companies & Brands / Industry Profiles",
-                "site_id": 942
-            },
-            {
-                "id": 48319,
-                "name": "Scholarly Journals",
-                "site_id": 942
-            },
-            {
-                "id": 48323,
-                "name": "Trade Publications",
-                "site_id": 942
-            }
-        ],
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": "64205203",
         "name": "Fashion Photography Archive",
         "description": "Curated by Valerie Steele, Director of the Museum at FIT in New York, this resource showcases more than 775,000 newly-digitized images that feature forty years of contemporary fashion history. Images range from runway and backstage to street-style fashion, and from key designers\u2019 shows from the last forty years.<br />\r\n<br />\r\nUse an incognito browser to access this resource.",
@@ -13575,49 +13306,6 @@
             {
                 "id": 48316,
                 "name": "Performing Arts",
-                "site_id": 942
-            }
-        ],
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": "64205501",
-        "name": "Fuente Acad\u00e9mica Plus",
-        "description": "Over 1,600 Spanish- and Portuguese-language scholarly and popular sources from Latin America, Spain, and Portugal covering a wide range of subjects, including history, economics, literature, sociology, and law, available as full-text PDFs.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=fap",
-        "site_id": "942",
-        "type_id": "10",
-        "owner_id": "21364",
-        "az_vendor_id": "0",
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 17:25:54",
-        "updated": "2021-11-10 18:05:35",
-        "slug_id": "0",
-        "enable_hidden": "0",
-        "az_vendor_name": null,
-        "az_types": [
-            {
-                "id": 48300,
-                "name": "General & Multiple Topics",
-                "site_id": 942
-            },
-            {
-                "id": 48319,
-                "name": "Scholarly Journals",
                 "site_id": 942
             }
         ],
@@ -14671,49 +14359,6 @@
         "alt_names": ""
     },
     {
-        "id": "64208945",
-        "name": "Religion and Philosophy Collection",
-        "description": "Topics includes world religions, major denominations, biblical studies, religious history, epistemology, political philosophy, philosophy of language, moral philosophy and the history of philosophy. Full-text articles from more than 300 journals dating back to the early 20th century.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=rlh",
-        "site_id": "942",
-        "type_id": "10",
-        "owner_id": "21364",
-        "az_vendor_id": "0",
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 19:24:44",
-        "updated": "2021-11-11 16:05:17",
-        "slug_id": "0",
-        "enable_hidden": "0",
-        "az_vendor_name": null,
-        "az_types": [
-            {
-                "id": 48317,
-                "name": "Philosophy & Religion",
-                "site_id": 942
-            },
-            {
-                "id": 48318,
-                "name": "Psychology & Sociology",
-                "site_id": 942
-            }
-        ],
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": "64209603",
         "name": "Taylor and Francis Online",
         "description": "We have full-text access to the following Taylor & Francis publications:<br />\r\n<br />\r\nCostume (2012-2016; see Edinburgh University Press for 2000-current)<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/ycos20<br />\r\n<br />\r\nDress<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/ydre20<br />\r\n<br />\r\nJournal of Textile Design, Research and Practice<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rftd20<br />\r\n<br />\r\nFashion Practice<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rffp20<br />\r\n<br />\r\nFashion Theory<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rfft20<br />\r\n<br />\r\nTextile<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rftx20",
@@ -14804,54 +14449,6 @@
             {
                 "id": 48300,
                 "name": "General & Multiple Topics",
-                "site_id": 942
-            }
-        ],
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": "64209755",
-        "name": "Vocational and Career Collection",
-        "description": "Contains content from 1985 to present on a wide variety of vocational and technical subjects with access to 330 full-text journals and magazines - including National Geographic Magazine from 1901 to present.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=voh",
-        "site_id": "942",
-        "type_id": "10",
-        "owner_id": "21364",
-        "az_vendor_id": "0",
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 20:00:15",
-        "updated": "2021-11-11 16:59:04",
-        "slug_id": "0",
-        "enable_hidden": "0",
-        "az_vendor_name": null,
-        "az_types": [
-            {
-                "id": 48292,
-                "name": "Education",
-                "site_id": 942
-            },
-            {
-                "id": 48300,
-                "name": "General & Multiple Topics",
-                "site_id": 942
-            },
-            {
-                "id": 48320,
-                "name": "Sciences",
                 "site_id": 942
             }
         ],
@@ -15206,6 +14803,325 @@
                 "subject_id": "26598",
                 "content_id": "66920256",
                 "featured": "1",
+                "content_id_count": "1"
+            }
+        ]
+    },
+    {
+        "id": "67468278",
+        "name": "Diversity & Ethnic Studies eBook Collection",
+        "description": "A collection of nearly 5,000 eBooks e-books on the topic of diversity, equity, and inclusion",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=e091sww",
+        "site_id": "942",
+        "type_id": "10",
+        "owner_id": "21364",
+        "az_vendor_id": "102783",
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": 1,
+            "enable_proxy": 1
+        },
+        "created": "2022-06-30 15:20:57",
+        "updated": "2022-06-30 15:20:57",
+        "slug_id": "0",
+        "enable_hidden": "0",
+        "az_vendor_name": "EBSCO",
+        "enable_new": 1,
+        "enable_trial": 0,
+        "enable_popular": 0,
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "Ethnic Diversity Source, EBSCO Ethnic Diversity Source",
+        "subjects": [
+            {
+                "id": "17612",
+                "site_id": "942",
+                "name": "History & Biography",
+                "ordering": "0",
+                "slug_id": "960984",
+                "subject_id": "17612",
+                "content_id": "67468278",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102750",
+                "site_id": "942",
+                "name": "Interdisciplinary Studies and Topics",
+                "ordering": "0",
+                "slug_id": "907236",
+                "subject_id": "102750",
+                "content_id": "67468278",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "26598",
+                "site_id": "942",
+                "name": "Liberal Arts & Sciences",
+                "ordering": "0",
+                "slug_id": "960987",
+                "subject_id": "26598",
+                "content_id": "67468278",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102758",
+                "site_id": "942",
+                "name": "Marketing, Media, & Demographics",
+                "ordering": "0",
+                "slug_id": "907246",
+                "subject_id": "102758",
+                "content_id": "67468278",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "94035",
+                "site_id": "942",
+                "name": "Newspapers, Magazines and Current Events",
+                "ordering": "0",
+                "slug_id": "1042150",
+                "subject_id": "94035",
+                "content_id": "67468278",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "207027",
+                "site_id": "942",
+                "name": "Social Justice",
+                "ordering": "0",
+                "slug_id": "2411064",
+                "subject_id": "207027",
+                "content_id": "67468278",
+                "featured": "0",
+                "content_id_count": "1"
+            }
+        ]
+    },
+    {
+        "id": "67468315",
+        "name": "Ethnic Diversity Source",
+        "description": "Covers the culture, traditions, social treatment and lived experiences of different ethnic groups in America, providing full-text content from peer-reviewed journals, magazines, e-books, biographies, and primary source documents.",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=s6453565&groupid=main&profile=ehost&defaultdb=ets",
+        "site_id": "942",
+        "type_id": "10",
+        "owner_id": "21364",
+        "az_vendor_id": "102783",
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": 1,
+            "enable_proxy": 1
+        },
+        "created": "2022-06-30 15:22:46",
+        "updated": "2022-06-30 17:50:34",
+        "slug_id": "0",
+        "enable_hidden": "0",
+        "az_vendor_name": "EBSCO",
+        "enable_new": 1,
+        "enable_trial": 0,
+        "enable_popular": 0,
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "subjects": [
+            {
+                "id": "25085",
+                "site_id": "942",
+                "name": "Art, Design & Art History",
+                "ordering": "0",
+                "slug_id": "960972",
+                "subject_id": "25085",
+                "content_id": "67468315",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "17612",
+                "site_id": "942",
+                "name": "History & Biography",
+                "ordering": "0",
+                "slug_id": "960984",
+                "subject_id": "17612",
+                "content_id": "67468315",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102750",
+                "site_id": "942",
+                "name": "Interdisciplinary Studies and Topics",
+                "ordering": "0",
+                "slug_id": "907236",
+                "subject_id": "102750",
+                "content_id": "67468315",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "26598",
+                "site_id": "942",
+                "name": "Liberal Arts & Sciences",
+                "ordering": "0",
+                "slug_id": "960987",
+                "subject_id": "26598",
+                "content_id": "67468315",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "94035",
+                "site_id": "942",
+                "name": "Newspapers, Magazines and Current Events",
+                "ordering": "0",
+                "slug_id": "1042150",
+                "subject_id": "94035",
+                "content_id": "67468315",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "207027",
+                "site_id": "942",
+                "name": "Social Justice",
+                "ordering": "0",
+                "slug_id": "2411064",
+                "subject_id": "207027",
+                "content_id": "67468315",
+                "featured": "0",
+                "content_id_count": "1"
+            }
+        ]
+    },
+    {
+        "id": "67471225",
+        "name": "Jet Magazine Archive",
+        "description": "Archive of Jet magazine from the first issue in 1951 through 2014, covering art, news, politics and other social topics with an African-American focus. The archive includes over 3,100 issues providing a broad view of culture, fashion and entertainment.",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=s6453565&groupid=main&profile=ehost&defaultdb=jar",
+        "site_id": "942",
+        "type_id": "10",
+        "owner_id": "21364",
+        "az_vendor_id": "102783",
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": 1,
+            "enable_proxy": 1
+        },
+        "created": "2022-06-30 17:02:31",
+        "updated": "2022-06-30 17:51:21",
+        "slug_id": "0",
+        "enable_hidden": "0",
+        "az_vendor_name": "EBSCO",
+        "enable_new": 1,
+        "enable_trial": 0,
+        "enable_popular": 0,
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "Jet",
+        "subjects": [
+            {
+                "id": "25085",
+                "site_id": "942",
+                "name": "Art, Design & Art History",
+                "ordering": "0",
+                "slug_id": "960972",
+                "subject_id": "25085",
+                "content_id": "67471225",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25087",
+                "site_id": "942",
+                "name": "Business, Finance & Management",
+                "ordering": "0",
+                "slug_id": "960974",
+                "subject_id": "25087",
+                "content_id": "67471225",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25089",
+                "site_id": "942",
+                "name": "Fashion Industry",
+                "ordering": "0",
+                "slug_id": "960980",
+                "subject_id": "25089",
+                "content_id": "67471225",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "17612",
+                "site_id": "942",
+                "name": "History & Biography",
+                "ordering": "0",
+                "slug_id": "960984",
+                "subject_id": "17612",
+                "content_id": "67471225",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "114532",
+                "site_id": "942",
+                "name": "Images, Multimedia, & Visual Resources",
+                "ordering": "0",
+                "slug_id": "1042148",
+                "subject_id": "114532",
+                "content_id": "67471225",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102750",
+                "site_id": "942",
+                "name": "Interdisciplinary Studies and Topics",
+                "ordering": "0",
+                "slug_id": "907236",
+                "subject_id": "102750",
+                "content_id": "67471225",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102758",
+                "site_id": "942",
+                "name": "Marketing, Media, & Demographics",
+                "ordering": "0",
+                "slug_id": "907246",
+                "subject_id": "102758",
+                "content_id": "67471225",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "94035",
+                "site_id": "942",
+                "name": "Newspapers, Magazines and Current Events",
+                "ordering": "0",
+                "slug_id": "1042150",
+                "subject_id": "94035",
+                "content_id": "67471225",
+                "featured": "0",
                 "content_id_count": "1"
             }
         ]
