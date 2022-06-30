@@ -14827,7 +14827,7 @@
             "enable_proxy": 1
         },
         "created": "2022-06-30 15:20:57",
-        "updated": "2022-06-30 15:20:57",
+        "updated": "2022-06-30 18:47:02",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": "EBSCO",
@@ -14836,7 +14836,7 @@
         "enable_popular": 0,
         "internal_note": "",
         "library_review": "",
-        "alt_names": "Ethnic Diversity Source, EBSCO Ethnic Diversity Source",
+        "alt_names": "",
         "subjects": [
             {
                 "id": "17612",
