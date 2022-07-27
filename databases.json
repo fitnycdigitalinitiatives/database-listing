@@ -10787,6 +10787,116 @@
         ]
     },
     {
+        "id": "53185621",
+        "name": "Academic Video Online",
+        "description": "Video titles spanning the widest range of subject areas including anthropology, business, counseling, film, health, history, music, and more.",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://search.alexanderstreet.com/avon",
+        "site_id": "942",
+        "type_id": "10",
+        "owner_id": "21364",
+        "az_vendor_id": "0",
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": 1,
+            "enable_proxy": 1
+        },
+        "created": "2020-03-23 19:49:01",
+        "updated": "2022-07-27 13:08:20",
+        "slug_id": "0",
+        "enable_hidden": "0",
+        "az_vendor_name": null,
+        "enable_new": 0,
+        "enable_trial": 0,
+        "enable_popular": 0,
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "subjects": [
+            {
+                "id": "25085",
+                "site_id": "942",
+                "name": "Art, Design & Art History",
+                "ordering": "0",
+                "slug_id": "960972",
+                "subject_id": "25085",
+                "content_id": "53185621",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25087",
+                "site_id": "942",
+                "name": "Business, Finance & Management",
+                "ordering": "0",
+                "slug_id": "960974",
+                "subject_id": "25087",
+                "content_id": "53185621",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25089",
+                "site_id": "942",
+                "name": "Fashion Industry",
+                "ordering": "0",
+                "slug_id": "960980",
+                "subject_id": "25089",
+                "content_id": "53185621",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "17612",
+                "site_id": "942",
+                "name": "History & Biography",
+                "ordering": "0",
+                "slug_id": "960984",
+                "subject_id": "17612",
+                "content_id": "53185621",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "114532",
+                "site_id": "942",
+                "name": "Images, Multimedia, & Visual Resources",
+                "ordering": "0",
+                "slug_id": "1042148",
+                "subject_id": "114532",
+                "content_id": "53185621",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102750",
+                "site_id": "942",
+                "name": "Interdisciplinary Studies and Topics",
+                "ordering": "0",
+                "slug_id": "907236",
+                "subject_id": "102750",
+                "content_id": "53185621",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "26598",
+                "site_id": "942",
+                "name": "Liberal Arts & Sciences",
+                "ordering": "0",
+                "slug_id": "960987",
+                "subject_id": "26598",
+                "content_id": "53185621",
+                "featured": "0",
+                "content_id_count": "1"
+            }
+        ]
+    },
+    {
         "id": "53185674",
         "name": "Bloomsbury Fashion Business Cases",
         "description": "Presents real-world business cases on challenges facing the business of fashion, tackling important issues such as sustainability, technology, ethics, and leadership.<br />\r\n<br />\r\nUse an incognito browser to access this resource.",
