@@ -8001,7 +8001,7 @@
     },
     {
         "id": "2354118",
-        "name": "WorldCatDissertations (FirstSearch)",
+        "name": "WorldCat Dissertations (FirstSearch)",
         "description": "WorldCat Dissertations is a database of all dissertations and theses listed in WorldCat, a free to use index of a wide variety of resources, and the tools to help find which libraries hold them.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://newfirstsearch.oclc.org/FSIP",
         "site_id": "942",
@@ -8019,7 +8019,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 17:45:48",
+        "updated": "2022-08-11 20:39:50",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
