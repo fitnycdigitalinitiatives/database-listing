@@ -15235,5 +15235,192 @@
                 "content_id_count": "1"
             }
         ]
+    },
+    {
+        "id": "68331477",
+        "name": "Fashion and Race Database",
+        "description": "The Fashion and Race Database examines the history and impact of race in the fashion system and our everyday life.<br />\r\n<br />\r\n1,600+ research resources (including media) in The Library, covering interdisciplinary topics and categorized by keyword, author and year <br />\r\n<br />\r\nOriginal essays, profiles and object analyses, primarily authored by racialized and minoritized scholars and writers <br />\r\nSearch content across the platform <br />\r\nResources can be collected, saved and emailed with the \"My List\" feature<br />\r\nAccessibility-compliant for screen readers, low vision, dyslexia, and seizure risk <br />\r\n\"Related Content\" on the content pages aids in discovering new and relevant material <br />\r\nFRD adds and updates content on a monthly basis",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://fashionandrace.org/database/register/fitnyc-0928",
+        "site_id": "942",
+        "type_id": "10",
+        "owner_id": "21364",
+        "az_vendor_id": "0",
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "Visit The Fashion and Race Database to validate as an FIT user<br />\r\nSign up for an account using an FIT email<br />\r\nAfter the initial visit verifying FIT access, users are free to come back to FRD by way of any link to fashionandrace.org (proxied link not required)",
+            "desc_pos": 1,
+            "enable_proxy": 1
+        },
+        "created": "2022-08-30 14:09:11",
+        "updated": "2022-08-30 14:30:24",
+        "slug_id": "0",
+        "enable_hidden": "0",
+        "az_vendor_name": null,
+        "enable_new": 1,
+        "enable_trial": 1,
+        "enable_popular": 0,
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "subjects": [
+            {
+                "id": "25085",
+                "site_id": "942",
+                "name": "Art, Design & Art History",
+                "ordering": "0",
+                "slug_id": "960972",
+                "subject_id": "25085",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25087",
+                "site_id": "942",
+                "name": "Business, Finance & Management",
+                "ordering": "0",
+                "slug_id": "960974",
+                "subject_id": "25087",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25086",
+                "site_id": "942",
+                "name": "Companies, Brands, & Products",
+                "ordering": "0",
+                "slug_id": "960975",
+                "subject_id": "25086",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25088",
+                "site_id": "942",
+                "name": "Fashion & Accessory Design",
+                "ordering": "0",
+                "slug_id": "960977",
+                "subject_id": "25088",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25089",
+                "site_id": "942",
+                "name": "Fashion Industry",
+                "ordering": "0",
+                "slug_id": "960980",
+                "subject_id": "25089",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "17612",
+                "site_id": "942",
+                "name": "History & Biography",
+                "ordering": "0",
+                "slug_id": "960984",
+                "subject_id": "17612",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "114532",
+                "site_id": "942",
+                "name": "Images, Multimedia, & Visual Resources",
+                "ordering": "0",
+                "slug_id": "1042148",
+                "subject_id": "114532",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102750",
+                "site_id": "942",
+                "name": "Interdisciplinary Studies and Topics",
+                "ordering": "0",
+                "slug_id": "907236",
+                "subject_id": "102750",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "209739",
+                "site_id": "942",
+                "name": "International Trade and Global Markets",
+                "ordering": "0",
+                "slug_id": "2466546",
+                "subject_id": "209739",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "26598",
+                "site_id": "942",
+                "name": "Liberal Arts & Sciences",
+                "ordering": "0",
+                "slug_id": "960987",
+                "subject_id": "26598",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102758",
+                "site_id": "942",
+                "name": "Marketing, Media, & Demographics",
+                "ordering": "0",
+                "slug_id": "907246",
+                "subject_id": "102758",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "94035",
+                "site_id": "942",
+                "name": "Newspapers, Magazines and Current Events",
+                "ordering": "0",
+                "slug_id": "1042150",
+                "subject_id": "94035",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "207027",
+                "site_id": "942",
+                "name": "Social Justice",
+                "ordering": "0",
+                "slug_id": "2411064",
+                "subject_id": "207027",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25090",
+                "site_id": "942",
+                "name": "Textiles",
+                "ordering": "0",
+                "slug_id": "960992",
+                "subject_id": "25090",
+                "content_id": "68331477",
+                "featured": "0",
+                "content_id_count": "1"
+            }
+        ]
     }
 ]
