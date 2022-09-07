@@ -5114,7 +5114,7 @@
     {
         "id": "2354067",
         "name": "New York Times Academic Pass",
-        "description": "How do I activate an NYTimes.com Pass?<br />\r\nYou can activate an Academic Pass from the NYTimes.com Academic Pass page. Follow the instructions for First Time User below. <br />\r\n<br />\r\nTo activate an Academic Pass:<br />\r\nYou need to have a valid FIT email address.<br />\r\nYou must log in to or create an NYTimes.com account with your FIT email address.<br />\r\nYou cannot be an existing digital subscriber.<br />\r\nCan I activate a new pass before my current one expires?<br />\r\nNo. Each NYTimes.com Pass grants a predefined period of access. You cannot activate a new pass before the access from your previous pass expires.<br />\r\n<br />\r\nPlease click here for full instructions on how to access New York Times Academic Pass: https://it.fitnyc.edu/kb/nytimes-com-academic-pass/",
+        "description": "Please click here for full instructions on how to access New York Times Academic Pass: https://it.fitnyc.edu/kb/nytimes-com-academic-pass/<br />\r\n<br />\r\n\u00b7            NEW subscribers to NYT can visit accessnyt.com to create an account (register). They type in the school name and follow the instructions based on their location. If the new subscriber encounters an error message that subscriber can email edu@nytimes.com.<br />\r\n<br />\r\n\u00b7            EXISTING registered subscribers with ACTIVE PAID subscriptions need to cancel their personal subscription by connecting with a chat agent on the site, or calling 800-698-4637 before creating an account. Once the subscription is canceled, they can visit accessnyt.com, type in the school name and follow the instructions based on their location. Since the subscriber \u201cAlready has an account \" they click \u201cLog In\" (Found below \"Create an Account\"). Input their email address and the same \u201cPassword\u201d created for their previous account. If the subscriber encounters an error message that subscriber can email with  edu@nytimes.com.<br />\r\n<br />\r\n\u00b7            EXISTING registered subscribers that DO NOT HAVE ACTIVE NYT subscription can visit accessnyt.com , type in the name of the school and follow the instructions based on their location. Since the subscriber \"Already has an account \" they click \u201cLog In\" (Found below \"Create an Account\"). Input their email address and the same \u201cPassword\u201d created for their previous account. If the subscriber encounters an error message that subscriber can email edu@nytimes.com.",
         "url": "http://accessnyt.com/",
         "site_id": "942",
         "type_id": "10",
@@ -5131,7 +5131,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 15:43:31",
+        "updated": "2022-09-07 15:08:03",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
