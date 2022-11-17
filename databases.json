@@ -4228,9 +4228,9 @@
     },
     {
         "id": "2354049",
-        "name": "Kantar Ad Insights (formerly Kantar Ad$pender)",
-        "description": "Monitors advertising expenditures and occurrence information for 3+ million brands across 18 media.<br />\r\n<br />\r\nOn PCs, use Chrome or FireFox web browsers only.  <br />\r\nOn Macs, use Chrome NOT Safari<br />\r\n<br />\r\nIMPORTANT: Log out of Kantar when done. Do not just close the browser or window.",
-        "url": "https://sites.google.com/fitnyc.edu/librarydatabases/home",
+        "name": "Kantar Advertising Insights",
+        "description": "Monitors advertising expenditures and occurrence information for 3+ million brands across 18 media.",
+        "url": "https://edu-adinsights.kantarmediana.com",
         "site_id": "942",
         "type_id": "10",
         "owner_id": "21364",
@@ -4246,7 +4246,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2022-06-21 19:23:26",
+        "updated": "2022-11-17 20:27:18",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -4926,7 +4926,7 @@
     {
         "id": "2354062",
         "name": "MRI-Simmons Insights",
-        "description": "A profiling system to gain insights and to understand consumer\u2019s media and<br />\r\nproduct usage.<br />\r\n<br />\r\nUniversity Reporter no longer available. Pocket Piece no longer available.<br />\r\n<br />\r\nUse an incognito browser to access this resource",
+        "description": "A profiling system to gain insights and to understand consumer\u2019s media and<br />\r\nproduct usage.<br />\r\n<br />\r\nAccess is limited to ten (10) concurrent users.<br />\r\n<br />\r\nUse an incognito browser to access this resource",
         "url": "https://libproxy.fitsuny.edu/login?url=https://insights.mrisimmons.com/university/fitnyc",
         "site_id": "942",
         "type_id": "10",
@@ -4943,7 +4943,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 15:10:26",
+        "updated": "2022-11-17 20:33:55",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -5522,7 +5522,7 @@
     {
         "id": "2354073",
         "name": "Passport  (Euromonitor)",
-        "description": "Provides international market intelligence, including economic statistics, on industries, countries, and consumers.",
+        "description": "Provides international market intelligence, including economic statistics, on industries, countries, and consumers.<br />\r\n<br />\r\nImages and downloads are currently unavailable.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.portal.euromonitor.com/portal/",
         "site_id": "942",
         "type_id": "10",
@@ -5539,7 +5539,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 15:51:33",
+        "updated": "2022-11-17 20:34:37",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
