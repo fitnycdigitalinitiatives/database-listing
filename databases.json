@@ -4230,14 +4230,14 @@
         "id": "2354049",
         "name": "Kantar Advertising Insights",
         "description": "Monitors advertising expenditures and occurrence information for 3+ million brands across 18 media.",
-        "url": "https://edu-adinsights.kantarmediana.com",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://edu-adinsights.kantarmediana.com",
         "site_id": "942",
         "type_id": "10",
         "owner_id": "21364",
         "az_vendor_id": "0",
         "meta": {
             "target": "0",
-            "enable_proxy": 0,
+            "enable_proxy": 1,
             "tn_url": "",
             "tn_height": "",
             "tn_width": "",
@@ -4246,7 +4246,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2022-11-17 20:27:18",
+        "updated": "2022-11-18 21:38:18",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
@@ -4282,7 +4282,7 @@
         "enable_popular": 0,
         "internal_note": "",
         "library_review": "",
-        "alt_names": "Adspender, Ad$pender, Insights, Advertising Insights",
+        "alt_names": "Adspender, Ad$pender, AdInsights",
         "subjects": [
             {
                 "id": "25087",
