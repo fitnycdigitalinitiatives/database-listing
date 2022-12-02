@@ -15422,5 +15422,137 @@
                 "content_id_count": "1"
             }
         ]
+    },
+    {
+        "id": "69690046",
+        "name": "Vogue Business",
+        "description": "Registration Instructions<br />\r\n<br />\r\nUsers must register for an account using an FIT email address.\u00a0<br />\r\n<br />\r\nStudents should indicate \"student\" for the \"job title\" and \"seniority\" fields.\u00a0<br />\r\n<br />\r\nIf you already have a free account you will receive an error message\u00a0stating your account already exists---please contact Vogue Business directly using the email that displays on the login page<br />\r\n<br />\r\nOur Educational Membership provides access to a Standard Membership, which includes the majority of content and access to all virtual events.\u00a0<br />\r\n*Advance Membership articles and Vogue Business Index are not included.*",
+        "url": "https://voguebusiness-prod.cdn.zephr.com/VBEDU/register",
+        "site_id": "942",
+        "type_id": "10",
+        "owner_id": "21364",
+        "az_vendor_id": "0",
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": 1,
+            "enable_proxy": 0
+        },
+        "created": "2022-12-02 16:04:57",
+        "updated": "2022-12-02 16:17:51",
+        "slug_id": "0",
+        "enable_hidden": "0",
+        "az_vendor_name": null,
+        "enable_new": 1,
+        "enable_trial": 0,
+        "enable_popular": 0,
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "subjects": [
+            {
+                "id": "25085",
+                "site_id": "942",
+                "name": "Art, Design & Art History",
+                "ordering": "0",
+                "slug_id": "960972",
+                "subject_id": "25085",
+                "content_id": "69690046",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25087",
+                "site_id": "942",
+                "name": "Business, Finance & Management",
+                "ordering": "0",
+                "slug_id": "960974",
+                "subject_id": "25087",
+                "content_id": "69690046",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25086",
+                "site_id": "942",
+                "name": "Companies, Brands, & Products",
+                "ordering": "0",
+                "slug_id": "960975",
+                "subject_id": "25086",
+                "content_id": "69690046",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25088",
+                "site_id": "942",
+                "name": "Fashion & Accessory Design",
+                "ordering": "0",
+                "slug_id": "960977",
+                "subject_id": "25088",
+                "content_id": "69690046",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25089",
+                "site_id": "942",
+                "name": "Fashion Industry",
+                "ordering": "0",
+                "slug_id": "960980",
+                "subject_id": "25089",
+                "content_id": "69690046",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102750",
+                "site_id": "942",
+                "name": "Interdisciplinary Studies and Topics",
+                "ordering": "0",
+                "slug_id": "907236",
+                "subject_id": "102750",
+                "content_id": "69690046",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102758",
+                "site_id": "942",
+                "name": "Marketing, Media, & Demographics",
+                "ordering": "0",
+                "slug_id": "907246",
+                "subject_id": "102758",
+                "content_id": "69690046",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "94035",
+                "site_id": "942",
+                "name": "Newspapers, Magazines and Current Events",
+                "ordering": "0",
+                "slug_id": "1042150",
+                "subject_id": "94035",
+                "content_id": "69690046",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25090",
+                "site_id": "942",
+                "name": "Textiles",
+                "ordering": "0",
+                "slug_id": "960992",
+                "subject_id": "25090",
+                "content_id": "69690046",
+                "featured": "0",
+                "content_id_count": "1"
+            }
+        ]
     }
 ]
