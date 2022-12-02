@@ -15426,7 +15426,7 @@
     {
         "id": "69690046",
         "name": "Vogue Business",
-        "description": "<b>Registration Instructions</b><br />\r\n<br />\r\n<ul><li>Users must register for an account using an FIT email address.</li><li>Students should indicate \"student\" for the \"job title\" and \"seniority\" fields.</li><li>If you already have a free account you will receive an error message\u00a0stating your account already exists---please contact Vogue Business directly using the email that displays on the login page</li></ul><br />\r\nOur Educational Membership provides access to a Standard Membership, which includes the majority of content and access to all virtual events.\u00a0<br />\r\n<b>*Advance Membership articles and Vogue Business Index are not included.*</b>",
+        "description": "<b>Registration Instructions</b><br />\r\n<br />\r\n<ul><li>Users must register for an account using an FIT email address: https://voguebusiness-prod.cdn.zephr.com/VBEDU/register</li><li>Students should indicate \"student\" for the \"job title\" and \"seniority\" fields.</li><li>If you already have a free account you will receive an error message\u00a0stating your account already exists---please contact Vogue Business directly using the email that displays on the login page</li></ul><br />\r\nOur Educational Membership provides access to a Standard Membership, which includes the majority of content and access to all virtual events.\u00a0<br />\r\n<b>*Advance Membership articles and Vogue Business Index are not included.*</b>",
         "url": "https://voguebusiness-prod.cdn.zephr.com/VBEDU/register",
         "site_id": "942",
         "type_id": "10",
@@ -15443,7 +15443,7 @@
             "enable_proxy": 0
         },
         "created": "2022-12-02 16:04:57",
-        "updated": "2022-12-02 16:36:43",
+        "updated": "2022-12-02 16:59:42",
         "slug_id": "0",
         "enable_hidden": "0",
         "az_vendor_name": null,
