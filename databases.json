@@ -1151,7 +1151,7 @@
     },
     {
         "id": 2353991,
-        "name": "Business Insights: Essentials",
+        "name": "Gale Business: Insights",
         "description": "Contains 465,000 company profiles and covers company and industry profiles with SWOT, market share, and other financial reports.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://infotrac.galegroup.com/itweb/fitsuny?db=BIE",
         "site_id": 942,
@@ -1165,11 +1165,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 17:27:24",
+        "updated": "2022-12-19 15:27:58",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -1206,7 +1206,7 @@
         ],
         "internal_note": "",
         "library_review": "",
-        "alt_names": "",
+        "alt_names": "Business Insights: Essentials",
         "subjects": [
             {
                 "id": "25087",
