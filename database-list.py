@@ -21,6 +21,12 @@ for index, database in enumerate(databases):
     if database['meta']['enable_proxy']:
         databases[index]['url'] = proxy + databases[index]['url']
 
+#remove hidden items
+clean_databases = []
+for database in databases:
+    if database['enable_hidden'] == False:
+        clean_databases.append(database)
+
 filename = "gh-pages/databases.json"
 with open(filename, "w") as outfile:
-    json.dump(databases, outfile, indent=4)
+    json.dump(clean_databases, outfile, indent=4)
