@@ -1617,33 +1617,6 @@
         ]
     },
     {
-        "id": 2353996,
-        "name": "ClipArt.com (School Edition)",
-        "description": "Clip art drawings, photos and animations. Clip Art is only compatible in Internet Explorer.",
-        "url": "https://sites.fitnyc.edu/depts/library/restricted/proxy.htm#c",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "enable_proxy": 0,
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "tn_alt_text": ""
-        },
-        "created": "2014-06-16 23:31:09",
-        "updated": "2020-09-21 14:11:36",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": 2354001,
         "name": "Credo",
         "description": "Online reference library containing full-text dictionaries, encyclopedias, and other reference books.",
@@ -2163,50 +2136,6 @@
                 "content_id_count": "1"
             }
         ]
-    },
-    {
-        "id": 2354013,
-        "name": "Energy & Power Source",
-        "description": "Full-text database of energy and power industry-related journals and magazines.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=enr",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "enable_proxy": 1,
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "tn_alt_text": ""
-        },
-        "created": "2014-06-16 23:31:09",
-        "updated": "2022-06-30 14:42:27",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "az_types": [
-            {
-                "id": 48319,
-                "name": "Scholarly Journals",
-                "site_id": 942
-            },
-            {
-                "id": 48320,
-                "name": "Sciences",
-                "site_id": 942
-            },
-            {
-                "id": 48321,
-                "name": "Sustainability & Environment",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
     },
     {
         "id": 2354015,
@@ -7054,33 +6983,6 @@
         ]
     },
     {
-        "id": 2354104,
-        "name": "University of Fashion",
-        "description": "",
-        "url": "http://libproxy.fitsuny.edu:2048/login/uoff",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 15535,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "enable_proxy": 0,
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "tn_alt_text": ""
-        },
-        "created": "2014-06-16 23:31:09",
-        "updated": "2017-11-22 14:15:57",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": 2354105,
         "name": "Underground and Independent Comics, Comix, and Graphic Novels",
         "description": "A selection of thousands of comics and graphic novels, plus scholarly and comic related materials.",
@@ -8538,60 +8440,6 @@
         ]
     },
     {
-        "id": 7008658,
-        "name": "Trend Council",
-        "description": "A fashion and trend forecasting service with a clean tablet/phone friendly interface",
-        "url": "https://sites.fitnyc.edu/depts/library/restricted/proxy.htm#t",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0,
-            "tn_alt_text": ""
-        },
-        "created": "2014-12-10 20:16:19",
-        "updated": "2021-11-11 16:55:38",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "az_types": [
-            {
-                "id": 48295,
-                "name": "Fashion & Accessory Design",
-                "site_id": 942
-            },
-            {
-                "id": 48296,
-                "name": "Fashion Industry",
-                "site_id": 942
-            },
-            {
-                "id": 48299,
-                "name": "Forecasting & Trend Reporting",
-                "site_id": 942
-            },
-            {
-                "id": 48314,
-                "name": "OneSearch Exceptions",
-                "site_id": 942
-            },
-            {
-                "id": 48322,
-                "name": "Textiles",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": 8277076,
         "name": "Fashion Studies Online: The Videofashion Library",
         "description": "Spanning almost 40 years, this collection includes over 1,200 hours of videos of runway shows, designer profiles, and documentary films including coverage of the major fashion weeks in Milan, Paris, New York and London, as well as Miami swim and New York bridal collections.",
@@ -8706,33 +8554,6 @@
                 "content_id_count": "1"
             }
         ]
-    },
-    {
-        "id": 16357661,
-        "name": "Education Research Complete",
-        "description": "Scholarly, trade publication, and general-audience articles, conference papers and some e-books, mostly 1980 - current but some as far back as 1880.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=ehh",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1,
-            "tn_alt_text": ""
-        },
-        "created": "2015-10-01 14:38:42",
-        "updated": "2021-11-05 17:10:03",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
     },
     {
         "id": 17749929,
@@ -9093,87 +8914,6 @@
                 "content_id_count": "1"
             }
         ]
-    },
-    {
-        "id": 18928598,
-        "name": "Peclers(+)",
-        "description": "To access Peclers(+):<br />\r\n<br />\r\n1. Visit the website here - FIT username and password required:<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.peclersplus.com<br />\r\n<br />\r\n2. Create an individual account on Peclers(+) - you must log in with this account after proxy authentication to access the service.<br />\r\n<br />\r\n* Firefox must be used *",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.peclersplus.com",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "2",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1,
-            "tn_alt_text": ""
-        },
-        "created": "2016-01-20 16:55:42",
-        "updated": "2021-11-11 15:52:16",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "az_types": [
-            {
-                "id": 48295,
-                "name": "Fashion & Accessory Design",
-                "site_id": 942
-            },
-            {
-                "id": 48296,
-                "name": "Fashion Industry",
-                "site_id": 942
-            },
-            {
-                "id": 48299,
-                "name": "Forecasting & Trend Reporting",
-                "site_id": 942
-            },
-            {
-                "id": 48314,
-                "name": "OneSearch Exceptions",
-                "site_id": 942
-            },
-            {
-                "id": 48322,
-                "name": "Textiles",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 19332652,
-        "name": "Architectural Digest Archive",
-        "description": "",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=ada",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0,
-            "tn_alt_text": ""
-        },
-        "created": "2016-02-05 15:35:13",
-        "updated": "2021-06-03 15:06:25",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
     },
     {
         "id": 20430647,
@@ -10739,42 +10479,6 @@
         "alt_names": ""
     },
     {
-        "id": 48012977,
-        "name": "Test Aleph Book",
-        "description": "",
-        "url": "https://suny-fit.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991027970409704801&context=L&vid=01SUNY_FIT:01SUNY_FIT&search_scope=MyInst_and_CI&tab=Everything&lang=en",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 49341,
-        "az_vendor_id": 0,
-        "meta": {
-            "author": "",
-            "pub_date": "",
-            "enable_proxy": 0,
-            "desc_pos": 1,
-            "call_number": "",
-            "isbn": "",
-            "cover_url": "",
-            "cover_size": "0",
-            "bowker_fieldlist": "",
-            "bowker_xml": "",
-            "bowker_xml_updated": "2019-04-26 12:57:46",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "target": "0",
-            "more_info": ""
-        },
-        "created": "2019-04-26 16:55:11",
-        "updated": "2021-10-28 19:30:40",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "This linked was updated from Aleph to Primo by api.",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": 48627648,
         "name": "Vogue Italia Archive",
         "description": "Contains every issue of Vogue Italia from 1964 to present. Each issue can be browsed cover-to-cover in searchable full-text format. Each page and image is reproduced in high-resolution color with indexing, enabling images to be searched by garment type, designer, and brand names, among others. All covers, advertisements, fold outs and pictorial features are captured as separate documents,which are also indexed, searchable, and viewable in high-resolution color.",
@@ -11326,114 +11030,6 @@
         ]
     },
     {
-        "id": 53185730,
-        "name": "Bloomsbury Design Library",
-        "description": "Scholarly coverage of design and crafts worldwide from 1500 BCE to the present day",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburydesignlibrary.com",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2020-03-23 19:50:46",
-        "updated": "2020-06-01 21:32:17",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 53185821,
-        "name": "Coronavirus Free Access Collection",
-        "description": "Free access through May 31.<br />\r\nCambridge University Press coverage about coronavirus.",
-        "url": "https://www.cambridge.org/core/browse-subjects/medicine/coronavirus-free-access-collection",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2020-03-23 19:52:10",
-        "updated": "2020-06-01 21:32:59",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 53186009,
-        "name": "Cambridge Core",
-        "description": "Free access though May 31<br />\r\nAccess to over 700 textbooks.",
-        "url": "https://www.cambridge.org/core/",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2020-03-23 19:52:43",
-        "updated": "2020-06-01 21:30:16",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 53186285,
-        "name": "Duke University Press Syllabi",
-        "description": "Free access through September 30<br />\r\n<br />\r\nStaff-curated syllabi of incisive work on today's most critical issues, from climate change to police violence to immigration",
-        "url": "https://www.dukeupress.edu/Explore-Subjects/Syllabi",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2020-03-23 19:53:29",
-        "updated": "2021-11-10 17:43:28",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": 53186635,
         "name": "Bloomsbury Fairchild Books Library",
         "description": "Includes textbooks.<br />\r\n<br />\r\nEbooks covering a full spectrum of topics in fashion including construction, draping, fashion business management, history, illustration, journalism, marketing, promotion, theory, pattern making, styling, product development, sustainable fashion, textiles, and more.<br />\r\n<br />\r\nFull-text versions of books from the fashion textbook publisher, Fairchild Books.<br />\r\nUse an incognito browser to access this resource",
@@ -11562,195 +11158,6 @@
         ]
     },
     {
-        "id": 53186712,
-        "name": "MIT Press Direct",
-        "description": "Includes textbooks.<br />\r\n<br />\r\nMore than 2,500 eBooks including art and architecture, biomedical sciences, business and finance, computer science, cognitive science, design, education, environment, game studies, humanities, information science, linguistics, neuroscience, new media, philosophy, and social sciences.",
-        "url": "https://direct.mit.edu/books",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2020-03-23 19:57:26",
-        "updated": "2020-06-29 15:22:33",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 53186742,
-        "name": "Project Muse",
-        "description": "Scholarly ebooks and articles from a variety of publishers",
-        "url": "https://about.muse.jhu.edu/resources/freeresourcescovid19/#freepublishers",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2020-03-23 19:58:03",
-        "updated": "2020-07-29 13:49:51",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 53186784,
-        "name": "RedShelf",
-        "description": "Provides 7 free eBooks from participating publishers. <br />\r\n<br />\r\nIncludes textbooks.",
-        "url": "https://studentresponse.redshelf.com/",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2020-03-23 19:58:35",
-        "updated": "2020-05-26 13:44:41",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 53186823,
-        "name": "Taylor and Francis COVID-19: Novel Coronavirus Content",
-        "description": "COVID-19 research articles, book chapters, and information",
-        "url": "https://taylorandfrancis.com/coronavirus/",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2020-03-23 19:59:22",
-        "updated": "2021-11-05 19:50:57",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 53186851,
-        "name": "VitalSource",
-        "description": "Free access through May 25, 2020<br />\r\n<br />\r\nIncludes textbooks.<br />\r\n<br />\r\nTens of thousands of ebooks available to allow students to find their required learning materials. Students may access up to seven titles.<br />\r\n <br />\r\nVisit  bookshelf.vitalsource.com to log-in or create a Bookshelf account with an FIT email address<br />\r\n <br />\r\nLogin and click on the \u201cExplore\u201d tab in the upper left corner of the screen",
-        "url": "https://bookshelf.vitalsource.com/#/",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2020-03-23 19:59:58",
-        "updated": "2020-05-26 13:44:26",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 53187009,
-        "name": "Business Source Ultimate",
-        "description": "",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=s6453565&groupid=main&profile=ehost&defaultdb=bsu",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2020-03-23 20:03:24",
-        "updated": "2021-11-02 19:26:29",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 53187041,
-        "name": "eBook Academic Collection",
-        "description": "",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=s6453565&groupid=main&profile=ehost&defaultdb=e000xna",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2020-03-23 20:03:54",
-        "updated": "2020-06-15 13:53:31",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": 53462313,
         "name": "Library of Congress Open Access",
         "description": "Approximately 500 ebooks available from the Library of Congress",
@@ -11802,60 +11209,6 @@
                 "content_id_count": "1"
             }
         ]
-    },
-    {
-        "id": 53462432,
-        "name": "National Emergency Library",
-        "description": "Access to over 1.4 million ebooks, through June 30, 2020.",
-        "url": "https://archive.org/details/nationalemergencylibrary",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2020-03-31 19:55:39",
-        "updated": "2020-06-01 21:31:30",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 53526161,
-        "name": "Harvard Business Review eBook Collection",
-        "description": "Available through May 31, 2020<br />\r\n <br />\r\n600 e-books that include 400+ monographs, newly published e-books, seminal works, and 150+ article compilations of the HBR Classics series",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=s6453565&groupid=main&profile=ehost&defaultdb=e076tww",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 102783,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2020-04-02 16:24:36",
-        "updated": "2020-06-01 21:30:51",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
     },
     {
         "id": 54059701,
@@ -12290,45 +11643,6 @@
                 "content_id_count": "1"
             }
         ]
-    },
-    {
-        "id": 56224799,
-        "name": "New York Times (NOVEL)",
-        "description": "",
-        "url": "https://go-gale-com.libproxy.fitsuny.edu/ps/start.do?p=SPN.SP04&u=fitsuny",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "2",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2020-07-29 13:24:55",
-        "updated": "2021-11-11 16:54:13",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "az_types": [
-            {
-                "id": 48300,
-                "name": "General & Multiple Topics",
-                "site_id": 942
-            },
-            {
-                "id": 48313,
-                "name": "News / Current Issues / Politics",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
     },
     {
         "id": 56889535,
@@ -12918,45 +12232,6 @@
         "alt_names": ""
     },
     {
-        "id": 64202768,
-        "name": "Alt HealthWatch",
-        "description": "\"Complementary and alternative medicine\" articles and pamphlets from 1990 - current, indexing 1984 - current.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=awh",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2021-11-05 16:06:48",
-        "updated": "2022-06-30 14:41:38",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "az_types": [
-            {
-                "id": 48302,
-                "name": "Health & Medicine",
-                "site_id": 942
-            },
-            {
-                "id": 48320,
-                "name": "Sciences",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": 64203189,
         "name": "Article First",
         "description": "Listings of online scholarly articles that are not necessarily available through FIT; check individual listings.",
@@ -13042,55 +12317,6 @@
             {
                 "id": 48287,
                 "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 64203279,
-        "name": "Associates Programs Source",
-        "description": "Contains a variety of topics of general interest from trade publications as well as popular magazines.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=oih",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 16:18:03",
-        "updated": "2022-06-30 14:41:52",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "az_types": [
-            {
-                "id": 48288,
-                "name": "Business & Economics",
-                "site_id": 942
-            },
-            {
-                "id": 48292,
-                "name": "Education",
-                "site_id": 942
-            },
-            {
-                "id": 48300,
-                "name": "General & Multiple Topics",
-                "site_id": 942
-            },
-            {
-                "id": 48320,
-                "name": "Sciences",
                 "site_id": 942
             }
         ],
@@ -13454,50 +12680,6 @@
             {
                 "id": 48319,
                 "name": "Scholarly Journals",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 64204420,
-        "name": "Computer Source",
-        "description": "Contains full-text for nearly 300 publications and indexing and abstracts for nearly 450 publications on computers, telecommunications, electronics, and the Internet, with most coverage starting in 1985.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=cph",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 16:43:35",
-        "updated": "2022-06-30 14:42:04",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "az_types": [
-            {
-                "id": 48290,
-                "name": "Computers & Technology",
-                "site_id": 942
-            },
-            {
-                "id": 48320,
-                "name": "Sciences",
-                "site_id": 942
-            },
-            {
-                "id": 48323,
-                "name": "Trade Publications",
                 "site_id": 942
             }
         ],
@@ -13976,55 +13158,6 @@
         "alt_names": ""
     },
     {
-        "id": 64204909,
-        "name": "Entrepreneurial Studies Source",
-        "description": "Full-text database containing journals, books, videos, and company proxies providing insights on entrepreneurship and small businesses",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=ent",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 17:12:43",
-        "updated": "2022-06-30 14:42:42",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "az_types": [
-            {
-                "id": 48288,
-                "name": "Business & Economics",
-                "site_id": 942
-            },
-            {
-                "id": 48289,
-                "name": "Companies & Brands / Industry Profiles",
-                "site_id": 942
-            },
-            {
-                "id": 48319,
-                "name": "Scholarly Journals",
-                "site_id": 942
-            },
-            {
-                "id": 48323,
-                "name": "Trade Publications",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": 64205203,
         "name": "Fashion Photography Archive",
         "description": "Curated by Valerie Steele, Director of the Museum at FIT in New York, this resource showcases more than 775,000 newly-digitized images that feature forty years of contemporary fashion history. Images range from runway and backstage to street-style fashion, and from key designers\u2019 shows from the last forty years.<br />\r\n<br />\r\nUse an incognito browser to access this resource.",
@@ -14223,45 +13356,6 @@
             {
                 "id": 48316,
                 "name": "Performing Arts",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 64205501,
-        "name": "Fuente Acad\u00e9mica Plus",
-        "description": "Over 1,600 Spanish- and Portuguese-language scholarly and popular sources from Latin America, Spain, and Portugal covering a wide range of subjects, including history, economics, literature, sociology, and law, available as full-text PDFs.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=fap",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 17:25:54",
-        "updated": "2022-06-30 14:42:54",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "az_types": [
-            {
-                "id": 48300,
-                "name": "General & Multiple Topics",
-                "site_id": 942
-            },
-            {
-                "id": 48319,
-                "name": "Scholarly Journals",
                 "site_id": 942
             }
         ],
@@ -15216,45 +14310,6 @@
         "alt_names": ""
     },
     {
-        "id": 64208945,
-        "name": "Religion and Philosophy Collection",
-        "description": "Topics includes world religions, major denominations, biblical studies, religious history, epistemology, political philosophy, philosophy of language, moral philosophy and the history of philosophy. Full-text articles from more than 300 journals dating back to the early 20th century.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=rlh",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 19:24:44",
-        "updated": "2022-06-30 14:43:07",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "az_types": [
-            {
-                "id": 48317,
-                "name": "Philosophy & Religion",
-                "site_id": 942
-            },
-            {
-                "id": 48318,
-                "name": "Psychology & Sociology",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
         "id": 64209603,
         "name": "Taylor and Francis Online",
         "description": "We have full-text access to the following Taylor & Francis publications:<br />\r\n<br />\r\nCostume (2012-2016; see Edinburgh University Press for 2000-current)<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/ycos20<br />\r\n<br />\r\nDress<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/ydre20<br />\r\n<br />\r\nJournal of Textile Design, Research and Practice<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rftd20<br />\r\n<br />\r\nFashion Practice<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rffp20<br />\r\n<br />\r\nFashion Theory<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rfft20<br />\r\n<br />\r\nTextile<br />\r\nhttps://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rftx20",
@@ -15340,50 +14395,6 @@
             {
                 "id": 48300,
                 "name": "General & Multiple Topics",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 64209755,
-        "name": "Vocational and Career Collection",
-        "description": "Contains content from 1985 to present on a wide variety of vocational and technical subjects with access to 330 full-text journals and magazines - including National Geographic Magazine from 1901 to present.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=voh",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 20:00:15",
-        "updated": "2022-06-30 14:43:19",
-        "slug_id": 0,
-        "enable_hidden": true,
-        "az_types": [
-            {
-                "id": 48292,
-                "name": "Education",
-                "site_id": 942
-            },
-            {
-                "id": 48300,
-                "name": "General & Multiple Topics",
-                "site_id": 942
-            },
-            {
-                "id": 48320,
-                "name": "Sciences",
                 "site_id": 942
             }
         ],
@@ -15479,40 +14490,6 @@
                 "name": "Sciences",
                 "site_id": 942
             },
-            {
-                "id": 48323,
-                "name": "Trade Publications",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": ""
-    },
-    {
-        "id": 64233763,
-        "name": "Booklist",
-        "description": "Print and audiobook reviews",
-        "url": "https://www.booklistonline.com/",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 0
-        },
-        "created": "2021-11-08 19:12:01",
-        "updated": "2021-11-10 17:25:41",
-        "slug_id": 0,
-        "enable_hidden": false,
-        "az_types": [
             {
                 "id": 48323,
                 "name": "Trade Publications",
