@@ -12485,7 +12485,7 @@
         "id": 62844413,
         "name": "Intellect Fashion Collection",
         "description": "Provides access to scholarly publications in the Intellect Fashion Collection",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.ingentaconnect.com/content/collection/intellectfashion21?j_availability=",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://intellectdiscover.com/content/collections/intellectfashion23",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -12497,11 +12497,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2021-08-17 14:18:56",
-        "updated": "2021-11-10 20:14:42",
+        "updated": "2023-01-23 18:38:01",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
