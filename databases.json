@@ -15897,7 +15897,7 @@
     {
         "id": 70238371,
         "name": "CB Insights",
-        "description": "Users must create an account using an FIT email address.<br />\r\n<br />\r\nCB Insights is a comprehensive global database of private companies and investors\u2019 activities, including information about private equity, venture capital, and emerging markets. Tools provide users with quantitative data and profiles of investment firms, individual investors, private companies, and valuations, as well as reports and research articles. View any company\u2019s funding, investors, competitors, partners, and more.",
+        "description": "Users must create an account using an FIT email address.<br />\r\n<br />\r\nReset you password using this link:<br />\r\nhttps://app.cbinsights.com/forgot-password<br />\r\n<br />\r\nCB Insights is a comprehensive global database of private companies and investors\u2019 activities, including information about private equity, venture capital, and emerging markets. Tools provide users with quantitative data and profiles of investment firms, individual investors, private companies, and valuations, as well as reports and research articles. View any company\u2019s funding, investors, competitors, partners, and more.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://app.cbinsights.com/login?university=fit",
         "site_id": 942,
         "type_id": 10,
@@ -15914,7 +15914,7 @@
             "enable_proxy": 1
         },
         "created": "2023-01-23 18:35:18",
-        "updated": "2023-01-25 15:32:45",
+        "updated": "2023-01-25 15:59:02",
         "slug_id": 0,
         "enable_hidden": false,
         "internal_note": "",
