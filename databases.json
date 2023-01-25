@@ -15893,5 +15893,121 @@
                 "content_id_count": "1"
             }
         ]
+    },
+    {
+        "id": 70238371,
+        "name": "CB Insights",
+        "description": "Users must create an account using an FIT email address.<br />\r\n<br />\r\nCB Insights is a comprehensive global database of private companies and investors\u2019 activities, including information about private equity, venture capital, and emerging markets. Tools provide users with quantitative data and profiles of investment firms, individual investors, private companies, and valuations, as well as reports and research articles. View any company\u2019s funding, investors, competitors, partners, and more.",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://app.cbinsights.com/login?university=fit",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": " ",
+            "desc_pos": "1",
+            "enable_proxy": 1
+        },
+        "created": "2023-01-23 18:35:18",
+        "updated": "2023-01-25 15:32:45",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 1,
+        "enable_trial": 0,
+        "enable_popular": 0,
+        "subjects": [
+            {
+                "id": "25087",
+                "site_id": "942",
+                "parent_id": "0",
+                "name": "Business, Finance & Management",
+                "ordering": "0",
+                "slug_id": "960974",
+                "subject_id": "25087",
+                "content_id": "70238371",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "25086",
+                "site_id": "942",
+                "parent_id": "0",
+                "name": "Companies, Brands, & Products",
+                "ordering": "0",
+                "slug_id": "960975",
+                "subject_id": "25086",
+                "content_id": "70238371",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102750",
+                "site_id": "942",
+                "parent_id": "0",
+                "name": "Interdisciplinary Studies and Topics",
+                "ordering": "0",
+                "slug_id": "907236",
+                "subject_id": "102750",
+                "content_id": "70238371",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "209739",
+                "site_id": "942",
+                "parent_id": "0",
+                "name": "International Trade and Global Markets",
+                "ordering": "0",
+                "slug_id": "2466546",
+                "subject_id": "209739",
+                "content_id": "70238371",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "102758",
+                "site_id": "942",
+                "parent_id": "0",
+                "name": "Marketing, Media, & Demographics",
+                "ordering": "0",
+                "slug_id": "907246",
+                "subject_id": "102758",
+                "content_id": "70238371",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "94035",
+                "site_id": "942",
+                "parent_id": "0",
+                "name": "Newspapers, Magazines and Current Events",
+                "ordering": "0",
+                "slug_id": "1042150",
+                "subject_id": "94035",
+                "content_id": "70238371",
+                "featured": "0",
+                "content_id_count": "1"
+            },
+            {
+                "id": "17623",
+                "site_id": "942",
+                "parent_id": "0",
+                "name": "Statistics",
+                "ordering": "0",
+                "slug_id": "960989",
+                "subject_id": "17623",
+                "content_id": "70238371",
+                "featured": "0",
+                "content_id_count": "1"
+            }
+        ]
     }
 ]
