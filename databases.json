@@ -4829,7 +4829,7 @@
     {
         "id": 2354057,
         "name": "Material Connexion",
-        "description": "A material database with access to innovative, sustainable materials and technologies from 75+ industries.<br />\r\n<br />\r\nNew users may set up an account by clicking on \u201cLog In\u201d at the upper right corner and following the prompts. <br />\r\n<br />\r\nFaculty may book class tours to visit Material Connexion---appointments are required. Please contact Carli Spina carli_spina[at]fitnyc.edu for details.",
+        "description": "A material database with access to innovative, sustainable materials and technologies from 75+ industries.<br />\r\n<br />\r\nNew users may set up an account by clicking on \u201cLog In\u201d at the upper right corner and following the prompts. <br />\r\n<br />\r\nFaculty may book class tours to visit Material Connexion---appointments are required. Please contact Lana Bittman - lana_bittman[at]fitnyc.edu for details.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.materialconnexion.online/database",
         "site_id": 942,
         "type_id": 10,
@@ -4842,11 +4842,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 14:40:28",
+        "updated": "2023-01-30 19:54:09",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -15757,7 +15757,7 @@
     {
         "id": 69690046,
         "name": "Vogue Business",
-        "description": "<b>Registration Instructions</b><br />\r\n<br />\r\n<ul><li>Users must register for an account using an FIT email address: https://voguebusiness-prod.cdn.zephr.com/VBEDU/register</li><li>Students should indicate \"student\" for the \"job title\" and \"seniority\" fields.</li><li>If you already have a free account you will receive an error message\u00a0stating your account already exists---please contact Vogue Business directly using the email that displays on the login page</li></ul><br />\r\nOur Educational Membership provides access to a Standard Membership, which includes the majority of content and access to all virtual events.\u00a0<br />\r\n<b>*Advance Membership articles and Vogue Business Index are not included.*</b>",
+        "description": "<b>Registration Instructions</b><br />\r\n<br />\r\n<ul><li>Users must register for an account using an FIT email address: https://voguebusiness-prod.cdn.zephr.com/VBEDU/register</li><li>Students should indicate \"student\" for the \"job title\" and \"seniority\" fields.</li><li>If you already have a free account you will receive an error message\u00a0stating your account already exists---please contact Vogue Business directly using the email that displays on the login page</li></ul><br />\r\n<br />\r\n<ul><li>Check your FIT email for the verification link and follow those instruction---the link expires in an hour from when it is generated.</li></ul><br />\r\n<br />\r\nOur Educational Membership provides access to a Standard Membership, which includes the majority of content and access to all virtual events.\u00a0<br />\r\n<b>*Advance Membership articles and Vogue Business Index are not included.*</b>",
         "url": "https://www.voguebusiness.com/",
         "site_id": 942,
         "type_id": 10,
@@ -15770,13 +15770,65 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0
         },
         "created": "2022-12-02 16:04:57",
-        "updated": "2022-12-05 19:37:25",
+        "updated": "2023-01-30 19:59:22",
         "slug_id": 0,
         "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48288,
+                "name": "Business & Economics",
+                "site_id": 942
+            },
+            {
+                "id": 48289,
+                "name": "Companies & Brands / Industry Profiles",
+                "site_id": 942
+            },
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48307,
+                "name": "International Trade",
+                "site_id": 942
+            },
+            {
+                "id": 48309,
+                "name": "Marketing / Media / Demographics",
+                "site_id": 942
+            },
+            {
+                "id": 48313,
+                "name": "News / Current Issues / Politics",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            },
+            {
+                "id": 48323,
+                "name": "Trade Publications",
+                "site_id": 942
+            }
+        ],
         "internal_note": "",
         "library_review": "",
         "alt_names": "",
