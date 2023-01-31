@@ -2,8 +2,6 @@
 os: linux
 arch:
   - arm64
-  - ppc64le
-  - s390x
 language: python
 python:
   - "3.7"
@@ -13,10 +11,11 @@ install:
 script:
   python database-list.py
 deploy:
-  provider: pages
+  provider: pages:git
+  edge: true # opt in to dpl v2
   local_dir: gh-pages
   target_branch: gh-pages
-  skip_cleanup: true
+  cleanup: false
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
