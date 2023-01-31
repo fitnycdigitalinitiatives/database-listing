@@ -11144,13 +11144,60 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2020-03-23 19:49:01",
-        "updated": "2022-07-27 13:08:20",
+        "updated": "2023-01-31 14:41:11",
         "slug_id": 0,
         "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48288,
+                "name": "Business & Economics",
+                "site_id": 942
+            },
+            {
+                "id": 48292,
+                "name": "Education",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48297,
+                "name": "Film and Media Studies",
+                "site_id": 942
+            },
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48304,
+                "name": "Humanities",
+                "site_id": 942
+            },
+            {
+                "id": 48311,
+                "name": "Multimedia",
+                "site_id": 942
+            },
+            {
+                "id": 48316,
+                "name": "Performing Arts",
+                "site_id": 942
+            }
+        ],
         "internal_note": "",
         "library_review": "",
         "alt_names": "",
@@ -15442,13 +15489,65 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2022-06-30 17:02:31",
-        "updated": "2022-06-30 17:51:21",
+        "updated": "2023-01-31 14:46:12",
         "slug_id": 0,
         "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48324,
+                "name": "Advertising",
+                "site_id": 942
+            },
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48288,
+                "name": "Business & Economics",
+                "site_id": 942
+            },
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48304,
+                "name": "Humanities",
+                "site_id": 942
+            },
+            {
+                "id": 48305,
+                "name": "Images",
+                "site_id": 942
+            },
+            {
+                "id": 48309,
+                "name": "Marketing / Media / Demographics",
+                "site_id": 942
+            },
+            {
+                "id": 48313,
+                "name": "News / Current Issues / Politics",
+                "site_id": 942
+            }
+        ],
         "internal_note": "",
         "library_review": "",
         "alt_names": "Jet",
@@ -15570,13 +15669,70 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "Visit The Fashion and Race Database to validate as an FIT user<br />\r\nSign up for an account using an FIT email<br />\r\nAfter the initial visit verifying FIT access, users are free to come back to FRD by way of any link to fashionandrace.org (proxied link not required)",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2022-08-30 14:09:11",
-        "updated": "2022-11-01 18:25:07",
+        "updated": "2023-01-31 14:43:27",
         "slug_id": 0,
         "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48288,
+                "name": "Business & Economics",
+                "site_id": 942
+            },
+            {
+                "id": 48289,
+                "name": "Companies & Brands / Industry Profiles",
+                "site_id": 942
+            },
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48304,
+                "name": "Humanities",
+                "site_id": 942
+            },
+            {
+                "id": 48307,
+                "name": "International Trade",
+                "site_id": 942
+            },
+            {
+                "id": 48309,
+                "name": "Marketing / Media / Demographics",
+                "site_id": 942
+            },
+            {
+                "id": 48313,
+                "name": "News / Current Issues / Politics",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            }
+        ],
         "internal_note": "",
         "library_review": "",
         "alt_names": "",
@@ -15966,9 +16122,51 @@
             "enable_proxy": 1
         },
         "created": "2023-01-23 18:35:18",
-        "updated": "2023-01-25 15:59:02",
+        "updated": "2023-01-31 14:38:14",
         "slug_id": 0,
         "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48324,
+                "name": "Advertising",
+                "site_id": 942
+            },
+            {
+                "id": 48288,
+                "name": "Business & Economics",
+                "site_id": 942
+            },
+            {
+                "id": 48289,
+                "name": "Companies & Brands / Industry Profiles",
+                "site_id": 942
+            },
+            {
+                "id": 48290,
+                "name": "Computers & Technology",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48307,
+                "name": "International Trade",
+                "site_id": 942
+            },
+            {
+                "id": 48309,
+                "name": "Marketing / Media / Demographics",
+                "site_id": 942
+            }
+        ],
         "internal_note": "",
         "library_review": "",
         "alt_names": "",
