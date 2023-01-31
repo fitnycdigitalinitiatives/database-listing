@@ -12734,7 +12734,7 @@
     {
         "id": 64203792,
         "name": "Bloomsbury Fashion Central",
-        "description": "Access to:<br />\r\nBerg Fashion Library<br />\r\nFashion Photography Archive<br />\r\nFairchild Books Library<br />\r\nBloomsbury Fashion Business Cases<br />\r\nCoverage of world fashion from 1500 BCE to present, including books, scholarly articles, and an extensive image collection including the V&A Museum's fashion collection (1600 images); the Philadelphia Museum of Art (2800 images); the Bath Fashion Museum (970 images); the Commercial Pattern Archive (2200 images); the Metropolitan Museum of Art's Costume Institute collection (2000 images); and the MoMu Fashion Museum, Belgium (600 images).<br />\r\n<br />\r\nUse an incognito browser to access this resource.",
+        "description": "Access to:<br />\r\nBerg Fashion Library<br />\r\nFashion Photography Archive<br />\r\nFairchild Books Library<br />\r\nBloomsbury Fashion Business Cases<br />\r\nCoverage of world fashion from 1500 BCE to present, including books, scholarly articles, and an extensive image collection including the V&A Museum's fashion collection (1600 images); the Philadelphia Museum of Art (2800 images); the Bath Fashion Museum (970 images); the Commercial Pattern Archive (2200 images); the Metropolitan Museum of Art's Costume Institute collection (2000 images); and the MoMu Fashion Museum, Belgium (600 images).<br />\r\n<br />\r\nPlease use an incognito browser to access this resource.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyfashioncentral.com",
         "site_id": 942,
         "type_id": 10,
@@ -12747,11 +12747,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2021-11-05 16:27:36",
-        "updated": "2021-11-11 23:05:21",
+        "updated": "2023-01-31 16:13:41",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
