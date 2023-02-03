@@ -3702,11 +3702,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2022-03-03 18:50:28",
+        "updated": "2023-02-03 18:52:53",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -3728,6 +3728,11 @@
             {
                 "id": 48299,
                 "name": "Forecasting & Trend Reporting",
+                "site_id": 942
+            },
+            {
+                "id": 48309,
+                "name": "Marketing / Media / Demographics",
                 "site_id": 942
             },
             {
@@ -7584,11 +7589,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "Students must create an account and re-activate their account every 90 days: click on re-activate account.",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 17:05:35",
+        "updated": "2023-02-03 18:52:19",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -7610,6 +7615,11 @@
             {
                 "id": 48299,
                 "name": "Forecasting & Trend Reporting",
+                "site_id": 942
+            },
+            {
+                "id": 48309,
+                "name": "Marketing / Media / Demographics",
                 "site_id": 942
             },
             {
@@ -9832,11 +9842,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2017-08-22 16:07:17",
-        "updated": "2021-11-11 17:23:14",
+        "updated": "2023-02-03 18:52:36",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9858,6 +9868,11 @@
             {
                 "id": 48299,
                 "name": "Forecasting & Trend Reporting",
+                "site_id": 942
+            },
+            {
+                "id": 48309,
+                "name": "Marketing / Media / Demographics",
                 "site_id": 942
             },
             {
@@ -15493,7 +15508,7 @@
             "enable_proxy": 1
         },
         "created": "2022-06-30 17:02:31",
-        "updated": "2023-01-31 14:46:12",
+        "updated": "2023-02-03 18:51:46",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -15535,11 +15550,6 @@
             {
                 "id": 48305,
                 "name": "Images",
-                "site_id": 942
-            },
-            {
-                "id": 48309,
-                "name": "Marketing / Media / Demographics",
                 "site_id": 942
             },
             {
@@ -15623,18 +15633,6 @@
                 "ordering": "0",
                 "slug_id": "907236",
                 "subject_id": "102750",
-                "content_id": "67471225",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "102758",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Marketing, Media, & Demographics",
-                "ordering": "0",
-                "slug_id": "907246",
-                "subject_id": "102758",
                 "content_id": "67471225",
                 "featured": "0",
                 "content_id_count": "1"
