@@ -16257,5 +16257,57 @@
                 "content_id_count": "1"
             }
         ]
+    },
+    {
+        "id": 70936506,
+        "name": "Bloomsbury Video Library",
+        "description": "Features exclusive indie films and shorts, avant-garde performances, interviews with renowned writers, artists, choreographers, performers and practitioners, documentaries on an international range of themes, traditions, and historical figures, and more.",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyvideolibrary.com",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": "1",
+            "enable_proxy": 1
+        },
+        "created": "2023-03-08 18:45:04",
+        "updated": "2023-03-08 18:45:04",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48297,
+                "name": "Film and Media Studies",
+                "site_id": 942
+            },
+            {
+                "id": 48304,
+                "name": "Humanities",
+                "site_id": 942
+            },
+            {
+                "id": 48311,
+                "name": "Multimedia",
+                "site_id": 942
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 0,
+        "enable_trial": 1,
+        "enable_popular": 0
     }
 ]
