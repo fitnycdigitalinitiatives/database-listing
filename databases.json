@@ -15671,7 +15671,7 @@
             "enable_proxy": 1
         },
         "created": "2022-08-30 14:09:11",
-        "updated": "2023-01-31 14:43:27",
+        "updated": "2023-03-15 18:12:21",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -15726,6 +15726,11 @@
                 "site_id": 942
             },
             {
+                "id": 48314,
+                "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
                 "id": 48322,
                 "name": "Textiles",
                 "site_id": 942
@@ -15736,177 +15741,7 @@
         "alt_names": "",
         "enable_new": 1,
         "enable_trial": 0,
-        "enable_popular": 0,
-        "subjects": [
-            {
-                "id": "25085",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Art, Design & Art History",
-                "ordering": "0",
-                "slug_id": "960972",
-                "subject_id": "25085",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "25087",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Business, Finance & Management",
-                "ordering": "0",
-                "slug_id": "960974",
-                "subject_id": "25087",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "25086",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Companies, Brands, & Products",
-                "ordering": "0",
-                "slug_id": "960975",
-                "subject_id": "25086",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "25088",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Fashion & Accessory Design",
-                "ordering": "0",
-                "slug_id": "960977",
-                "subject_id": "25088",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "25089",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Fashion Industry",
-                "ordering": "0",
-                "slug_id": "960980",
-                "subject_id": "25089",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "17612",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "History & Biography",
-                "ordering": "0",
-                "slug_id": "960984",
-                "subject_id": "17612",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "114532",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Images, Multimedia, & Visual Resources",
-                "ordering": "0",
-                "slug_id": "1042148",
-                "subject_id": "114532",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "102750",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Interdisciplinary Studies and Topics",
-                "ordering": "0",
-                "slug_id": "907236",
-                "subject_id": "102750",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "209739",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "International Trade and Global Markets",
-                "ordering": "0",
-                "slug_id": "2466546",
-                "subject_id": "209739",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "26598",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Liberal Arts & Sciences",
-                "ordering": "0",
-                "slug_id": "960987",
-                "subject_id": "26598",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "102758",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Marketing, Media, & Demographics",
-                "ordering": "0",
-                "slug_id": "907246",
-                "subject_id": "102758",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "94035",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Newspapers, Magazines and Current Events",
-                "ordering": "0",
-                "slug_id": "1042150",
-                "subject_id": "94035",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "207027",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Social Justice",
-                "ordering": "0",
-                "slug_id": "2411064",
-                "subject_id": "207027",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            },
-            {
-                "id": "25090",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Textiles",
-                "ordering": "0",
-                "slug_id": "960992",
-                "subject_id": "25090",
-                "content_id": "68331477",
-                "featured": "0",
-                "content_id_count": "1"
-            }
-        ]
+        "enable_popular": 0
     },
     {
         "id": 69690046,
@@ -16300,6 +16135,48 @@
             {
                 "id": 48311,
                 "name": "Multimedia",
+                "site_id": 942
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 0,
+        "enable_trial": 1,
+        "enable_popular": 0
+    },
+    {
+        "id": 71021464,
+        "name": "Bloomsbury Art Markets",
+        "description": "Serve the expanding research areas of art market studies, art historiography, and provenance research.<br />\r\n<br />\r\nContent Highlights<br />\r\n<br />\r\nOver 4000 peer-reviewed articles combine factual data with biographical information and historical narratives<br />\r\nEntries outline principal activities by listing exhibitions, clients, regular partners, and major artists whose works were sold<br />\r\nSelected bibliographies facilitate further research, as well as information on archival material and its whereabouts",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyvisualarts.com/bloomsbury-art-markets",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": "1",
+            "enable_proxy": 1
+        },
+        "created": "2023-03-15 16:31:44",
+        "updated": "2023-03-15 16:31:44",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48294,
+                "name": "Exhibition Design & Museum Studies",
                 "site_id": 942
             }
         ],
