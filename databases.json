@@ -16148,7 +16148,7 @@
     {
         "id": 71021464,
         "name": "Bloomsbury Art Markets",
-        "description": "Serve the expanding research areas of art market studies, art historiography, and provenance research.<br />\r\n<br />\r\nContent Highlights<br />\r\n<br />\r\nOver 4000 peer-reviewed articles combine factual data with biographical information and historical narratives<br />\r\nEntries outline principal activities by listing exhibitions, clients, regular partners, and major artists whose works were sold<br />\r\nSelected bibliographies facilitate further research, as well as information on archival material and its whereabouts",
+        "description": "Trial access through April 15, 2023.<br />\r\n<br />\r\nServes the expanding research areas of art market studies, art historiography, and provenance research.<br />\r\n<br />\r\nContent Highlights<br />\r\n<br />\r\nOver 4000 peer-reviewed articles combine factual data with biographical information and historical narratives<br />\r\nEntries outline principal activities by listing exhibitions, clients, regular partners, and major artists whose works were sold<br />\r\nSelected bibliographies facilitate further research, as well as information on archival material and its whereabouts",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyvisualarts.com/bloomsbury-art-markets",
         "site_id": 942,
         "type_id": 10,
@@ -16165,7 +16165,7 @@
             "enable_proxy": 1
         },
         "created": "2023-03-15 16:31:44",
-        "updated": "2023-03-15 16:31:44",
+        "updated": "2023-03-20 14:02:55",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
