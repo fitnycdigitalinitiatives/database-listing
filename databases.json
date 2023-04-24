@@ -4384,7 +4384,7 @@
     {
         "id": 2354049,
         "name": "Vivvix",
-        "description": "Monitors advertising expenditures and occurrence information for 3+ million brands across 18 media.",
+        "description": "Monitors advertising expenditures and occurrence information for 3+ million brands across 18 media.<br />\r\nAccess is limited to ten (10) users at a time.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://edu-adinsights.kantarmediana.com",
         "site_id": 942,
         "type_id": 10,
@@ -4401,7 +4401,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-03-01 14:35:07",
+        "updated": "2023-04-24 20:25:45",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
