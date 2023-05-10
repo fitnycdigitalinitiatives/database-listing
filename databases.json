@@ -11550,11 +11550,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0
         },
         "created": "2020-03-31 19:54:05",
-        "updated": "2021-11-10 22:37:48",
+        "updated": "2023-05-10 13:51:33",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -11574,21 +11574,7 @@
         "alt_names": "",
         "enable_new": 0,
         "enable_trial": 0,
-        "enable_popular": 0,
-        "subjects": [
-            {
-                "id": "102750",
-                "site_id": "942",
-                "parent_id": "0",
-                "name": "Interdisciplinary Studies and Topics",
-                "ordering": "0",
-                "slug_id": "907236",
-                "subject_id": "102750",
-                "content_id": "53462313",
-                "featured": "0",
-                "content_id_count": "1"
-            }
-        ]
+        "enable_popular": 0
     },
     {
         "id": 54059701,
@@ -14727,9 +14713,9 @@
     },
     {
         "id": 64208538,
-        "name": "Open SUNY Textbooks",
-        "description": "OER (Open Educational Resources) textbooks written by SUNY faculty.",
-        "url": "http://textbooks.opensuny.org/",
+        "name": "Milne Open Textbooks",
+        "description": "A catalog of open textbooks authored and peer-reviewed by SUNY faculty and staff",
+        "url": "https://milneopentextbooks.org/",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -14741,11 +14727,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0
         },
         "created": "2021-11-05 19:09:39",
-        "updated": "2021-11-11 15:47:19",
+        "updated": "2023-05-10 13:47:20",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -16177,6 +16163,53 @@
             {
                 "id": 48294,
                 "name": "Exhibition Design & Museum Studies",
+                "site_id": 942
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 0,
+        "enable_trial": 0,
+        "enable_popular": 0
+    },
+    {
+        "id": 71795538,
+        "name": "SUNY OER Services",
+        "description": "Ready-to-adopt course catalog, facilitating the seamless integration of  openly-licensed content into learning management systems",
+        "url": "https://oer.suny.edu/",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": "1",
+            "enable_proxy": 0
+        },
+        "created": "2023-05-10 13:50:20",
+        "updated": "2023-05-10 13:50:49",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48291,
+                "name": "E-books",
+                "site_id": 942
+            },
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48315,
+                "name": "Open Access",
                 "site_id": 942
             }
         ],
