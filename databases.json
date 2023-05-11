@@ -4385,7 +4385,7 @@
         "id": 2354049,
         "name": "Vivvix",
         "description": "Monitors advertising expenditures and occurrence information for 3+ million brands across 18 media.<br />\r\nAccess is limited to ten (10) users at a time.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://edu-adinsights.kantarmediana.com",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://edu.app.vivvix.com/360",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -4401,7 +4401,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-04-24 20:25:45",
+        "updated": "2023-05-11 18:20:48",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -16121,48 +16121,6 @@
             {
                 "id": 48311,
                 "name": "Multimedia",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": "",
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0
-    },
-    {
-        "id": 71021464,
-        "name": "Bloomsbury Art Markets",
-        "description": "Trial access through April 15, 2023.<br />\r\n<br />\r\nServes the expanding research areas of art market studies, art historiography, and provenance research.<br />\r\n<br />\r\nContent Highlights<br />\r\n<br />\r\nOver 4000 peer-reviewed articles combine factual data with biographical information and historical narratives<br />\r\nEntries outline principal activities by listing exhibitions, clients, regular partners, and major artists whose works were sold<br />\r\nSelected bibliographies facilitate further research, as well as information on archival material and its whereabouts",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyvisualarts.com/bloomsbury-art-markets",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 1
-        },
-        "created": "2023-03-15 16:31:44",
-        "updated": "2023-03-20 14:02:55",
-        "slug_id": 0,
-        "enable_hidden": false,
-        "az_types": [
-            {
-                "id": 48287,
-                "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
-            {
-                "id": 48294,
-                "name": "Exhibition Design & Museum Studies",
                 "site_id": 942
             }
         ],
