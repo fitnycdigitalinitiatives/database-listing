@@ -16177,5 +16177,62 @@
         "enable_new": 0,
         "enable_trial": 0,
         "enable_popular": 0
+    },
+    {
+        "id": 71959269,
+        "name": "The House Beautiful Archive",
+        "description": "The archive of the US edition of House Beautiful, from its first issue in 1896 to the present. The oldest still-published US shelter magazine, House Beautiful not only records the history of interior design, but demonstrates how broader social and cultural trends \u2013 e.g. women\u2019s roles, family life, new technologies, and consumer behavior \u2013 have manifested themselves in domestic settings for over 125 years.",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.proquest.com/housebeautiful/index?accountid=27253",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": "1",
+            "enable_proxy": 1
+        },
+        "created": "2023-05-23 19:42:24",
+        "updated": "2023-05-23 19:42:24",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48303,
+                "name": "Historical Articles (pre-1950)",
+                "site_id": 942
+            },
+            {
+                "id": 48306,
+                "name": "Interior Design & Architecture",
+                "site_id": 942
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 0,
+        "enable_trial": 1,
+        "enable_popular": 0
     }
 ]
