@@ -3690,14 +3690,14 @@
         "id": 2354039,
         "name": "WGSN Interiors",
         "description": "Trend reports & forecasting for lifestyles and interiors<br />\r\n<br />\r\nStudents must create an account and re-activate their account every 90 days: click to create or re-activate account: https://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\n<br />\r\nTo access  WGSN Lifestyle & Interiors:<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.wgsn.com/accounts/edu",
+        "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
             "target": "0",
-            "enable_proxy": 1,
+            "enable_proxy": 0,
             "tn_url": "",
             "tn_height": "",
             "tn_width": "",
@@ -3706,7 +3706,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-02-15 16:49:45",
+        "updated": "2023-06-05 13:31:20",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -7577,14 +7577,14 @@
         "id": 2354112,
         "name": "WGSN Fashion",
         "description": "Trend reports & forecasting for fashion <br />\r\n<br />\r\nStudents must create an account and re-activate their account every 90 days: click to create or re-activate account:<br />\r\nhttps://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\n<br />\r\nTo access  WGSN Fashion<br />\r\n<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.wgsn.com/accounts/edu",
+        "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
             "target": "0",
-            "enable_proxy": 1,
+            "enable_proxy": 0,
             "tn_url": "",
             "tn_height": "",
             "tn_width": "",
@@ -7593,7 +7593,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-02-15 16:48:58",
+        "updated": "2023-06-05 13:30:49",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9830,7 +9830,7 @@
         "id": 35072182,
         "name": "WGSN Insight",
         "description": "Consumer, marketing, retail, and innovation trends<br />\r\n<br />\r\nStudents must create an account and re-activate their account every 90 days: click to create or re-activate account: https://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\n To access WGSN Insight:<br />\r\n<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.wgsn.com/accounts/edu",
+        "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -9843,10 +9843,10 @@
             "tn_alt_text": "",
             "more_info": "",
             "desc_pos": "1",
-            "enable_proxy": 1
+            "enable_proxy": 0
         },
         "created": "2017-08-22 16:07:17",
-        "updated": "2023-02-15 16:49:22",
+        "updated": "2023-06-05 13:31:04",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
