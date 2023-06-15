@@ -148,19 +148,14 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 18:11:25",
+        "updated": "2023-06-15 19:52:52",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48288,
-                "name": "Business & Economics",
-                "site_id": 942
-            },
             {
                 "id": 48300,
                 "name": "General & Multiple Topics",
@@ -284,22 +279,17 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 17:06:45",
+        "updated": "2023-06-15 19:46:47",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
             {
                 "id": 48287,
                 "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
-            {
-                "id": 48288,
-                "name": "Business & Economics",
                 "site_id": 942
             },
             {
@@ -624,11 +614,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 17:13:01",
+        "updated": "2023-06-15 19:39:59",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -645,6 +635,11 @@
             {
                 "id": 48306,
                 "name": "Interior Design & Architecture",
+                "site_id": 942
+            },
+            {
+                "id": 48316,
+                "name": "Performing Arts",
                 "site_id": 942
             },
             {
@@ -726,11 +721,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 17:13:42",
+        "updated": "2023-06-15 19:39:24",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -752,6 +747,11 @@
             {
                 "id": 48306,
                 "name": "Interior Design & Architecture",
+                "site_id": 942
+            },
+            {
+                "id": 48316,
+                "name": "Performing Arts",
                 "site_id": 942
             },
             {
@@ -1343,11 +1343,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 17:30:15",
+        "updated": "2023-06-15 19:54:40",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -1359,11 +1359,6 @@
             {
                 "id": 48289,
                 "name": "Companies & Brands / Industry Profiles",
-                "site_id": 942
-            },
-            {
-                "id": 48293,
-                "name": "Encyclopedias / Dictionaries / Directories",
                 "site_id": 942
             },
             {
@@ -1513,11 +1508,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 17:31:22",
+        "updated": "2023-06-15 19:54:52",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -1529,11 +1524,6 @@
             {
                 "id": 48289,
                 "name": "Companies & Brands / Industry Profiles",
-                "site_id": 942
-            },
-            {
-                "id": 48293,
-                "name": "Encyclopedias / Dictionaries / Directories",
                 "site_id": 942
             },
             {
@@ -1671,11 +1661,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 17:38:07",
+        "updated": "2023-06-15 19:40:40",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -1697,6 +1687,11 @@
             {
                 "id": 48300,
                 "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48316,
+                "name": "Performing Arts",
                 "site_id": 942
             },
             {
@@ -3199,22 +3194,17 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 18:16:23",
+        "updated": "2023-06-15 19:53:12",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
             {
                 "id": 48287,
                 "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
-            {
-                "id": 48288,
-                "name": "Business & Economics",
                 "site_id": 942
             },
             {
@@ -4205,11 +4195,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 22:34:21",
+        "updated": "2023-06-15 19:41:00",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -4251,6 +4241,11 @@
             {
                 "id": 48308,
                 "name": "Literature",
+                "site_id": 942
+            },
+            {
+                "id": 48316,
+                "name": "Performing Arts",
                 "site_id": 942
             },
             {
@@ -4708,22 +4703,17 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 14:39:17",
+        "updated": "2023-06-15 19:53:37",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
             {
                 "id": 48287,
                 "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
-            {
-                "id": 48288,
-                "name": "Business & Economics",
                 "site_id": 942
             },
             {
@@ -5577,11 +5567,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 15:50:27",
+        "updated": "2023-06-15 19:40:19",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5613,6 +5603,11 @@
             {
                 "id": 48306,
                 "name": "Interior Design & Architecture",
+                "site_id": 942
+            },
+            {
+                "id": 48316,
+                "name": "Performing Arts",
                 "site_id": 942
             },
             {
@@ -6610,29 +6605,14 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 16:07:09",
+        "updated": "2023-06-15 19:54:11",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48288,
-                "name": "Business & Economics",
-                "site_id": 942
-            },
-            {
-                "id": 48289,
-                "name": "Companies & Brands / Industry Profiles",
-                "site_id": 942
-            },
-            {
-                "id": 48291,
-                "name": "E-books",
-                "site_id": 942
-            },
             {
                 "id": 48309,
                 "name": "Marketing / Media / Demographics",
@@ -6801,7 +6781,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-05-11 13:32:32",
+        "updated": "2023-06-15 19:45:24",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -6828,6 +6808,11 @@
             {
                 "id": 48322,
                 "name": "Textiles",
+                "site_id": 942
+            },
+            {
+                "id": 48323,
+                "name": "Trade Publications",
                 "site_id": 942
             }
         ],
@@ -6992,11 +6977,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 16:40:33",
+        "updated": "2023-06-15 19:42:52",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -7023,6 +7008,11 @@
             {
                 "id": 48322,
                 "name": "Textiles",
+                "site_id": 942
+            },
+            {
+                "id": 48323,
+                "name": "Trade Publications",
                 "site_id": 942
             }
         ],
@@ -8331,15 +8321,20 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1,
             "tn_alt_text": ""
         },
         "created": "2014-12-10 18:50:02",
-        "updated": "2021-11-11 16:44:46",
+        "updated": "2023-06-15 19:58:54",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
+            {
+                "id": 48288,
+                "name": "Business & Economics",
+                "site_id": 942
+            },
             {
                 "id": 48289,
                 "name": "Companies & Brands / Industry Profiles",
@@ -8433,12 +8428,12 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1,
             "tn_alt_text": ""
         },
         "created": "2014-12-10 18:54:16",
-        "updated": "2021-11-11 17:34:57",
+        "updated": "2023-06-15 19:45:08",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -8475,6 +8470,11 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 48323,
+                "name": "Trade Publications",
                 "site_id": 942
             }
         ],
@@ -8574,20 +8574,15 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1,
             "tn_alt_text": ""
         },
         "created": "2014-12-10 19:01:45",
-        "updated": "2021-11-10 22:40:59",
+        "updated": "2023-06-15 19:45:52",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48324,
-                "name": "Advertising",
-                "site_id": 942
-            },
             {
                 "id": 48288,
                 "name": "Business & Economics",
@@ -8941,20 +8936,15 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1,
             "tn_alt_text": ""
         },
         "created": "2015-12-11 21:35:49",
-        "updated": "2021-11-10 22:41:33",
+        "updated": "2023-06-15 19:25:11",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48324,
-                "name": "Advertising",
-                "site_id": 942
-            },
             {
                 "id": 48287,
                 "name": "Art History & Fine Arts, Illustration, Photography",
@@ -8968,6 +8958,11 @@
             {
                 "id": 48296,
                 "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48301,
+                "name": "Graphic & Communication Design / Packaging",
                 "site_id": 942
             },
             {
@@ -9123,7 +9118,7 @@
             "tn_alt_text": ""
         },
         "created": "2016-01-14 16:05:53",
-        "updated": "2023-03-22 19:15:43",
+        "updated": "2023-06-15 19:39:38",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9135,6 +9130,11 @@
             {
                 "id": 48311,
                 "name": "Multimedia",
+                "site_id": 942
+            },
+            {
+                "id": 48316,
+                "name": "Performing Arts",
                 "site_id": 942
             }
         ],
@@ -9186,23 +9186,18 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1,
             "tn_alt_text": ""
         },
         "created": "2016-03-23 14:40:53",
-        "updated": "2021-11-10 17:40:44",
+        "updated": "2023-06-15 20:00:05",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
             {
                 "id": 48291,
                 "name": "E-books",
-                "site_id": 942
-            },
-            {
-                "id": 48292,
-                "name": "Education",
                 "site_id": 942
             },
             {
@@ -9276,15 +9271,20 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0,
             "tn_alt_text": ""
         },
         "created": "2016-04-13 15:42:45",
-        "updated": "2021-11-10 17:12:16",
+        "updated": "2023-06-15 19:35:10",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
+            {
+                "id": 48297,
+                "name": "Film and Media Studies",
+                "site_id": 942
+            },
             {
                 "id": 48300,
                 "name": "General & Multiple Topics",
@@ -9564,12 +9564,12 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0,
             "tn_alt_text": ""
         },
         "created": "2016-10-28 17:44:17",
-        "updated": "2021-11-10 17:28:50",
+        "updated": "2023-06-15 19:55:41",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9591,6 +9591,11 @@
             {
                 "id": 48296,
                 "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48309,
+                "name": "Marketing / Media / Demographics",
                 "site_id": 942
             },
             {
@@ -9846,15 +9851,10 @@
             "enable_proxy": 0
         },
         "created": "2017-08-22 16:07:17",
-        "updated": "2023-06-05 13:31:04",
+        "updated": "2023-06-15 19:58:13",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48287,
-                "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
             {
                 "id": 48295,
                 "name": "Fashion & Accessory Design",
@@ -10359,19 +10359,14 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2018-08-21 16:55:06",
-        "updated": "2021-11-10 22:40:12",
+        "updated": "2023-06-15 19:24:15",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48324,
-                "name": "Advertising",
-                "site_id": 942
-            },
             {
                 "id": 48287,
                 "name": "Art History & Fine Arts, Illustration, Photography",
@@ -10385,6 +10380,11 @@
             {
                 "id": 48296,
                 "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48301,
+                "name": "Graphic & Communication Design / Packaging",
                 "site_id": 942
             },
             {
@@ -10478,19 +10478,14 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2018-08-21 16:55:46",
-        "updated": "2021-11-10 22:40:24",
+        "updated": "2023-06-15 19:24:42",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48324,
-                "name": "Advertising",
-                "site_id": 942
-            },
             {
                 "id": 48287,
                 "name": "Art History & Fine Arts, Illustration, Photography",
@@ -10504,6 +10499,11 @@
             {
                 "id": 48296,
                 "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48301,
+                "name": "Graphic & Communication Design / Packaging",
                 "site_id": 942
             },
             {
@@ -11023,24 +11023,14 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2020-03-23 16:39:59",
-        "updated": "2021-11-10 22:40:42",
+        "updated": "2023-06-15 19:57:38",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48324,
-                "name": "Advertising",
-                "site_id": 942
-            },
-            {
-                "id": 48287,
-                "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
             {
                 "id": 48295,
                 "name": "Fashion & Accessory Design",
@@ -11054,6 +11044,11 @@
             {
                 "id": 48300,
                 "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48301,
+                "name": "Graphic & Communication Design / Packaging",
                 "site_id": 942
             },
             {
@@ -11163,7 +11158,7 @@
             "enable_proxy": 1
         },
         "created": "2020-03-23 19:49:01",
-        "updated": "2023-01-31 14:41:11",
+        "updated": "2023-06-15 19:59:14",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -11175,11 +11170,6 @@
             {
                 "id": 48288,
                 "name": "Business & Economics",
-                "site_id": 942
-            },
-            {
-                "id": 48292,
-                "name": "Education",
                 "site_id": 942
             },
             {
@@ -11672,11 +11662,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2020-05-27 14:22:59",
-        "updated": "2021-11-21 22:07:48",
+        "updated": "2023-06-15 19:37:01",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -11698,6 +11688,11 @@
             {
                 "id": 48303,
                 "name": "Historical Articles (pre-1950)",
+                "site_id": 942
+            },
+            {
+                "id": 48305,
+                "name": "Images",
                 "site_id": 942
             },
             {
@@ -12649,22 +12644,17 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2021-11-05 16:15:09",
-        "updated": "2021-11-10 17:14:39",
+        "updated": "2023-06-15 19:47:03",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
             {
                 "id": 48287,
                 "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
-            {
-                "id": 48288,
-                "name": "Business & Economics",
                 "site_id": 942
             },
             {
@@ -13543,17 +13533,22 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2021-11-05 17:04:25",
-        "updated": "2021-11-10 17:48:55",
+        "updated": "2023-06-15 19:42:04",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
             {
                 "id": 48296,
                 "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48319,
+                "name": "Scholarly Journals",
                 "site_id": 942
             },
             {
@@ -14292,17 +14287,17 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2021-11-05 18:07:44",
-        "updated": "2021-11-10 19:40:56",
+        "updated": "2023-06-15 20:00:22",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
             {
-                "id": 48292,
-                "name": "Education",
+                "id": 48300,
+                "name": "General & Multiple Topics",
                 "site_id": 942
             }
         ],
@@ -15004,19 +14999,14 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2021-11-08 19:09:14",
-        "updated": "2021-11-10 17:05:33",
+        "updated": "2023-06-15 19:46:26",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48288,
-                "name": "Business & Economics",
-                "site_id": 942
-            },
             {
                 "id": 48300,
                 "name": "General & Multiple Topics",
@@ -15494,25 +15484,10 @@
             "enable_proxy": 1
         },
         "created": "2022-06-30 17:02:31",
-        "updated": "2023-02-03 18:51:46",
+        "updated": "2023-06-15 19:57:49",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48324,
-                "name": "Advertising",
-                "site_id": 942
-            },
-            {
-                "id": 48287,
-                "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
-            {
-                "id": 48288,
-                "name": "Business & Economics",
-                "site_id": 942
-            },
             {
                 "id": 48295,
                 "name": "Fashion & Accessory Design",
@@ -15526,6 +15501,11 @@
             {
                 "id": 48300,
                 "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48301,
+                "name": "Graphic & Communication Design / Packaging",
                 "site_id": 942
             },
             {
@@ -15657,20 +15637,10 @@
             "enable_proxy": 1
         },
         "created": "2022-08-30 14:09:11",
-        "updated": "2023-03-15 18:12:21",
+        "updated": "2023-06-15 19:57:20",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48287,
-                "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
-            {
-                "id": 48288,
-                "name": "Business & Economics",
-                "site_id": 942
-            },
             {
                 "id": 48289,
                 "name": "Companies & Brands / Industry Profiles",
@@ -15717,6 +15687,11 @@
                 "site_id": 942
             },
             {
+                "id": 48319,
+                "name": "Scholarly Journals",
+                "site_id": 942
+            },
+            {
                 "id": 48322,
                 "name": "Textiles",
                 "site_id": 942
@@ -15749,15 +15724,10 @@
             "enable_proxy": 0
         },
         "created": "2022-12-02 16:04:57",
-        "updated": "2023-03-13 20:19:17",
+        "updated": "2023-06-15 19:56:59",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48287,
-                "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
             {
                 "id": 48288,
                 "name": "Business & Economics",
@@ -15941,15 +15911,10 @@
             "enable_proxy": 1
         },
         "created": "2023-01-23 18:35:18",
-        "updated": "2023-02-14 18:48:21",
+        "updated": "2023-06-15 19:32:59",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
-            {
-                "id": 48324,
-                "name": "Advertising",
-                "site_id": 942
-            },
             {
                 "id": 48288,
                 "name": "Business & Economics",
@@ -15958,11 +15923,6 @@
             {
                 "id": 48289,
                 "name": "Companies & Brands / Industry Profiles",
-                "site_id": 942
-            },
-            {
-                "id": 48290,
-                "name": "Computers & Technology",
                 "site_id": 942
             },
             {
