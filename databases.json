@@ -16140,7 +16140,7 @@
     },
     {
         "id": 71959269,
-        "name": "The House Beautiful Archive",
+        "name": "House Beautiful Archive",
         "description": "The archive of the US edition of House Beautiful, from its first issue in 1896 to the present. <br />\r\n<br />\r\nThe oldest still-published US shelter magazine, House Beautiful not only records the history of interior design, but demonstrates how broader social and cultural trends \u2013 e.g. women\u2019s roles, family life, new technologies, and consumer behavior \u2013 have manifested themselves in domestic settings for over 125 years.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.proquest.com/housebeautiful/index?accountid=27253",
         "site_id": 942,
@@ -16158,7 +16158,7 @@
             "enable_proxy": 1
         },
         "created": "2023-05-23 19:42:24",
-        "updated": "2023-06-29 16:19:19",
+        "updated": "2023-06-29 18:25:32",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -16197,8 +16197,8 @@
     },
     {
         "id": 72419287,
-        "name": "The Artforum Archive",
-        "description": "The backfile of Artforum (later Artforum International), the leading magazine for coverage of international contemporary art, from its launch in 1962 to 2020. Spanning six decades of reporting on art in all media, Artforum offers features, reviews, and interviews relating to artists, exhibitions, publications, and other art world events / trends.",
+        "name": "Artforum Archive",
+        "description": "The backfile of Artforum (later Artforum International), the leading magazine for coverage of international contemporary art, from its launch in 1962 to 2020. <br />\r\n<br />\r\nSpanning six decades of reporting on art in all media, Artforum offers features, reviews, and interviews relating to artists, exhibitions, publications, and other art world events / trends.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.proquest.com/artforum?accountid=27253",
         "site_id": 942,
         "type_id": 10,
@@ -16215,7 +16215,7 @@
             "enable_proxy": 1
         },
         "created": "2023-06-29 16:16:05",
-        "updated": "2023-06-29 16:16:05",
+        "updated": "2023-06-29 18:25:55",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
