@@ -16236,5 +16236,57 @@
         "enable_new": 1,
         "enable_trial": 0,
         "enable_popular": 0
+    },
+    {
+        "id": 73099159,
+        "name": "Exploring Race in Society",
+        "description": "Designed for high school and undergraduate students, Exploring Race in Society provides context and solutions-oriented points of view within a scholarly collection of proprietary and licensed content on topics related to race, ethnicity, diversity and inclusiveness.",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://libproxy.fhttps://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=s6453565&groupid=main&profile=psr",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": "1",
+            "enable_proxy": 1
+        },
+        "created": "2023-08-22 13:58:49",
+        "updated": "2023-08-22 14:05:40",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48304,
+                "name": "Humanities",
+                "site_id": 942
+            },
+            {
+                "id": 48313,
+                "name": "News / Current Issues / Politics",
+                "site_id": 942
+            },
+            {
+                "id": 48318,
+                "name": "Psychology & Sociology",
+                "site_id": 942
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 0,
+        "enable_trial": 0,
+        "enable_popular": 0
     }
 ]
