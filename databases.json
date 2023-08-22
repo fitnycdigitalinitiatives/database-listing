@@ -16241,7 +16241,7 @@
         "id": 73099159,
         "name": "Exploring Race in Society",
         "description": "Designed for high school and undergraduate students, Exploring Race in Society provides context and solutions-oriented points of view within a scholarly collection of proprietary and licensed content on topics related to race, ethnicity, diversity and inclusiveness.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://libproxy.fhttps://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=s6453565&groupid=main&profile=psr",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=s6453565&groupid=main&profile=psr",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -16257,7 +16257,7 @@
             "enable_proxy": 1
         },
         "created": "2023-08-22 13:58:49",
-        "updated": "2023-08-22 14:05:40",
+        "updated": "2023-08-22 14:15:54",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
