@@ -15637,7 +15637,7 @@
             "enable_proxy": 1
         },
         "created": "2022-08-30 14:09:11",
-        "updated": "2023-06-15 19:57:20",
+        "updated": "2023-08-30 15:17:05",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -15700,7 +15700,7 @@
         "internal_note": "",
         "library_review": "",
         "alt_names": "",
-        "enable_new": 1,
+        "enable_new": 0,
         "enable_trial": 0,
         "enable_popular": 0
     },
@@ -15724,7 +15724,7 @@
             "enable_proxy": 0
         },
         "created": "2022-12-02 16:04:57",
-        "updated": "2023-06-15 19:56:59",
+        "updated": "2023-08-30 15:16:44",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -15777,7 +15777,7 @@
         "internal_note": "",
         "library_review": "",
         "alt_names": "",
-        "enable_new": 1,
+        "enable_new": 0,
         "enable_trial": 0,
         "enable_popular": 0,
         "subjects": [
