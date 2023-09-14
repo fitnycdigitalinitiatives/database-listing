@@ -6017,7 +6017,7 @@
     {
         "id": 2354082,
         "name": "ProQuest Databases",
-        "description": "Searches 8 Databases at once:<br />\r\n<br />\r\nDissertations & Theses @ Fashion Institute of Technology\u200e<br />\r\nThe Harper's Bazaar Archive\u200e (1867 - current)<br />\r\nProQuest Historical Newspapers: The New York Times\u200e (1851 - 2014)<br />\r\nThe Vogue Archive\u200e (1892-current)<br />\r\nThe Vogue Italia Archive\u200e (1964 - current)<br />\r\nThe Wall Street Journal\u200e (1984 - current)<br />\r\nWomen's Magazine Archive\u200e (1846 - 2005)<br />\r\nThe Women's Wear Daily Archive\u200e (1910-current)",
+        "description": "Searches 11 Databases at once:<br />\r\nAcademic Video Online<br />\r\nThe Artforum Archive (1962-2020)<br />\r\nDissertations & Theses @ Fashion Institute of Technology\u200e<br />\r\nThe Harper's Bazaar Archive\u200e (1867 - current)<br />\r\nThe House Beautiful Archive (1896 - current)<br />\r\nProQuest Historical Newspapers: The New York Times\u200e (1851 - 2019)<br />\r\nThe Vogue Archive\u200e (1892 - current)<br />\r\nThe Vogue Italia Archive\u200e (1964 - current)<br />\r\nThe Wall Street Journal\u200e (1984 - current)<br />\r\nThe Women's Magazine Archive\u200e (1846 - 2005)<br />\r\nThe Women's Wear Daily Archive\u200e (1910-current)",
         "url": "https://libproxy.fitsuny.edu/login?url=https://search.proquest.com/?accountid=27253",
         "site_id": 942,
         "type_id": 10,
@@ -6030,11 +6030,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 16:01:56",
+        "updated": "2023-09-14 19:26:43",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
