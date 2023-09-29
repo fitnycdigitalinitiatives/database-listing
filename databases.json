@@ -6889,7 +6889,7 @@
     {
         "id": 2354105,
         "name": "Underground and Independent Comics, Comix, and Graphic Novels",
-        "description": "A selection of thousands of comics and graphic novels, plus scholarly and comic related materials.",
+        "description": "A n online collection of thousands of independent comics and graphic novels, plus scholarly and comic related materials dating back to the 1950s",
         "url": "https://libproxy.fitsuny.edu/login?url=https://comx.alexanderstreet.com/",
         "site_id": 942,
         "type_id": 10,
@@ -6898,15 +6898,15 @@
         "meta": {
             "target": "0",
             "enable_proxy": 1,
-            "tn_url": "",
-            "tn_height": "",
+            "tn_url": "https://libapps.s3.amazonaws.com/accounts/15535/images/All_Girl_Thrills___Alexander_Street__part_of_Clarivate.jpg",
+            "tn_height": "200",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
-            "tn_alt_text": ""
+            "desc_pos": "1",
+            "tn_alt_text": "Decorative Cover of Comic"
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 16:57:52",
+        "updated": "2023-09-29 17:03:04",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
