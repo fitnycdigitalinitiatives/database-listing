@@ -890,11 +890,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 17:19:16",
+        "updated": "2023-10-10 19:14:36",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -926,6 +926,11 @@
             {
                 "id": 48319,
                 "name": "Scholarly Journals",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             },
             {
@@ -1823,11 +1828,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2022-06-21 15:53:11",
+        "updated": "2023-10-10 19:33:31",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -1849,6 +1854,11 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             },
             {
@@ -3522,7 +3532,7 @@
     {
         "id": 2354039,
         "name": "WGSN Interiors",
-        "description": "<p>Trend reports &amp; forecasting for lifestyles and interiors<br><br>Students must create an account and re-activate their account every 90 days: click to create or re-activate account: https://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br><br>Locked out of your account for too many incorrect login attempts? Reset your password here:<br>https://www.wgsn.com/auth/forgotpassword<br><br>To access WGSN Lifestyle &amp; Interiors:<br>login via the proxy and then with your WGSN username and password<br>select the part of the site you wish to use from the top menu under \"Fashion\"<br>Use an incognito browser to access this resource.</p>",
+        "description": "<p>Trend reports &amp; forecasting for lifestyles and interiors<br />\r\n<br />\r\nStudents must create an account and re-activate their account every 90 days: click to create or re-activate account: https://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\n<br />\r\nTo access WGSN Lifestyle &amp; Interiors:<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource.</p>",
         "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
@@ -3533,14 +3543,14 @@
             "tn_width": "",
             "tn_height": "",
             "tn_alt_text": "",
-            "desc_pos": 1,
-            "enable_proxy": false,
+            "desc_pos": "1",
+            "enable_proxy": 0,
             "more_info": "",
-            "target": 0,
+            "target": "0",
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-09-20 15:24:58",
+        "updated": "2023-10-10 19:39:27",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -3577,6 +3587,11 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             },
             {
@@ -3687,11 +3702,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 20:12:06",
+        "updated": "2023-10-10 19:35:12",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -3723,6 +3738,11 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             }
         ],
@@ -4210,7 +4230,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-05-11 18:20:48",
+        "updated": "2023-10-10 19:37:16",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -4237,6 +4257,11 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             }
         ],
@@ -4771,11 +4796,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 15:09:39",
+        "updated": "2023-10-10 19:36:17",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -4797,6 +4822,11 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             }
         ],
@@ -4891,11 +4921,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2022-11-17 20:33:55",
+        "updated": "2023-10-10 19:36:34",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -4912,6 +4942,11 @@
             {
                 "id": 48309,
                 "name": "Marketing / Media / Demographics",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             }
         ],
@@ -5064,7 +5099,7 @@
     {
         "id": 2354067,
         "name": "New York Times (NYTimes.com)",
-        "description": "<p>Please click here for full instructions on how to access New York Times Academic Pass: https://it.fitnyc.edu/kb/nytimes-com-academic-pass/<br><br>\u00b7 NEW subscribers to NYT can visit accessnyt.com to create an account (register). They type in the school name and follow the instructions based on their location. If the new subscriber encounters an error message that subscriber can email edu@nytimes.com.<br><br>\u00b7 EXISTING registered subscribers with ACTIVE PAID subscriptions need to cancel their personal subscription by connecting with a chat agent on the site, or calling 800-698-4637 before creating an account. Once the subscription is canceled, they can visit accessnyt.com, type in the school name and follow the instructions based on their location. Since the subscriber \u201cAlready has an account \" they click \u201cLog In\" (Found below \"Create an Account\"). Input their email address and the same \u201cPassword\u201d created for their previous account. If the subscriber encounters an error message that subscriber can email with edu@nytimes.com.<br><br>\u00b7 EXISTING registered subscribers that DO NOT HAVE ACTIVE NYT subscription can visit accessnyt.com , type in the name of the school and follow the instructions based on their location. Since the subscriber \"Already has an account \" they click \u201cLog In\" (Found below \"Create an Account\"). Input their email address and the same \u201cPassword\u201d created for their previous account. If the subscriber encounters an error message that subscriber can email edu@nytimes.com.</p>",
+        "description": "<p>Please click here for full instructions on how to access New York Times Academic Pass: https://it.fitnyc.edu/kb/nytimes-com-academic-pass/<br />\r\n<br />\r\n\u00b7 NEW subscribers to NYT can visit accessnyt.com to create an account (register). They type in the school name and follow the instructions based on their location. If the new subscriber encounters an error message that subscriber can email edu@nytimes.com.<br />\r\n<br />\r\n\u00b7 EXISTING registered subscribers with ACTIVE PAID subscriptions need to cancel their personal subscription by connecting with a chat agent on the site, or calling 800-698-4637 before creating an account. Once the subscription is canceled, they can visit accessnyt.com, type in the school name and follow the instructions based on their location. Since the subscriber \u201cAlready has an account \" they click \u201cLog In\" (Found below \"Create an Account\"). Input their email address and the same \u201cPassword\u201d created for their previous account. If the subscriber encounters an error message that subscriber can email with edu@nytimes.com.<br />\r\n<br />\r\n\u00b7 EXISTING registered subscribers that DO NOT HAVE ACTIVE NYT subscription can visit accessnyt.com , type in the name of the school and follow the instructions based on their location. Since the subscriber \"Already has an account \" they click \u201cLog In\" (Found below \"Create an Account\"). Input their email address and the same \u201cPassword\u201d created for their previous account. If the subscriber encounters an error message that subscriber can email edu@nytimes.com.</p>",
         "url": "https://nytimesineducation.com/access-nyt",
         "site_id": 942,
         "type_id": 10,
@@ -5075,14 +5110,14 @@
             "tn_width": "",
             "tn_height": "",
             "tn_alt_text": "",
-            "desc_pos": 1,
-            "enable_proxy": false,
+            "desc_pos": "1",
+            "enable_proxy": 0,
             "more_info": "",
-            "target": 0,
+            "target": "0",
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-09-21 19:42:38",
+        "updated": "2023-10-10 19:36:01",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5094,6 +5129,11 @@
             {
                 "id": 48313,
                 "name": "News / Current Issues / Politics",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             }
         ],
@@ -7259,7 +7299,7 @@
     {
         "id": 2354112,
         "name": "WGSN Fashion",
-        "description": "<p>Trend reports &amp; forecasting for fashion&nbsp;<br><br>Students must create an account and re-activate their account every 90 days: click to create or re-activate account:<br>https://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br><br>Locked out of your account for too many incorrect login attempts? Reset your password here:<br>https://www.wgsn.com/auth/forgotpassword<br><br>To access WGSN Fashion<br><br>login via the proxy and then with your WGSN username and password<br>select the part of the site you wish to use from the top menu under \"Fashion\"<br>Use an incognito browser to access this resource.</p>",
+        "description": "<p>Trend reports &amp; forecasting for fashion&nbsp;<br />\r\n<br />\r\nStudents must create an account and re-activate their account every 90 days: click to create or re-activate account:<br />\r\nhttps://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\n<br />\r\nTo access WGSN Fashion<br />\r\n<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource.</p>",
         "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
@@ -7270,14 +7310,14 @@
             "tn_width": "",
             "tn_height": "",
             "tn_alt_text": "",
-            "desc_pos": 1,
-            "enable_proxy": false,
+            "desc_pos": "1",
+            "enable_proxy": 0,
             "more_info": "<p>Students must create an account and re-activate their account every 90 days: click on re-activate account.</p>",
-            "target": 0,
+            "target": "0",
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-09-20 15:24:03",
+        "updated": "2023-10-10 19:38:42",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -7309,6 +7349,11 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             },
             {
@@ -9044,12 +9089,12 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0,
             "tn_alt_text": ""
         },
         "created": "2016-07-14 21:19:40",
-        "updated": "2021-11-10 17:50:23",
+        "updated": "2023-10-10 19:33:50",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9076,6 +9121,11 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             },
             {
@@ -9179,7 +9229,7 @@
             "tn_alt_text": ""
         },
         "created": "2016-10-28 17:44:17",
-        "updated": "2023-06-15 19:55:41",
+        "updated": "2023-10-10 19:32:19",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9216,6 +9266,11 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             },
             {
@@ -9342,11 +9397,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0
         },
         "created": "2017-08-09 18:26:36",
-        "updated": "2021-11-12 17:28:48",
+        "updated": "2023-10-10 19:37:36",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9368,6 +9423,11 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             },
             {
@@ -9432,7 +9492,7 @@
     {
         "id": 35072182,
         "name": "WGSN Insight",
-        "description": "<p>Consumer, marketing, retail, and innovation trends<br><br>Students must create an account and re-activate their account every 90 days: click to create or re-activate account: https://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br><br>Locked out of your account for too many incorrect login attempts? Reset your password here:<br>https://www.wgsn.com/auth/forgotpassword<br>To access WGSN Insight:<br><br>login via the proxy and then with your WGSN username and password<br>select the part of the site you wish to use from the top menu under \"Fashion\"<br>Use an incognito browser to access this resource</p>",
+        "description": "<p>Consumer, marketing, retail, and innovation trends<br />\r\n<br />\r\nStudents must create an account and re-activate their account every 90 days: click to create or re-activate account: https://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\nTo access WGSN Insight:<br />\r\n<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource</p>",
         "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
@@ -9443,14 +9503,14 @@
             "tn_width": "",
             "tn_height": "",
             "tn_alt_text": "",
-            "desc_pos": 1,
-            "enable_proxy": false,
+            "desc_pos": "1",
+            "enable_proxy": 0,
             "more_info": "",
-            "target": 0,
+            "target": "0",
             "cover_url": ""
         },
         "created": "2017-08-22 16:07:17",
-        "updated": "2023-09-20 15:24:39",
+        "updated": "2023-10-10 19:39:07",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9482,6 +9542,11 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             },
             {
@@ -10169,11 +10234,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "Access WWD Digital Daily through this  WWD Digital Daily  link and not through WWD Online.",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0
         },
         "created": "2018-09-18 18:02:26",
-        "updated": "2021-11-11 17:48:42",
+        "updated": "2023-10-10 19:39:51",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -10220,6 +10285,11 @@
             {
                 "id": 48313,
                 "name": "News / Current Issues / Politics",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             },
             {
@@ -10865,11 +10935,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2020-03-23 19:49:53",
-        "updated": "2021-11-10 17:24:22",
+        "updated": "2023-10-10 19:31:53",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -10886,6 +10956,11 @@
             {
                 "id": 48296,
                 "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             }
         ],
@@ -10958,11 +11033,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2020-03-23 19:56:10",
-        "updated": "2021-11-10 17:23:08",
+        "updated": "2023-10-10 19:31:41",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -10989,6 +11064,11 @@
             {
                 "id": 48301,
                 "name": "Graphic & Communication Design / Packaging",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             }
         ],
@@ -12246,7 +12326,7 @@
             "enable_proxy": 1
         },
         "created": "2021-11-05 16:27:36",
-        "updated": "2023-01-31 16:13:41",
+        "updated": "2023-10-10 19:32:06",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -12308,6 +12388,11 @@
             {
                 "id": 48319,
                 "name": "Scholarly Journals",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             },
             {
@@ -15200,7 +15285,7 @@
             "enable_proxy": 0
         },
         "created": "2022-12-02 16:04:57",
-        "updated": "2023-08-30 15:16:44",
+        "updated": "2023-10-10 19:38:20",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -15237,6 +15322,11 @@
             {
                 "id": 48313,
                 "name": "News / Current Issues / Politics",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             },
             {
@@ -15378,7 +15468,7 @@
             "enable_proxy": 1
         },
         "created": "2023-01-23 18:35:18",
-        "updated": "2023-06-15 19:32:59",
+        "updated": "2023-10-10 19:32:45",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -15410,6 +15500,11 @@
             {
                 "id": 48309,
                 "name": "Marketing / Media / Demographics",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             }
         ],
@@ -15747,6 +15842,78 @@
         "alt_names": "",
         "enable_new": 0,
         "enable_trial": 0,
+        "enable_popular": 0
+    },
+    {
+        "id": 73882036,
+        "name": "Bloomsbury Dress and Costume Library",
+        "description": "Bloomsbury Dress and Costume Library is the first comprehensive online collection for the interdisciplinary study of dress and costume history, design and making, and offers an indispensable scholarly and educational resource to support the study of dress history, costume studies and costume design.",
+        "url": "https://www-bloomsburyfashioncentral-com.libproxy.fitsuny.edu/bloomsbury-dress-and-costume-library",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": "1",
+            "enable_proxy": 0
+        },
+        "created": "2023-10-10 17:01:10",
+        "updated": "2023-10-10 17:01:10",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48291,
+                "name": "E-books",
+                "site_id": 942
+            },
+            {
+                "id": 48293,
+                "name": "Encyclopedias / Dictionaries / Directories",
+                "site_id": 942
+            },
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48305,
+                "name": "Images",
+                "site_id": 942
+            },
+            {
+                "id": 48311,
+                "name": "Multimedia",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 0,
+        "enable_trial": 1,
         "enable_popular": 0
     }
 ]
