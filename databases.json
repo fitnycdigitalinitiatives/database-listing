@@ -9077,7 +9077,7 @@
     {
         "id": 23287837,
         "name": "EDITED",
-        "description": "Real-time access to retail data to make informed product, marketing and pricing decisions.<br />\r\n<br />\r\nNew users must request an account -- send an email to EDITED via support@edited.com from your FIT email address, providing the name of your major, year of study, and graduation date (month and year are fine); check your email for a reply and login details.<br />\r\n<br />\r\nFaculty -- please indicate you are an instructor for access beyond one semester.",
+        "description": "Real-time access to retail data to make informed product, marketing and pricing decisions.<br />\r\n<br />\r\nTo register for an account, the professor of each class using EDITED must provide a list of students' names, email, and graduation year to EDITED, support@edited.com. Please first ask students for permission to share their contact information.",
         "url": "https://accounts.edited.com/login/?next=product",
         "site_id": 942,
         "type_id": 10,
@@ -9094,7 +9094,7 @@
             "tn_alt_text": ""
         },
         "created": "2016-07-14 21:19:40",
-        "updated": "2023-10-10 19:33:50",
+        "updated": "2023-10-12 15:58:37",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
