@@ -10314,7 +10314,7 @@
         "id": 44830052,
         "name": "BCIN",
         "description": "Open access. Index (no full text) to scholarly journals, conference proceedings, reports related to art & related conservation.",
-        "url": "https://www.bcin.ca/bcin/home.app?lang=en",
+        "url": "https://bcin.info/vufind/",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -10326,11 +10326,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0
         },
         "created": "2018-10-08 17:52:39",
-        "updated": "2021-11-12 17:42:44",
+        "updated": "2023-10-25 13:06:01",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -15912,6 +15912,90 @@
         "internal_note": "",
         "library_review": "",
         "alt_names": "",
+        "enable_new": 0,
+        "enable_trial": 1,
+        "enable_popular": 0
+    },
+    {
+        "id": 74078990,
+        "name": "Center for Art Law",
+        "description": "Database of articles and art law resources",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://itsartlaw.org",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": "1",
+            "enable_proxy": 1
+        },
+        "created": "2023-10-25 16:06:37",
+        "updated": "2023-10-25 16:06:37",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48313,
+                "name": "News / Current Issues / Politics",
+                "site_id": 942
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 0,
+        "enable_trial": 0,
+        "enable_popular": 0
+    },
+    {
+        "id": 74079115,
+        "name": "Access World News Research Collection",
+        "description": "International, national, regional, and local news",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://infoweb.newsbank.com/apps/news/easy-search?p=AWNB",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": "1",
+            "enable_proxy": 1
+        },
+        "created": "2023-10-25 16:11:27",
+        "updated": "2023-10-25 16:11:27",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48313,
+                "name": "News / Current Issues / Politics",
+                "site_id": 942
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "NewsBank",
         "enable_new": 0,
         "enable_trial": 1,
         "enable_popular": 0
