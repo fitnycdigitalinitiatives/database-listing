@@ -4925,7 +4925,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-10-10 19:36:34",
+        "updated": "2023-10-31 18:06:40",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -4942,6 +4942,11 @@
             {
                 "id": 48309,
                 "name": "Marketing / Media / Demographics",
+                "site_id": 942
+            },
+            {
+                "id": 48314,
+                "name": "OneSearch Exceptions",
                 "site_id": 942
             },
             {
@@ -10330,13 +10335,18 @@
             "enable_proxy": 0
         },
         "created": "2018-10-08 17:52:39",
-        "updated": "2023-10-25 13:06:01",
+        "updated": "2023-10-31 18:02:27",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
             {
                 "id": 48287,
                 "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48314,
+                "name": "OneSearch Exceptions",
                 "site_id": 942
             },
             {
@@ -12186,11 +12196,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0
         },
         "created": "2021-11-05 16:04:18",
-        "updated": "2021-11-10 17:08:04",
+        "updated": "2023-10-31 18:00:33",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -12202,6 +12212,11 @@
             {
                 "id": 48313,
                 "name": "News / Current Issues / Politics",
+                "site_id": 942
+            },
+            {
+                "id": 48314,
+                "name": "OneSearch Exceptions",
                 "site_id": 942
             }
         ],
@@ -12285,17 +12300,22 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0
         },
         "created": "2021-11-05 16:16:41",
-        "updated": "2021-11-10 17:23:29",
+        "updated": "2023-10-31 18:02:06",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
             {
                 "id": 48287,
                 "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48314,
+                "name": "OneSearch Exceptions",
                 "site_id": 942
             }
         ],
@@ -13216,11 +13236,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2021-11-05 17:20:20",
-        "updated": "2021-11-10 17:59:38",
+        "updated": "2023-10-31 18:05:44",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -13247,11 +13267,6 @@
             {
                 "id": 48311,
                 "name": "Multimedia",
-                "site_id": 942
-            },
-            {
-                "id": 48314,
-                "name": "OneSearch Exceptions",
                 "site_id": 942
             },
             {
@@ -15468,7 +15483,7 @@
             "enable_proxy": 1
         },
         "created": "2023-01-23 18:35:18",
-        "updated": "2023-10-10 19:32:45",
+        "updated": "2023-10-31 18:03:21",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -15500,6 +15515,11 @@
             {
                 "id": 48309,
                 "name": "Marketing / Media / Demographics",
+                "site_id": 942
+            },
+            {
+                "id": 48314,
+                "name": "OneSearch Exceptions",
                 "site_id": 942
             },
             {
@@ -15936,7 +15956,7 @@
             "enable_proxy": 1
         },
         "created": "2023-10-25 16:06:37",
-        "updated": "2023-10-25 16:06:37",
+        "updated": "2023-10-31 18:03:38",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -15948,6 +15968,11 @@
             {
                 "id": 48313,
                 "name": "News / Current Issues / Politics",
+                "site_id": 942
+            },
+            {
+                "id": 48314,
+                "name": "OneSearch Exceptions",
                 "site_id": 942
             }
         ],
