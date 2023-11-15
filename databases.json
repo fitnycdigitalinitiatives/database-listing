@@ -14916,5 +14916,65 @@
                 "site_id": 942
             }
         ]
+    },
+    {
+        "id": 74357925,
+        "name": "Fashion Calendar Research Database",
+        "description": "The Fashion Calendar (1941-2014) was  an independent, weekly periodical that served as the official scheduling clearinghouse for the American fashion industry. This publication, originally published by Ruth Finley, was digitized by the FIT as part of digital humanities project in 2021 and is now available online as the Fashion Calendar Research Database. Users can search, map and graph historic events from the fashion and the creative industries.",
+        "url": "https://fashioncalendar.fitnyc.edu/",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 49341,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": "1",
+            "enable_proxy": 0
+        },
+        "created": "2023-11-15 16:07:25",
+        "updated": "2023-11-15 16:07:25",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            }
+        ],
+        "subjects": [
+            {
+                "id": 25088,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Fashion & Accessory Design",
+                "ordering": 0,
+                "slug_id": 960977,
+                "subject_id": 25088,
+                "content_id": 74357925,
+                "featured": 0
+            },
+            {
+                "id": 25089,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Fashion Industry",
+                "ordering": 0,
+                "slug_id": 960980,
+                "subject_id": 25089,
+                "content_id": 74357925,
+                "featured": 0
+            }
+        ]
     }
 ]
