@@ -5219,7 +5219,7 @@
     {
         "id": 2354073,
         "name": "Passport  (Euromonitor)",
-        "description": "Provides international market intelligence, including economic statistics, on industries, countries, and consumers.<br />\r\n<br />\r\nImages and downloads are currently unavailable.",
+        "description": "Provides international market intelligence, including economic statistics, on industries, countries, and consumers.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.portal.euromonitor.com/portal/",
         "site_id": 942,
         "type_id": 10,
@@ -5232,11 +5232,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2022-11-17 20:34:37",
+        "updated": "2023-12-12 15:29:06",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
