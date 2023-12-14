@@ -4397,7 +4397,7 @@
         "id": 2354057,
         "name": "Material Connexion",
         "description": "A material database with access to innovative, sustainable materials and technologies from 75+ industries.<br />\r\n<br />\r\nNew users may set up an account by clicking on \u201cLog In\u201d at the upper right corner and following the prompts. <br />\r\n<br />\r\nFaculty may book class tours to visit Material Connexion. Appointments are required. Please contact Lana Bittman - lana_bittman[at]fitnyc.edu for details.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.materialconnexion.online/database",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.materialconnexion.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -4413,7 +4413,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-08-02 19:44:29",
+        "updated": "2023-12-13 20:58:21",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
