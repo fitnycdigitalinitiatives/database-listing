@@ -12046,8 +12046,8 @@
     {
         "id": 64204553,
         "name": "Coloro Workspace",
-        "description": "New users must register for a free account: https://int.coloro.com//customer/account/create/<br />\r\n<br />\r\nA digital tool to explore and work with all 3,500 colors in the Coloro system, allowing you to play with them in different ways.",
-        "url": "https://int.coloro.com/coloro-workspace",
+        "description": "New users must register for a free account: <br />\r\n-click signup or login on top yellow banner<br />\r\n-click Workspace on the top right<br />\r\n<br />\r\nA digital tool to explore and work with all 3,500 colors in the Coloro system, allowing you to play with them in different ways.",
+        "url": "https://coloro.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -12059,11 +12059,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0
         },
         "created": "2021-11-05 16:49:40",
-        "updated": "2021-11-10 17:35:41",
+        "updated": "2023-12-19 18:13:50",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
