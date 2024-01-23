@@ -14980,5 +14980,109 @@
                 "featured": 0
             }
         ]
+    },
+    {
+        "id": 75042038,
+        "name": "Issued Magazine",
+        "description": "<p><a href=\"https://sites.google.com/fitnyc.edu/librarydatabases/home\">Sign up</a> for a free account. Trial access through July 31, 2024.</p>",
+        "url": "https://sites.google.com/fitnyc.edu/librarydatabases/home",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": "1",
+            "enable_proxy": 0,
+            "more_info": "",
+            "target": "0",
+            "cover_url": ""
+        },
+        "created": "2024-01-17 17:46:06",
+        "updated": "2024-01-18 16:43:03",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48293,
+                "name": "Encyclopedias / Dictionaries / Directories",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48321,
+                "name": "Sustainability & Environment",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            }
+        ],
+        "subjects": [
+            {
+                "id": 25085,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Art, Design & Art History",
+                "ordering": 0,
+                "slug_id": 960972,
+                "subject_id": 25085,
+                "content_id": 75042038,
+                "featured": 0
+            },
+            {
+                "id": 25086,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Companies, Brands, & Products",
+                "ordering": 0,
+                "slug_id": 960975,
+                "subject_id": 25086,
+                "content_id": 75042038,
+                "featured": 0
+            },
+            {
+                "id": 25089,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Fashion Industry",
+                "ordering": 0,
+                "slug_id": 960980,
+                "subject_id": 25089,
+                "content_id": 75042038,
+                "featured": 0
+            },
+            {
+                "id": 102767,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Sustainability & Environment",
+                "ordering": 0,
+                "slug_id": 907319,
+                "subject_id": 102767,
+                "content_id": 75042038,
+                "featured": 0
+            },
+            {
+                "id": 25090,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Textiles",
+                "ordering": 0,
+                "slug_id": 960992,
+                "subject_id": 25090,
+                "content_id": 75042038,
+                "featured": 0
+            }
+        ]
     }
 ]
