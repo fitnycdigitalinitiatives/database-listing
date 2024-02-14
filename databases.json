@@ -8582,7 +8582,7 @@
         "id": 23287837,
         "name": "EDITED",
         "description": "Real-time access to retail data to make informed product, marketing and pricing decisions.<br />\r\n<br />\r\nTo register for an account, the professor of each class using EDITED must provide a list of students' names, email, and graduation year to EDITED, support@edited.com. Please first ask students for permission to share their contact information.",
-        "url": "https://accounts.edited.com/login/?next=product",
+        "url": "https://accounts.edited.com/login/saml/390",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -8598,7 +8598,7 @@
             "tn_alt_text": ""
         },
         "created": "2016-07-14 21:19:40",
-        "updated": "2023-10-12 15:58:37",
+        "updated": "2024-02-13 17:54:50",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
