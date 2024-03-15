@@ -6890,7 +6890,7 @@
     {
         "id": 2354112,
         "name": "WGSN Fashion",
-        "description": "<p>Trend reports &amp; forecasting for fashion&nbsp;<br />\r\n<br />\r\nStudents must create an account and re-activate their account every 90 days: click to create or re-activate account:<br />\r\nhttps://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\n<br />\r\nTo access WGSN Fashion<br />\r\n<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource.</p>",
+        "description": "Trend reports &amp; forecasting for fashion",
         "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
@@ -6903,12 +6903,12 @@
             "tn_alt_text": "",
             "desc_pos": "1",
             "enable_proxy": 0,
-            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click on re-activate account.</p>",
+            "more_info": "Students must create an account and re-activate their account every 90 days: click to create or re-activate account:<br />\r\nhttps://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\n<br />\r\nTo access WGSN Fashion<br />\r\n<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource.Students must create an account and re-activate their account every 90 days: click on re-activate account.",
             "target": "0",
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-10-10 19:38:42",
+        "updated": "2024-03-15 15:43:45",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9659,7 +9659,7 @@
     {
         "id": 44443517,
         "name": "WWD Digital Daily",
-        "description": "Register for a WWD Digital Daily account using your FIT email address. Once registered, the daily edition of WWD will be sent to your email.<br />\r\n<br />\r\nNew registrations take 3-9 days to become active.<br />\r\n<br />\r\nAccess WWD Digital Daily through this WWD Digital Daily  link and not through WWD Online.<br />\r\n<br />\r\nReset your password using this link: https://wwd.com/help/",
+        "description": "",
         "url": "https://subscriptions.pmc.com/register/wwd/0010b00002Y2MdWAAV",
         "site_id": 942,
         "type_id": 10,
@@ -9671,12 +9671,12 @@
             "tn_height": "",
             "tn_width": "",
             "tn_alt_text": "",
-            "more_info": "Access WWD Digital Daily through this  WWD Digital Daily  link and not through WWD Online.",
+            "more_info": "Register for a WWD Digital Daily account using your FIT email address. Once registered, the daily edition of WWD will be sent to your email.<br />\r\n<br />\r\nNew registrations take 3-9 days to become active.<br />\r\n<br />\r\nAccess WWD Digital Daily through this WWD Digital Daily  link and not through WWD Online.<br />\r\n<br />\r\nReset your password using this link: https://wwd.com/help/<br />\r\nAccess WWD Digital Daily through this WWD Digital Daily link and not through WWD Online.",
             "desc_pos": "1",
             "enable_proxy": 0
         },
         "created": "2018-09-18 18:02:26",
-        "updated": "2023-10-10 19:39:51",
+        "updated": "2024-03-15 15:47:05",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -14427,12 +14427,12 @@
             "tn_height": "",
             "tn_width": "",
             "tn_alt_text": "",
-            "more_info": " ",
+            "more_info": "",
             "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2023-01-23 18:35:18",
-        "updated": "2023-10-31 18:03:21",
+        "updated": "2024-03-15 15:21:43",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
