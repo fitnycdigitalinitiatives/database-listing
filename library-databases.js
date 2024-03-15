@@ -215,8 +215,7 @@ $(document).ready(function () {
       });
       database_body.append(subjectNav);
     }
-    const thisButton = $(database_listing).find('button.accordion__icon');
-    thisButton.click(function () {
+    $(database_listing).find('button').click(function () {
       $(this).attr('aria-expanded', function (i, attr) {
         return attr == 'true' ? 'false' : 'true'
       });

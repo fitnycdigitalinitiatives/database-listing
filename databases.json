@@ -4397,7 +4397,7 @@
         "id": 2354057,
         "name": "Material Connexion",
         "description": "A material database with access to innovative, sustainable materials and technologies from 75+ industries.<br />\r\n<br />\r\nNew users may set up an account by clicking on \u201cLog In\u201d at the upper right corner and following the prompts. <br />\r\n<br />\r\nFaculty may book class tours to visit Material Connexion. Appointments are required. Please contact Lana Bittman - lana_bittman[at]fitnyc.edu for details.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.materialconnexion.online/database",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.materialconnexion.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -4413,7 +4413,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-08-02 19:44:29",
+        "updated": "2023-12-13 20:58:21",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5219,7 +5219,7 @@
     {
         "id": 2354073,
         "name": "Passport  (Euromonitor)",
-        "description": "Provides international market intelligence, including economic statistics, on industries, countries, and consumers.<br />\r\n<br />\r\nImages and downloads are currently unavailable.",
+        "description": "Provides international market intelligence, including economic statistics, on industries, countries, and consumers.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.portal.euromonitor.com/portal/",
         "site_id": 942,
         "type_id": 10,
@@ -5232,11 +5232,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2022-11-17 20:34:37",
+        "updated": "2023-12-12 15:29:06",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -6890,7 +6890,7 @@
     {
         "id": 2354112,
         "name": "WGSN Fashion",
-        "description": "<p>Trend reports &amp; forecasting for fashion&nbsp;<br />\r\n<br />\r\nStudents must create an account and re-activate their account every 90 days: click to create or re-activate account:<br />\r\nhttps://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\n<br />\r\nTo access WGSN Fashion<br />\r\n<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource.</p>",
+        "description": "Trend reports &amp; forecasting for fashion",
         "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
@@ -6903,12 +6903,12 @@
             "tn_alt_text": "",
             "desc_pos": "1",
             "enable_proxy": 0,
-            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click on re-activate account.</p>",
+            "more_info": "Students must create an account and re-activate their account every 90 days: click to create or re-activate account:<br />\r\nhttps://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\n<br />\r\nTo access WGSN Fashion<br />\r\n<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource.Students must create an account and re-activate their account every 90 days: click on re-activate account.",
             "target": "0",
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-10-10 19:38:42",
+        "updated": "2024-03-15 15:43:45",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -8582,7 +8582,7 @@
         "id": 23287837,
         "name": "EDITED",
         "description": "Real-time access to retail data to make informed product, marketing and pricing decisions.<br />\r\n<br />\r\nTo register for an account, the professor of each class using EDITED must provide a list of students' names, email, and graduation year to EDITED, support@edited.com. Please first ask students for permission to share their contact information.",
-        "url": "https://accounts.edited.com/login/?next=product",
+        "url": "https://accounts.edited.com/login/saml/390",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -8598,7 +8598,7 @@
             "tn_alt_text": ""
         },
         "created": "2016-07-14 21:19:40",
-        "updated": "2023-10-12 15:58:37",
+        "updated": "2024-02-13 17:54:50",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9659,7 +9659,7 @@
     {
         "id": 44443517,
         "name": "WWD Digital Daily",
-        "description": "Register for a WWD Digital Daily account using your FIT email address. Once registered, the daily edition of WWD will be sent to your email.<br />\r\n<br />\r\nNew registrations take 3-9 days to become active.<br />\r\n<br />\r\nAccess WWD Digital Daily through this WWD Digital Daily  link and not through WWD Online.<br />\r\n<br />\r\nReset your password using this link: https://wwd.com/help/",
+        "description": "",
         "url": "https://subscriptions.pmc.com/register/wwd/0010b00002Y2MdWAAV",
         "site_id": 942,
         "type_id": 10,
@@ -9671,12 +9671,12 @@
             "tn_height": "",
             "tn_width": "",
             "tn_alt_text": "",
-            "more_info": "Access WWD Digital Daily through this  WWD Digital Daily  link and not through WWD Online.",
+            "more_info": "Register for a WWD Digital Daily account using your FIT email address. Once registered, the daily edition of WWD will be sent to your email.<br />\r\n<br />\r\nNew registrations take 3-9 days to become active.<br />\r\n<br />\r\nAccess WWD Digital Daily through this WWD Digital Daily  link and not through WWD Online.<br />\r\n<br />\r\nReset your password using this link: https://wwd.com/help/<br />\r\nAccess WWD Digital Daily through this WWD Digital Daily link and not through WWD Online.",
             "desc_pos": "1",
             "enable_proxy": 0
         },
         "created": "2018-09-18 18:02:26",
-        "updated": "2023-10-10 19:39:51",
+        "updated": "2024-03-15 15:47:05",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -12046,8 +12046,8 @@
     {
         "id": 64204553,
         "name": "Coloro Workspace",
-        "description": "New users must register for a free account: https://int.coloro.com//customer/account/create/<br />\r\n<br />\r\nA digital tool to explore and work with all 3,500 colors in the Coloro system, allowing you to play with them in different ways.",
-        "url": "https://int.coloro.com/coloro-workspace",
+        "description": "New users must register for a free account: <br />\r\n-click signup or login on top yellow banner<br />\r\n-click Workspace on the top right<br />\r\n<br />\r\nA digital tool to explore and work with all 3,500 colors in the Coloro system, allowing you to play with them in different ways.",
+        "url": "https://coloro.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -12059,11 +12059,11 @@
             "tn_width": "",
             "tn_alt_text": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "enable_proxy": 0
         },
         "created": "2021-11-05 16:49:40",
-        "updated": "2021-11-10 17:35:41",
+        "updated": "2023-12-19 18:13:50",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -14427,12 +14427,12 @@
             "tn_height": "",
             "tn_width": "",
             "tn_alt_text": "",
-            "more_info": " ",
+            "more_info": "",
             "desc_pos": "1",
             "enable_proxy": 1
         },
         "created": "2023-01-23 18:35:18",
-        "updated": "2023-10-31 18:03:21",
+        "updated": "2024-03-15 15:21:43",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -14554,52 +14554,6 @@
                 "subject_id": 17623,
                 "content_id": 70238371,
                 "featured": 0
-            }
-        ]
-    },
-    {
-        "id": 70936506,
-        "name": "Bloomsbury Video Library",
-        "description": "Features exclusive indie films and shorts, avant-garde performances, interviews with renowned writers, artists, choreographers, performers and practitioners, documentaries on an international range of themes, traditions, and historical figures, and more.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyvideolibrary.com",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 1
-        },
-        "created": "2023-03-08 18:45:04",
-        "updated": "2023-03-08 18:45:04",
-        "slug_id": 0,
-        "enable_hidden": false,
-        "az_types": [
-            {
-                "id": 48287,
-                "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
-            {
-                "id": 48297,
-                "name": "Film and Media Studies",
-                "site_id": 942
-            },
-            {
-                "id": 48304,
-                "name": "Humanities",
-                "site_id": 942
-            },
-            {
-                "id": 48311,
-                "name": "Multimedia",
-                "site_id": 942
             }
         ]
     },
@@ -14977,6 +14931,110 @@
                 "slug_id": 960980,
                 "subject_id": 25089,
                 "content_id": 74357925,
+                "featured": 0
+            }
+        ]
+    },
+    {
+        "id": 75042038,
+        "name": "Issued Magazine",
+        "description": "Sign up for a free account. Trial access through July 31, 2024.",
+        "url": "https://sites.google.com/fitnyc.edu/librarydatabases/home",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": "1",
+            "enable_proxy": 0,
+            "more_info": "",
+            "target": "0",
+            "cover_url": ""
+        },
+        "created": "2024-01-17 17:46:06",
+        "updated": "2024-01-23 16:25:28",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48293,
+                "name": "Encyclopedias / Dictionaries / Directories",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48321,
+                "name": "Sustainability & Environment",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            }
+        ],
+        "subjects": [
+            {
+                "id": 25085,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Art, Design & Art History",
+                "ordering": 0,
+                "slug_id": 960972,
+                "subject_id": 25085,
+                "content_id": 75042038,
+                "featured": 0
+            },
+            {
+                "id": 25086,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Companies, Brands, & Products",
+                "ordering": 0,
+                "slug_id": 960975,
+                "subject_id": 25086,
+                "content_id": 75042038,
+                "featured": 0
+            },
+            {
+                "id": 25089,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Fashion Industry",
+                "ordering": 0,
+                "slug_id": 960980,
+                "subject_id": 25089,
+                "content_id": 75042038,
+                "featured": 0
+            },
+            {
+                "id": 102767,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Sustainability & Environment",
+                "ordering": 0,
+                "slug_id": 907319,
+                "subject_id": 102767,
+                "content_id": 75042038,
+                "featured": 0
+            },
+            {
+                "id": 25090,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Textiles",
+                "ordering": 0,
+                "slug_id": 960992,
+                "subject_id": 25090,
+                "content_id": 75042038,
                 "featured": 0
             }
         ]
