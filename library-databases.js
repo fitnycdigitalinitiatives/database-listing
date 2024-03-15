@@ -167,13 +167,26 @@ $(document).ready(function () {
     }
     //check if has special instructions
     if (("az_types" in database) && (database.az_types.some((type) => type.name == "Special Instructions"))) {
-      database_listing.find('h3').append(`<button class="special" data-target="#database-${database.id}" aria-controls="databases" aria-label="This database has special instructions for access. Please click for more details."><i class="fas fa-exclamation-circle" title="This database has special instructions for access. Please click for more details." aria-hidden="true"></i></button>`);
+      database_listing.find('h3').after(`
+      <div class="special">
+      <span class="fas fa-exclamation-circle" aria-hidden="true"></span>
+      This database has special instructions for access. Please click the plus sign for more details.
+      </div>
+      `);
+    }
+    if (("az_types" in database) && (database.az_types.some((type) => type.name == "Unavailable"))) {
+      database_listing.find('h3').after(`
+      <div class="unavailable">
+      <span class="fas fa-exclamation-circle" aria-hidden="true"></span>
+      We are currently experiencing issues with this database and it may not be available at this time.
+      </div>
+      `);
     }
     if (database.description) {
-      database_body.append(`<p>${linkify(database.description)}</p>`);
+      database_body.append(`<h4><small>Description</small></h4><p>${linkify(database.description)}</p>`);
     }
     if (database.meta.more_info) {
-      database_body.append(`<p>${linkify(database.meta.more_info)}</p>`);
+      database_body.append(`<h4><small>Access Instructions</small></h4><p>${linkify(database.meta.more_info)}</p>`);
     }
     if (database.alt_names) {
       database_body.append(`<h4><small>Also Known As<small></h4>`);
@@ -218,9 +231,6 @@ $(document).ready(function () {
 
         });
       }
-    });
-    $(database_listing).find('button.special').click(function () {
-      thisButton.click();
     });
     return database_listing;
   }
