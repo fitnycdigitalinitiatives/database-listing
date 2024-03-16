@@ -829,7 +829,7 @@
     {
         "id": 2353987,
         "name": "Berg Fashion Library",
-        "description": "E-books and scholarly articles on fashion topics. It also offers an extensive image collection including 1400+ selections from CoPA (Commercial Pattern Archive 1868 to 2000) and a fashion museum directory.<br />\r\n<br />\r\nUse an incognito browser to access this resource. Click to watch video:<br />\r\nhttps://www.youtube.com/watch?v=tMrT7gV3j6I",
+        "description": "E-books and scholarly articles on fashion topics. It also offers an extensive image collection including 1400+ selections from CoPA (Commercial Pattern Archive 1868 to 2000) and a fashion museum directory.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyfashioncentral.com",
         "site_id": 942,
         "type_id": 10,
@@ -841,12 +841,12 @@
             "tn_url": "",
             "tn_height": "",
             "tn_width": "",
-            "more_info": "",
+            "more_info": "Use an incognito browser to access this resource. Click to watch video:<br />\r\nhttps://www.youtube.com/watch?v=tMrT7gV3j6I",
             "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-10-10 19:14:36",
+        "updated": "2024-03-15 18:29:30",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [

@@ -1,13 +1,13 @@
-$(document).ready(function () {
-  $.getJSON("https://fitnycdigitalinitiatives.github.io/database-listing/databases.json", function (databases) {
-    databases.sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : -1);
-    initiateStartup(databases);
-    window.onpopstate = function () {
-      $('#database-container').remove();
+$(document).ready(function() {
+  $.getJSON("https://fitnycdigitalinitiatives.github.io/database-listing/databases.json", function(databases) {
+      databases.sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : -1);
       initiateStartup(databases);
-    }
-  })
-    .fail(function () {
+      window.onpopstate = function() {
+        $('#database-container').remove();
+        initiateStartup(databases);
+      }
+    })
+    .fail(function() {
       console.log("error");
       //1st append the container to the page
       $('main').append(`
@@ -73,9 +73,9 @@ $(document).ready(function () {
           navConstruct(initialaTOZList, databases);
           let theSubjectName = theFullSubjectList[theSubjectID];
           const subList = {};
-          $.each(databases, function (i, database) {
+          $.each(databases, function(i, database) {
             if (database.az_types) {
-              $.each(database.az_types, function (i, subject) {
+              $.each(database.az_types, function(i, subject) {
                 if (subject.id == theSubjectID) {
                   firstLetter = database.name.charAt(0).toUpperCase();
                   if (firstLetter in subList) {
@@ -165,28 +165,11 @@ $(document).ready(function () {
     if (database.enable_new) {
       database_listing.find('h3').append(`<span class="badge bg-primary rounded-pill fs-6 align-top">New</span>`);
     }
-    //check if has special instructions
-    if (("az_types" in database) && (database.az_types.some((type) => type.name == "Special Instructions"))) {
-      database_listing.find('h3').after(`
-      <div class="special">
-      <span class="fas fa-exclamation-circle" aria-hidden="true"></span>
-      This database has special instructions for access. Please click the plus sign for more details.
-      </div>
-      `);
-    }
-    if (("az_types" in database) && (database.az_types.some((type) => type.name == "Unavailable"))) {
-      database_listing.find('h3').after(`
-      <div class="unavailable">
-      <span class="fas fa-exclamation-circle" aria-hidden="true"></span>
-      We are currently experiencing issues with this database and it may not be available at this time.
-      </div>
-      `);
-    }
     if (database.description) {
-      database_body.append(`<h4><small>Description</small></h4><p>${linkify(database.description)}</p>`);
+      database_body.append(`<p>${linkify(database.description)}</p>`);
     }
     if (database.meta.more_info) {
-      database_body.append(`<h4><small>Access Instructions</small></h4><p>${linkify(database.meta.more_info)}</p>`);
+      database_body.append(`<p>${linkify(database.meta.more_info)}</p>`);
     }
     if (database.alt_names) {
       database_body.append(`<h4><small>Also Known As<small></h4>`);
@@ -199,7 +182,7 @@ $(document).ready(function () {
       </ul>
       `;
       subjectNav = $(subjectNav);
-      $.each(database.az_types, function (i, subject) {
+      $.each(database.az_types, function(i, subject) {
         let subjectName = subject.name;
         let lastSubjectWord = subjectName.split(" ").pop();
         subjectName = subjectName.substring(0, subjectName.lastIndexOf(" "));
@@ -215,17 +198,17 @@ $(document).ready(function () {
       });
       database_body.append(subjectNav);
     }
-    $(database_listing).find('button').click(function () {
-      $(this).attr('aria-expanded', function (i, attr) {
+    $(database_listing).find('button').click(function() {
+      $(this).attr('aria-expanded', function(i, attr) {
         return attr == 'true' ? 'false' : 'true'
       });
       let target = $(this).data('target');
       if ($(`${target}`).hasClass('active')) {
-        $(`${target}`).slideUp(function () {
+        $(`${target}`).slideUp(function() {
           $(this).toggleClass('active');
         });
       } else {
-        $(`${target}`).slideDown(function () {
+        $(`${target}`).slideDown(function() {
           $(this).toggleClass('active');
 
         });
@@ -254,14 +237,14 @@ $(document).ready(function () {
 
   function activateSubjects(cleanDatabaseList) {
     // Subject buttons
-    $('.subject-nav button').each(function (index) {
-      $(this).click(function () {
+    $('.subject-nav button').each(function(index) {
+      $(this).click(function() {
         var subjectID = $(this).data('target');
         var subjectName = $(this).data('name');
         const subList = {};
-        $.each(cleanDatabaseList, function (i, database) {
+        $.each(cleanDatabaseList, function(i, database) {
           if (database.az_types) {
-            $.each(database.az_types, function (i, subject) {
+            $.each(database.az_types, function(i, subject) {
               if (subject.id == subjectID) {
                 firstLetter = database.name.charAt(0).toUpperCase();
                 if (firstLetter in subList) {
@@ -294,7 +277,7 @@ $(document).ready(function () {
   function list_databasesAZ(databaseList, cleanDatabaseList) {
     $('#databases').hide().empty();
     var sortedInitials = Object.keys(databaseList).sort();
-    $.each(sortedInitials, function (key, initial) {
+    $.each(sortedInitials, function(key, initial) {
       var letterGroup = databaseList[initial];
       var groupDiv = `
         <div>
@@ -302,7 +285,7 @@ $(document).ready(function () {
         </div>
       `;
       groupDiv = $(groupDiv);
-      $.each(letterGroup, function (index, database) {
+      $.each(letterGroup, function(index, database) {
         $(groupDiv).append(createListing(database));
       });
       $('#databases').append(groupDiv);
@@ -327,7 +310,7 @@ $(document).ready(function () {
       $('#atoz button').prop('disabled', true);
       $(`#atoz button[data-target='All']`).prop('disabled', false);
       $('#atoz button[aria-selected="true"]').attr('aria-selected', "false");
-      $.each(results, function (i, result) {
+      $.each(results, function(i, result) {
         var thisDatabase = cleanDatabaseList[result["ref"]];
         $('#databases').append(createListing(thisDatabase));
       });
@@ -354,7 +337,7 @@ $(document).ready(function () {
 
   function createAtoZList(databases) {
     const aTOzList = {};
-    $.each(databases, function (i, database) {
+    $.each(databases, function(i, database) {
       let firstLetter = database.name.charAt(0).toUpperCase();
       if (firstLetter in aTOzList) {
         aTOzList[firstLetter].push(database);
@@ -362,7 +345,7 @@ $(document).ready(function () {
         aTOzList[firstLetter] = [database];
       }
       if (database.alt_names) {
-        $.each(database.alt_names.split(","), function (index, altName) {
+        $.each(database.alt_names.split(","), function(index, altName) {
           altName = altName.trim();
           let altfirstLetter = altName.charAt(0).toUpperCase();
           let altDatabase = JSON.parse(JSON.stringify(database));
@@ -378,7 +361,7 @@ $(document).ready(function () {
       }
     });
     //re-sort
-    $.each(aTOzList, function (letter) {
+    $.each(aTOzList, function(letter) {
       aTOzList[letter].sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : -1);
     });
     return aTOzList;
@@ -386,8 +369,8 @@ $(document).ready(function () {
 
   function createSubjectList(databases) {
     const subjectList = {};
-    $.each(databases, function (i, database) {
-      $.each(database.az_types, function (index, subject) {
+    $.each(databases, function(i, database) {
+      $.each(database.az_types, function(index, subject) {
         if (!(subject.name in subjectList)) {
           subjectList[subject.id] = subject.name;
         }
@@ -418,19 +401,19 @@ $(document).ready(function () {
     `;
     subSearchNav = $(subSearchNav);
     var opts_list = '';
-    $.each(createSubjectList(databases), function (subjectID, subjectName) {
+    $.each(createSubjectList(databases), function(subjectID, subjectName) {
       opts_list += `
       <option value="${subjectID}">${subjectName}</option>
       `;
     });
     opts_list = $(opts_list);
-    opts_list.sort(function (a, b) {
+    opts_list.sort(function(a, b) {
       return $(a).text() > $(b).text() ? 1 : -1;
     });
     $(subSearchNav).find('#subject-browse').append(`<option selected value="all">Browse databases by subject</option>`);
     $(subSearchNav).find('#subject-browse').append(opts_list);
     $('#databases').before(subSearchNav);
-    $('#subject-browse').change(function () {
+    $('#subject-browse').change(function() {
       var subjectValue = $(this).val();
       var subjectName = $(this).children('option:selected').text();
       if (subjectValue == "all") {
@@ -442,9 +425,9 @@ $(document).ready(function () {
         list_databasesAZ(aTOzList, databases);
       } else {
         const subList = {};
-        $.each(databases, function (i, database) {
+        $.each(databases, function(i, database) {
           if (database.az_types) {
-            $.each(database.az_types, function (i, subject) {
+            $.each(database.az_types, function(i, subject) {
               if (subject.id == subjectValue) {
                 firstLetter = database.name.charAt(0).toUpperCase();
                 if (firstLetter in subList) {
@@ -473,7 +456,7 @@ $(document).ready(function () {
     });
 
     // Create Search Index
-    var searchIndex = elasticlunr(function () {
+    var searchIndex = elasticlunr(function() {
       this.addField('title');
       this.addField('alt_names');
       this.addField('body');
@@ -481,9 +464,9 @@ $(document).ready(function () {
       this.setRef('id');
       this.saveDocument(false);
     });
-    $.each(databases, function (key, database) {
+    $.each(databases, function(key, database) {
       var subjectString = '';
-      $.each(database.az_types, function (index, subject) {
+      $.each(database.az_types, function(index, subject) {
         if (index == 0) {
           subjectString += subject.name;
         } else {
@@ -499,7 +482,7 @@ $(document).ready(function () {
       }
       searchIndex.addDoc(doc);
     });
-    $("#search").submit(function (event) {
+    $("#search").submit(function(event) {
       event.preventDefault();
       $(this).find('input').blur();
       $(this).find('button').blur();
@@ -544,7 +527,7 @@ $(document).ready(function () {
     `;
     aTOzNav = $(aTOzNav);
     var sortedInitials = Object.keys(aTOzList).sort();
-    $.each(sortedInitials, function (key, initial) {
+    $.each(sortedInitials, function(key, initial) {
       letterLink = `
       <li role="presentation">
         <button type="button" role="tab" data-target="${initial}" aria-controls="databases" aria-selected="false">${initial}</button>
@@ -553,8 +536,8 @@ $(document).ready(function () {
       $(aTOzNav).append(letterLink);
     });
     $('#databases').before(aTOzNav);
-    $("#atoz button").each(function (index) {
-      $(this).click(function () {
+    $("#atoz button").each(function(index) {
+      $(this).click(function() {
         //enable and disable buttons
         $('#atoz button:disabled').prop('disabled', false);
         $(this).prop('disabled', true);
