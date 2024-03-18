@@ -223,7 +223,8 @@
   background: #000000;
 }
 
-#databases .database .button-col .accordion__icon:hover:before, #databases .database .button-col .accordion__icon:hover:after {
+#databases .database .button-col .accordion__icon:hover:before,
+#databases .database .button-col .accordion__icon:hover:after {
   background-color: #FFFFFF;
 }
 
@@ -253,6 +254,24 @@
   border-radius: 0.25rem;
   background-color: #0036F9;
   margin-left: .25rem;
+}
+
+#databases .database .special,
+#databases .database .unavailable {
+  font-size: 15px;
+}
+
+#databases .database .special+.database-body,
+#databases .database .unavailable+.database-body {
+  margin-top: .5rem;
+}
+
+#databases .database .special .fa-exclamation-circle {
+  color: #0036F9;
+}
+
+#databases .database .unavailable .fa-exclamation-circle {
+  color: rgb(220, 53, 69);
 }
 
 #databases .database .database-link {
