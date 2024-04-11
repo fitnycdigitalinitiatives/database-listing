@@ -11612,24 +11612,25 @@
     {
         "id": 64203792,
         "name": "Bloomsbury Fashion Central",
-        "description": "Access to:<br />\r\nBerg Fashion Library<br />\r\nFashion Photography Archive<br />\r\nFairchild Books Library<br />\r\nBloomsbury Fashion Business Cases<br />\r\nCoverage of world fashion from 1500 BCE to present, including books, scholarly articles, and an extensive image collection including the V&A Museum's fashion collection (1600 images); the Philadelphia Museum of Art (2800 images); the Bath Fashion Museum (970 images); the Commercial Pattern Archive (2200 images); the Metropolitan Museum of Art's Costume Institute collection (2000 images); and the MoMu Fashion Museum, Belgium (600 images).<br />\r\n<br />\r\nPlease use an incognito browser to access this resource.",
+        "description": "<p>Access to:<br>Berg Fashion Library<br>Fashion Photography Archive<br>Fairchild Books Library<br>Bloomsbury Fashion Business Cases<br>Coverage of world fashion from 1500 BCE to present, including books, scholarly articles, and an extensive image collection including the V&amp;A Museum's fashion collection (1600 images); the Philadelphia Museum of Art (2800 images); the Bath Fashion Museum (970 images); the Commercial Pattern Archive (2200 images); the Metropolitan Museum of Art's Costume Institute collection (2000 images); and the MoMu Fashion Museum, Belgium (600 images).<br><br>Please use an incognito browser to access this resource.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyfashioncentral.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
             "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 1
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2021-11-05 16:27:36",
-        "updated": "2023-10-10 19:32:06",
+        "updated": "2024-04-10 17:40:10",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -14732,72 +14733,6 @@
         ]
     },
     {
-        "id": 73882036,
-        "name": "Bloomsbury Dress and Costume Library",
-        "description": "Bloomsbury Dress and Costume Library is the first comprehensive online collection for the interdisciplinary study of dress and costume history, design and making, and offers an indispensable scholarly and educational resource to support the study of dress history, costume studies and costume design.",
-        "url": "https://www-bloomsburyfashioncentral-com.libproxy.fitsuny.edu/bloomsbury-dress-and-costume-library",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 0
-        },
-        "created": "2023-10-10 17:01:10",
-        "updated": "2023-10-10 17:01:10",
-        "slug_id": 0,
-        "enable_hidden": false,
-        "az_types": [
-            {
-                "id": 48287,
-                "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
-            {
-                "id": 48291,
-                "name": "E-books",
-                "site_id": 942
-            },
-            {
-                "id": 48293,
-                "name": "Encyclopedias / Dictionaries / Directories",
-                "site_id": 942
-            },
-            {
-                "id": 48295,
-                "name": "Fashion & Accessory Design",
-                "site_id": 942
-            },
-            {
-                "id": 48296,
-                "name": "Fashion Industry",
-                "site_id": 942
-            },
-            {
-                "id": 48305,
-                "name": "Images",
-                "site_id": 942
-            },
-            {
-                "id": 48311,
-                "name": "Multimedia",
-                "site_id": 942
-            },
-            {
-                "id": 48322,
-                "name": "Textiles",
-                "site_id": 942
-            }
-        ]
-    },
-    {
         "id": 74078990,
         "name": "Center for Art Law",
         "description": "<p>Database of articles and art law resources</p><p>&nbsp;</p><p>Register using the code shared in the URL.</p>",
@@ -14931,110 +14866,6 @@
                 "slug_id": 960980,
                 "subject_id": 25089,
                 "content_id": 74357925,
-                "featured": 0
-            }
-        ]
-    },
-    {
-        "id": 75042038,
-        "name": "Issued Magazine",
-        "description": "Sign up for a free account. Trial access through July 31, 2024.",
-        "url": "https://sites.google.com/fitnyc.edu/librarydatabases/home",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "tn_url": "",
-            "tn_width": "",
-            "tn_height": "",
-            "tn_alt_text": "",
-            "desc_pos": "1",
-            "enable_proxy": 0,
-            "more_info": "",
-            "target": "0",
-            "cover_url": ""
-        },
-        "created": "2024-01-17 17:46:06",
-        "updated": "2024-01-23 16:25:28",
-        "slug_id": 0,
-        "enable_hidden": false,
-        "az_types": [
-            {
-                "id": 48293,
-                "name": "Encyclopedias / Dictionaries / Directories",
-                "site_id": 942
-            },
-            {
-                "id": 48296,
-                "name": "Fashion Industry",
-                "site_id": 942
-            },
-            {
-                "id": 48321,
-                "name": "Sustainability & Environment",
-                "site_id": 942
-            },
-            {
-                "id": 48322,
-                "name": "Textiles",
-                "site_id": 942
-            }
-        ],
-        "subjects": [
-            {
-                "id": 25085,
-                "site_id": 942,
-                "parent_id": 0,
-                "name": "Art, Design & Art History",
-                "ordering": 0,
-                "slug_id": 960972,
-                "subject_id": 25085,
-                "content_id": 75042038,
-                "featured": 0
-            },
-            {
-                "id": 25086,
-                "site_id": 942,
-                "parent_id": 0,
-                "name": "Companies, Brands, & Products",
-                "ordering": 0,
-                "slug_id": 960975,
-                "subject_id": 25086,
-                "content_id": 75042038,
-                "featured": 0
-            },
-            {
-                "id": 25089,
-                "site_id": 942,
-                "parent_id": 0,
-                "name": "Fashion Industry",
-                "ordering": 0,
-                "slug_id": 960980,
-                "subject_id": 25089,
-                "content_id": 75042038,
-                "featured": 0
-            },
-            {
-                "id": 102767,
-                "site_id": 942,
-                "parent_id": 0,
-                "name": "Sustainability & Environment",
-                "ordering": 0,
-                "slug_id": 907319,
-                "subject_id": 102767,
-                "content_id": 75042038,
-                "featured": 0
-            },
-            {
-                "id": 25090,
-                "site_id": 942,
-                "parent_id": 0,
-                "name": "Textiles",
-                "ordering": 0,
-                "slug_id": 960992,
-                "subject_id": 25090,
-                "content_id": 75042038,
                 "featured": 0
             }
         ]
