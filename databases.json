@@ -13028,7 +13028,7 @@
     {
         "id": 64203792,
         "name": "Bloomsbury Fashion Central",
-        "description": "<p>Access to:</p><ul><li>Berg Fashion Library</li><li>Fashion Photography Archive</li><li>Fairchild Books Library</li><li>Bloomsbury Fashion Business Cases</li></ul><p>Coverage of world fashion from 1500 BCE to present, including books, scholarly articles, and an extensive image collection including the V&amp;A Museum's fashion collection (1600 images); the Philadelphia Museum of Art (2800 images); the Bath Fashion Museum (970 images); the Commercial Pattern Archive (2200 images); the Metropolitan Museum of Art's Costume Institute collection (2000 images); and the MoMu Fashion Museum, Belgium (600 images).<br><br><br><br><br>&nbsp;</p>",
+        "description": "<p>Access to:</p><ul><li>Berg Fashion Library</li><li>Fashion Photography Archive</li><li>Fairchild Books Library</li><li>Bloomsbury Fashion Business Cases</li></ul><p>Coverage of world fashion from 1500 BCE to present, including books, scholarly articles, and an extensive image collection including the V&amp;A Museum's fashion collection (1600 images); the Philadelphia Museum of Art (2800 images); the Bath Fashion Museum (970 images); the Commercial Pattern Archive (2200 images); the Metropolitan Museum of Art's Costume Institute collection (2000 images); and the MoMu Fashion Museum, Belgium (600 images).</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyfashioncentral.com",
         "site_id": 942,
         "type_id": 10,
@@ -13046,7 +13046,7 @@
             "cover_url": ""
         },
         "created": "2021-11-05 16:27:36",
-        "updated": "2024-04-26 18:32:05",
+        "updated": "2024-04-29 14:12:27",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
