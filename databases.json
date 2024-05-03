@@ -3904,7 +3904,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-10-10 19:35:12",
+        "updated": "2024-05-02 14:42:44",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -16977,6 +16977,74 @@
                 "subject_id": 25089,
                 "content_id": 74357925,
                 "featured": 0
+            }
+        ]
+    },
+    {
+        "id": 76430112,
+        "name": "Bloomsbury Digital Fashion Masterclass",
+        "description": "The video masterclasses, and accompanying business case studies, have been created by the Digital Fashion Group. They cover topics such as key digital imaging, phygital design, sustainability, marketing, merchandising, supply chain management, and ethics.",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyfashioncentral.com/bloomsbury-digital-fashion-masterclasses",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": "1",
+            "enable_proxy": 0
+        },
+        "created": "2024-05-02 15:07:04",
+        "updated": "2024-05-02 15:14:12",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48288,
+                "name": "Business & Economics",
+                "site_id": 942
+            },
+            {
+                "id": 48289,
+                "name": "Companies & Brands / Industry Profiles",
+                "site_id": 942
+            },
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48311,
+                "name": "Multimedia",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 76430112,
+                "icon_id": 2574,
+                "custom_url": ""
             }
         ]
     }
