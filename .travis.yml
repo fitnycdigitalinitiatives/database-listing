@@ -12,7 +12,8 @@ script:
   python database-list.py
 deploy:
   provider: pages
-  edge: true # opt in to dpl v2
+  edge: 
+    branch: v2.0.3-beta.4
   local_dir: gh-pages
   target_branch: gh-pages
   cleanup: false
