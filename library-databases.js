@@ -165,10 +165,6 @@ $(document).ready(function () {
     if (database.enable_new) {
       database_listing.find('h3').append(`<span class="badge bg-primary rounded-pill fs-6 align-top">New</span>`);
     }
-    // if ("icons" in database && database.icons.some(icon => icon.icon_id === 33389)) {
-    //   let tutorialURL = database.icons.find(icon => icon.icon_id === 33389);
-    //   database_listing.find('h3').append(`<span class="icon-badge bg-primary rounded-pill fs-6 align-top"><a href="${tutorialURL.custom_url}" target="_blank"><span class="fas fa-video" title="Watch video tutorial for this database"><span class="sr-only">Watch video tutorial for this database</span></span></a></span>`);
-    // }
     //check if has special instructions
     if (("az_types" in database) && (database.az_types.some((type) => type.name == "Special Instructions"))) {
       database_listing.find('h3').after(`
@@ -187,14 +183,10 @@ $(document).ready(function () {
       `);
     }
     if (database.description) {
-      database_body.append(`<h4><small>Description</small></h4><p>${database.description}</p>`);
-    }
-    if ("icons" in database && database.icons.some(icon => icon.icon_id === 33389)) {
-      let tutorialURL = database.icons.find(icon => icon.icon_id === 33389);
-      database_body.append(`<a class="cta cta--link" href="${tutorialURL.custom_url}">Watch Tutorial</a>`);
+      database_body.append(`<h4><small>Description</small></h4><p>${linkify(database.description)}</p>`);
     }
     if (database.meta.more_info) {
-      database_body.append(`<h4><small>Access Instructions</small></h4><p>${database.meta.more_info}</p>`);
+      database_body.append(`<h4><small>Access Instructions</small></h4><p>${linkify(database.meta.more_info)}</p>`);
     }
     if (database.alt_names) {
       database_body.append(`<h4><small>Also Known As<small></h4>`);
@@ -240,6 +232,24 @@ $(document).ready(function () {
       }
     });
     return database_listing;
+  }
+
+  function linkify(inputText) {
+    var replacedText, replacePattern1, replacePattern2, replacePattern3;
+
+    //URLs starting with http://, https://, or ftp://
+    replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+    replacedText = inputText.replace(replacePattern1, '<a href="$1" target="_blank">$1</a>');
+
+    //URLs starting with "www." (without // before it, or it'd re-link the ones done above).
+    replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+    replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank">$2</a>');
+
+    //Change email addresses to mailto:: links.
+    replacePattern3 = /(([a-zA-Z0-9\-\_\.])+@[a-zA-Z\_]+?(\.[a-zA-Z]{2,6})+)/gim;
+    replacedText = replacedText.replace(replacePattern3, '<a href="mailto:$1">$1</a>');
+
+    return replacedText;
   }
 
   function activateSubjects(cleanDatabaseList) {

@@ -256,22 +256,6 @@
   margin-left: .25rem;
 }
 
-#databases .database .database-title .icon-badge {
-  display: inline-block;
-  padding: 0;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: top;
-  margin-left: .25rem;
-}
-
-#databases .database .database-title .icon-badge a {
-  background: none;
-}
-
 #databases .database .special,
 #databases .database .unavailable {
   font-size: 15px;
