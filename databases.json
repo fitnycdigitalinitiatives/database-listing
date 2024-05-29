@@ -17047,5 +17047,63 @@
                 "custom_url": ""
             }
         ]
+    },
+    {
+        "id": 76719111,
+        "name": "A&AePortal",
+        "description": "\"The A&AePortal\u00a0is\u00a0an authoritative eBook resource that features important works of scholarship in the history of art, architecture, decorative arts, photography, visual culture, and design. With innovative functionality and extensive metadata, the site offers students and scholars an engaging experience, encouraging critical thinking skills and supporting rigorous academic research. The site includes many out-of-print titles, key backlist, and recent releases from some of the world\u2019s finest academic and museum publishers.\"",
+        "url": "https://aaeportal.com/",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": "1",
+            "enable_proxy": 0
+        },
+        "created": "2024-05-28 20:22:41",
+        "updated": "2024-05-28 20:22:41",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48291,
+                "name": "E-books",
+                "site_id": 942
+            },
+            {
+                "id": 48293,
+                "name": "Encyclopedias / Dictionaries / Directories",
+                "site_id": 942
+            },
+            {
+                "id": 48305,
+                "name": "Images",
+                "site_id": 942
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 76719111,
+                "icon_id": 2574,
+                "custom_url": ""
+            }
+        ]
     }
 ]
