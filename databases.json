@@ -17037,5 +17037,83 @@
                 "custom_url": ""
             }
         ]
+    },
+    {
+        "id": 76815861,
+        "name": "Daily News Record Archive",
+        "description": "Coverage from 1917-2008<br />\r\n<br />\r\nFeatures 90+ years of breaking news, expert analysis, and\u200b imagery chronicling fashion\u200b market dynamics, design evolution, and business strategies. Standing as one of the longest-running fashion trade titles\u200b and\u200b a leading news resource for the fashion industry, this exclusive archive brings a focus on men\u2019s fashion, an area\u200b largely unrepresented by digital archives until now. Highly influential in the industry, this publication contributed to the\u200b establishment\u200b of several early menswear fashion shows",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.proquest.com/dailynewsrecord/index?accountid=27253",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "target": "0",
+            "tn_url": "",
+            "tn_height": "",
+            "tn_width": "",
+            "tn_alt_text": "",
+            "more_info": "",
+            "desc_pos": "1",
+            "enable_proxy": 1
+        },
+        "created": "2024-06-04 16:55:38",
+        "updated": "2024-06-04 16:56:54",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48289,
+                "name": "Companies & Brands / Industry Profiles",
+                "site_id": 942
+            },
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48303,
+                "name": "Historical Articles (pre-1950)",
+                "site_id": 942
+            },
+            {
+                "id": 48313,
+                "name": "News / Current Issues / Politics",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            },
+            {
+                "id": 48323,
+                "name": "Trade Publications",
+                "site_id": 942
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 76815861,
+                "icon_id": 2574,
+                "custom_url": ""
+            }
+        ]
     }
 ]
