@@ -5041,24 +5041,25 @@
     {
         "id": 2354061,
         "name": "Mintel Reports",
-        "description": "Original market research on product categories, consumer groups, and general trends. Mostly US and Europe-focused.<br />\r\n<br />\r\nIf you wish to use Mintel's collaboration features, like saved searches and email alerts, then you must \"Register for a FREE Account:\"  Fill-in required information. Enter your FIT email address [firstname_lastname@fitnyc.edu]; no other email address is accepted.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://clients.mintel.com",
+        "description": "<p>Original market research on product categories, consumer groups, and general trends. Mostly US and Europe-focused.<br><br>If you wish to use Mintel's collaboration features, like saved searches and email alerts, then you must \"Register for a FREE Account:\" Fill-in required information. Enter your FIT email address [firstname_lastname@fitnyc.edu]; no other email address is accepted.</p>",
+        "url": "https://shibboleth.mintel.com/Shibboleth.sso/Login?target=https%3A%2F%2Fshibboleth.mintel.com%2Fshibboleth%2Flogin%2F%3Fnext%3Dhttps%253A%252F%252Fclients.mintel.com%252Flogin%253Fnext%253D%252F&entityID=https%3A%2F%2Flogin.fitnyc.edu%2Fsamlsso",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": false,
             "more_info": "",
-            "desc_pos": "1",
-            "tn_alt_text": ""
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-10-10 19:36:17",
+        "updated": "2024-06-11 20:12:11",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
