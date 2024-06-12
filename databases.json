@@ -9732,12 +9732,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>1. Click to <a href=\"https://www.businessoffashion.com/register\">register</a> for BoF Professional:&nbsp;<br>You must use an FIT email address.<br><br>2. Check your inbox for a confirmation email and click the link to confirm your membership (this email is sent from: noreply@businessoffashion.com)<br><br>Tip: Be sure to check your spam inbox and add BoF as a contact to ensure you receive future emails and newsletters.<br><br>3. Once confirmed, you will automatically get full access to your own BoF Professional account.<br><br>For help, please contact BoF at professional.groups@businessoffashion.com<br><br>BoF Professional provides unlimited access to articles, exclusive analysis and briefings, case studies, special reports, online learning courses, the iPhone mobile app as well as invitations to digital and in-person events.</p>",
+            "more_info": "<p>1. Click to register for BoF Professional:&nbsp;https://www.businessoffashion.com/register<br>You must use an FIT email address.<br><br>2. Check your inbox for a confirmation email and click the link to confirm your membership (this email is sent from: noreply@businessoffashion.com)<br><br>Tip: Be sure to check your spam inbox and add BoF as a contact to ensure you receive future emails and newsletters.<br><br>3. Once confirmed, you will automatically get full access to your own BoF Professional account.<br><br>For help, please contact BoF at professional.groups@businessoffashion.com<br><br>BoF Professional provides unlimited access to articles, exclusive analysis and briefings, case studies, special reports, online learning courses, the iPhone mobile app as well as invitations to digital and in-person events.</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2016-10-28 17:44:17",
-        "updated": "2024-06-12 19:21:51",
+        "updated": "2024-06-12 19:32:51",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -12866,24 +12866,25 @@
     {
         "id": 64202728,
         "name": "Air Mail",
-        "description": "Sign up to receive weekly newsletters using your FIT email address:<br />\r\nhttps://airmail.news/subscribe/group/fit",
+        "description": "<p>Sign up to receive weekly newsletters using your FIT email address: https://airmail.news/subscribe/group/fit<br>&nbsp;</p>",
         "url": "https://airmail.news/subscribe/group/fit",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": false,
             "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 0
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2021-11-05 16:04:18",
-        "updated": "2023-10-31 18:00:33",
+        "updated": "2024-06-12 19:33:28",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
