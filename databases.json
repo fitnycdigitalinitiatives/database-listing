@@ -1905,24 +1905,25 @@
     {
         "id": 2354007,
         "name": "Doneger Tobe",
-        "description": "Trend reports & forecasting for fashion.\u00a0 Use the password listed for Doneger.",
+        "description": "<p>Trend reports &amp; forecasting for fashion.&nbsp;</p>",
         "url": "https://sites.google.com/fitnyc.edu/librarydatabases/home",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 0,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "tn_alt_text": ""
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<p>Use the password listed for Doneger</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-10-10 19:33:31",
+        "updated": "2024-06-12 20:43:32",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -2591,24 +2592,25 @@
     {
         "id": 2354019,
         "name": "Fashion Snoops",
-        "description": "Users are required to create a MY FS account <br />\r\n<br />\r\nTrend reports & forecasting for fashion. Use Mozilla/Firefox, Google Chrome, Safari and Internet Explorer (version 10 and up only - older versions of Internet Explorer are not compatible).",
+        "description": "<p>Trend reports &amp; forecasting for fashion.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.fashionsnoops.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
+            "tn_height": "",
+            "tn_alt_text": "",
             "desc_pos": 1,
-            "tn_alt_text": ""
+            "enable_proxy": true,
+            "more_info": "<p>Users are required to create a MY FS account&nbsp;.<br>&nbsp;Use Mozilla/Firefox, Google Chrome, Safari and Internet Explorer (version 10 and up only - older versions of Internet Explorer are not compatible).</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 18:00:57",
+        "updated": "2024-06-12 20:47:57",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -2737,6 +2739,16 @@
                 "content_id": 2354019,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 2354019,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=7VMhgPzGckc&list=PLslrwoPJuxvHb2QGkwpLg9dp5GtHsLUsS"
             }
         ]
     },
@@ -3887,24 +3899,25 @@
     {
         "id": 2354040,
         "name": "Hoover's Online",
-        "description": "Firefox Private and Google Chrome Incognito are supported browsers.<br />\r\n<br />\r\nHoover\u2019s, a subsidiary of The Dun and Bradstreet Corporation (D&B), offers proprietary business information Hoover's provides data on more than 85 million corporations, 100 million people, and 1,000 industries.<br />\r\n<br />\r\nUse an incognito browser to access this resource.",
+        "description": "<p>&nbsp;Hoover\u2019s, a subsidiary of The Dun and Bradstreet Corporation (D&amp;B), offers proprietary business information Hoover's provides data on more than 85 million corporations, 100 million people, and 1,000 industries.<br><br>&nbsp;</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.mergentonline.com/Hoovers",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "tn_alt_text": ""
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "<p>Firefox Private and Google Chrome Incognito are supported browsers.<br>&nbsp;</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-05-02 14:42:44",
+        "updated": "2024-06-12 20:48:36",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -4900,24 +4913,25 @@
     {
         "id": 2354057,
         "name": "Material Connexion",
-        "description": "A material database with access to innovative, sustainable materials and technologies from 75+ industries.<br />\r\n<br />\r\nNew users may set up an account by clicking on \u201cLog In\u201d at the upper right corner and following the prompts. <br />\r\n<br />\r\nFaculty may book class tours to visit Material Connexion. Appointments are required. Please contact Lana Bittman - lana_bittman[at]fitnyc.edu for details.",
+        "description": "<p>A material database with access to innovative, sustainable materials and technologies from 75+ industries.<br><br>&nbsp;</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.materialconnexion.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "tn_alt_text": ""
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "<p>New users may set up an account by clicking on \u201cLog In\u201d at the upper right corner and following the prompts.&nbsp;<br><br>Faculty may book class tours to visit Material Connexion. Appointments are required. Please contact Lana Bittman - lana_bittman[at]fitnyc.edu for details.</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-12-13 20:58:21",
+        "updated": "2024-06-12 20:49:43",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5041,7 +5055,7 @@
     {
         "id": 2354061,
         "name": "Mintel Reports",
-        "description": "<p>Original market research on product categories, consumer groups, and general trends. Mostly US and Europe-focused.<br><br>If you wish to use Mintel's collaboration features, like saved searches and email alerts, then you must \"Register for a FREE Account:\" Fill-in required information. Enter your FIT email address [firstname_lastname@fitnyc.edu]; no other email address is accepted.</p>",
+        "description": "<p>Original market research on product categories, consumer groups, and general trends. Mostly US and Europe-focused.<br><br>&nbsp;</p>",
         "url": "https://shibboleth.mintel.com/Shibboleth.sso/Login?target=https%3A%2F%2Fshibboleth.mintel.com%2Fshibboleth%2Flogin%2F%3Fnext%3Dhttps%253A%252F%252Fclients.mintel.com%252Flogin%253Fnext%253D%252F&entityID=https%3A%2F%2Flogin.fitnyc.edu%2Fsamlsso",
         "site_id": 942,
         "type_id": 10,
@@ -5054,12 +5068,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "",
+            "more_info": "<p>If you wish to use Mintel's collaboration features, like saved searches and email alerts, then you must \"Register for a FREE Account:\" Fill-in required information. Enter your FIT email address [firstname_lastname@fitnyc.edu]; no other email address is accepted.</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-11 20:12:11",
+        "updated": "2024-06-12 20:50:05",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9719,7 +9733,7 @@
     {
         "id": 26434855,
         "name": "Business of Fashion (BoF)",
-        "description": "",
+        "description": "<p>Provides information and analysis on the global fashion and beauty industries; includes reports and case studies</p>",
         "url": "https://www.businessoffashion.com",
         "site_id": 942,
         "type_id": 10,
@@ -9737,7 +9751,7 @@
             "cover_url": ""
         },
         "created": "2016-10-28 17:44:17",
-        "updated": "2024-06-12 19:32:51",
+        "updated": "2024-06-12 20:40:49",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -10887,24 +10901,25 @@
     {
         "id": 44830052,
         "name": "BCIN",
-        "description": "Open access. Index (no full text) to scholarly journals, conference proceedings, reports related to art & related conservation.",
+        "description": "<p>Open access. Index (no full text) to scholarly journals, conference proceedings, reports related to art &amp; related conservation.</p>",
         "url": "https://bcin.info/vufind/",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": false,
             "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 0
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2018-10-08 17:52:39",
-        "updated": "2023-10-31 18:02:27",
+        "updated": "2024-06-12 20:39:53",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -12866,7 +12881,7 @@
     {
         "id": 64202728,
         "name": "Air Mail",
-        "description": "<p>Sign up to receive weekly newsletters using your FIT email address: https://airmail.news/subscribe/group/fit<br>&nbsp;</p>",
+        "description": "<p>&nbsp;A digital weekly newsletter founded in 2019 by former Vanity Fair editor-in-chief Graydon Carter and former New York Times reporter Alessandra Stanley.</p>",
         "url": "https://airmail.news/subscribe/group/fit",
         "site_id": 942,
         "type_id": 10,
@@ -12879,12 +12894,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "",
+            "more_info": "<p>Sign up to receive weekly newsletters using your FIT email address: https://airmail.news/subscribe/group/fit<br>&nbsp;</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2021-11-05 16:04:18",
-        "updated": "2024-06-12 19:33:28",
+        "updated": "2024-06-12 20:38:11",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -12983,24 +12998,25 @@
     {
         "id": 64203255,
         "name": "Artnet Fine Art and Design Price Database",
-        "description": "Available to Art Market Studies graduate students only.<br />\r\nPlease use Ask the Library to request password: https://fitnyc.libanswers.com/",
+        "description": "<p>An illustrated archive of international Fine Art, Design, and Decorative Art auction results</p>",
         "url": "https://www.artnet.com/my-account/institutional",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 0
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<p>Available to Art Market Studies graduate students only.<br>Please use Ask the Library to request password: https://fitnyc.libanswers.com/</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2021-11-05 16:16:41",
-        "updated": "2023-10-31 18:02:06",
+        "updated": "2024-06-12 20:39:17",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -13584,24 +13600,25 @@
     {
         "id": 64204553,
         "name": "Coloro Workspace",
-        "description": "New users must register for a free account: <br />\r\n-click signup or login on top yellow banner<br />\r\n-click Workspace on the top right<br />\r\n<br />\r\nA digital tool to explore and work with all 3,500 colors in the Coloro system, allowing you to play with them in different ways.",
+        "description": "<p>A digital tool to explore and work with all 3,500 colors in the Coloro system, allowing you to play with them in different ways</p>",
         "url": "https://coloro.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 0
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<p>New users must register for a free account:&nbsp;</p><ul><li>click signup or login on top yellow banner</li><li>click Workspace on the top right<br>&nbsp;</li></ul>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2021-11-05 16:49:40",
-        "updated": "2023-12-19 18:13:50",
+        "updated": "2024-06-12 20:43:10",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -16457,24 +16474,25 @@
     {
         "id": 70238371,
         "name": "CB Insights",
-        "description": "Users must create an account using an FIT email address.<br />\r\n<br />\r\nCheck your email to click on a link from CB Insights<br />\r\n<br />\r\nReset your password using this link:<br />\r\nhttps://app.cbinsights.com/forgot-password<br />\r\n<br />\r\n\u200b<br />\r\n<br />\r\n<br />\r\nCB Insights is a comprehensive global database of private companies and investors\u2019 activities, including information about private equity, venture capital, and emerging markets. Tools provide users with quantitative data and profiles of investment firms, individual investors, private companies, and valuations, as well as reports and research articles. View any company\u2019s funding, investors, competitors, partners, and more.",
+        "description": "<p>CB Insights is a comprehensive global database of private companies and investors\u2019 activities, including information about private equity, venture capital, and emerging markets. Tools provide users with quantitative data and profiles of investment firms, individual investors, private companies, and valuations, as well as reports and research articles. View any company\u2019s funding, investors, competitors, partners, and more.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://app.cbinsights.com/login?university=fit",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 1
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "<p>Users must create an account using an FIT email address. Check your email to click on a link from CB Insights.<br><br>Reset your password using this link:<br>https://app.cbinsights.com/forgot-password</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2023-01-23 18:35:18",
-        "updated": "2024-03-15 15:21:43",
+        "updated": "2024-06-12 20:42:02",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -16824,7 +16842,7 @@
     {
         "id": 74078990,
         "name": "Center for Art Law",
-        "description": "<p>Database of articles and art law resources</p><p>&nbsp;</p><p>Register using the code shared in the URL.</p>",
+        "description": "<p>Database of articles and art law resources</p>",
         "url": "https://sites.google.com/fitnyc.edu/librarydatabases/home",
         "site_id": 942,
         "type_id": 10,
@@ -16837,12 +16855,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "",
+            "more_info": "<p>Register using the code shared in the URL</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2023-10-25 16:06:37",
-        "updated": "2023-11-17 17:17:38",
+        "updated": "2024-06-12 20:42:28",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -17118,6 +17136,58 @@
                 "content_id": 76815861,
                 "icon_id": 2574,
                 "custom_url": ""
+            }
+        ]
+    },
+    {
+        "id": 76922978,
+        "name": "Material Order",
+        "description": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(51,51,51);font-size:16px;\"><span style=\"-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:&quot;Libre Franklin&quot;, &quot;Helvetica Neue&quot;, helvetica, arial, sans-serif;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Powered by CollectionSpace (LYRASIS) and co-founded by Harvard University Graduate School of Design and Rhode Island School of Design, Material Order is the leading resource for design materials collections at academic and cultural institutions.&nbsp;</span></span></p>",
+        "url": "https://materialorder.org/collection/materials/search",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2024-06-12 20:35:24",
+        "updated": "2024-06-12 20:35:24",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48305,
+                "name": "Images",
+                "site_id": 942
+            },
+            {
+                "id": 48306,
+                "name": "Interior Design & Architecture",
+                "site_id": 942
+            },
+            {
+                "id": 48315,
+                "name": "Open Access",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
             }
         ]
     }
