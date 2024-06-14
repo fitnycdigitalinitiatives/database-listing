@@ -1795,24 +1795,25 @@
     {
         "id": 2354004,
         "name": "Demographics Now",
-        "description": "Provides demographic data for any location in the United States, from the national level down to a specific neighborhood",
+        "description": "<p>Provides demographic data for any location in the United States, from the national level down to a specific neighborhood</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://infotrac.galegroup.com/itweb/fitsuny?db=DNOW",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
+            "tn_height": "",
+            "tn_alt_text": "",
             "desc_pos": 1,
-            "tn_alt_text": ""
+            "enable_proxy": true,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-16 20:42:57",
+        "updated": "2024-06-13 15:31:36",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -1899,6 +1900,16 @@
                 "content_id": 2354004,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 2354004,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=b_7d0Gf-mCI&list=PLslrwoPJuxvFQpABFHYfUNJEwngP-pc2Z&pp=iAQB"
             }
         ]
     },
@@ -1923,7 +1934,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-12 20:43:32",
+        "updated": "2024-06-13 15:23:41",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -2058,6 +2069,16 @@
                 "content_id": 2354007,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 2354007,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=ZqXReiZ0Cx4&list=PLslrwoPJuxvEhSCyjmpqpsMYaZIGCUQ1m&pp=iAQB"
             }
         ]
     },
@@ -2605,12 +2626,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": true,
-            "more_info": "<p>Users are required to create a MY FS account&nbsp;.<br>&nbsp;Use Mozilla/Firefox, Google Chrome, Safari and Internet Explorer (version 10 and up only - older versions of Internet Explorer are not compatible).</p>",
+            "more_info": "<p>Users are required to create a MY FS account&nbsp;<br>Use Mozilla/Firefox, Google Chrome, and Safari &nbsp;</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-12 20:47:57",
+        "updated": "2024-06-13 15:29:17",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -2748,7 +2769,7 @@
                 "url": "",
                 "content_id": 2354019,
                 "icon_id": 33389,
-                "custom_url": "https://www.youtube.com/watch?v=7VMhgPzGckc&list=PLslrwoPJuxvHb2QGkwpLg9dp5GtHsLUsS"
+                "custom_url": "https://www.youtube.com/watch?v=s2a0tiqC2J0&list=PLslrwoPJuxvEWVVFlw9Ur9NOYWbSixHn6&pp=iAQB"
             }
         ]
     },
@@ -3736,7 +3757,7 @@
     {
         "id": 2354039,
         "name": "WGSN Interiors",
-        "description": "<p>Trend reports &amp; forecasting for lifestyles and interiors<br />\r\n<br />\r\nStudents must create an account and re-activate their account every 90 days: click to create or re-activate account: https://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\n<br />\r\nTo access WGSN Lifestyle &amp; Interiors:<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource.</p>",
+        "description": "<p>Trend reports &amp; forecasting for lifestyles and interiors<br>&nbsp;</p>",
         "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
@@ -3747,14 +3768,14 @@
             "tn_width": "",
             "tn_height": "",
             "tn_alt_text": "",
-            "desc_pos": "1",
-            "enable_proxy": 0,
-            "more_info": "",
-            "target": "0",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account<br><br>Locked out of your account for too many incorrect login attempts? Reset your password here:<br>https://www.wgsn.com/auth/forgotpassword<br><br>To access WGSN Lifestyle &amp; Interiors:<br>login via the proxy and then with your WGSN username and password<br>select the part of the site you wish to use from the top menu &nbsp;<br>Use an incognito browser to access this resource</p>",
+            "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-10-10 19:39:27",
+        "updated": "2024-06-13 15:26:30",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -3893,6 +3914,16 @@
                 "content_id": 2354039,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 2354039,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=0ie2EoluN-Q&list=PLslrwoPJuxvGDiBr2LWTNMghBjaI3gu9R&pp=iAQB"
             }
         ]
     },
@@ -4448,24 +4479,25 @@
     {
         "id": 2354049,
         "name": "Vivvix",
-        "description": "Monitors advertising expenditures and occurrence information for 3+ million brands across 18 media.<br />\r\nAccess is limited to ten (10) users at a time.",
+        "description": "<p>Monitors advertising expenditures and occurrence information for 3+ million brands across 18 media.<br>&nbsp;</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://edu.app.vivvix.com/360",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "tn_alt_text": ""
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "<p>Access is limited to ten (10) users at a time.</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-10-10 19:37:16",
+        "updated": "2024-06-13 15:31:07",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -4556,6 +4588,16 @@
                 "content_id": 2354049,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 2354049,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=b_7d0Gf-mCI&list=PLslrwoPJuxvFQpABFHYfUNJEwngP-pc2Z&pp=iAQB"
             }
         ]
     },
@@ -5073,7 +5115,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-12 20:50:05",
+        "updated": "2024-06-13 15:18:45",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5181,30 +5223,41 @@
                 "content_id": 2354061,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 2354061,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=NTRmQmVi868&list=PLslrwoPJuxvHd7DZs9HKsFv-DesjW2wFU&pp=iAQB"
             }
         ]
     },
     {
         "id": 2354062,
         "name": "MRI-Simmons Insights",
-        "description": "A profiling system to gain insights and to understand consumer\u2019s media and<br />\r\nproduct usage.<br />\r\n<br />\r\nAccess is limited to ten (10) concurrent users.<br />\r\n<br />\r\nUse an incognito browser to access this resource",
+        "description": "<p>A profiling system to gain insights and to understand consumer\u2019s media and<br>product usage.<br>&nbsp;</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://insights.mrisimmons.com/university/fitnyc",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "tn_alt_text": ""
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "<p>Access is limited to ten (10) concurrent users.<br>Use an incognito browser to access this resource.</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-10-31 18:06:40",
+        "updated": "2024-06-13 15:17:34",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5834,24 +5887,25 @@
     {
         "id": 2354073,
         "name": "Passport  (Euromonitor)",
-        "description": "Provides international market intelligence, including economic statistics, on industries, countries, and consumers.",
+        "description": "<p>Provides international market intelligence, including economic statistics, on industries, countries, and consumers.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.portal.euromonitor.com/portal/",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
             "more_info": "",
-            "desc_pos": "1",
-            "tn_alt_text": ""
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-12-12 15:29:06",
+        "updated": "2024-06-13 15:19:16",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5986,6 +6040,16 @@
                 "content_id": 2354073,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 2354073,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=b_7d0Gf-mCI&list=PLslrwoPJuxvFQpABFHYfUNJEwngP-pc2Z&pp=iAQB"
             }
         ]
     },
@@ -6913,24 +6977,25 @@
     {
         "id": 2354094,
         "name": "Salesman's Guide",
-        "description": "Buyer contact lists for retailers across North America. Includes Gift, Houseware and Home Textile Buyers, Independent Sales Representatives and Multi-Line Showrooms, and the Retail Buyer Database.<br />\r\n<br />\r\n1) Enter username and password in Customer Login<br />\r\n2) Click Open on the far right in Purchased Product box <br />\r\n3) Logout when finished - limited to one user at a time<br />\r\n<br />\r\nReports cannot be downloaded",
+        "description": "<p>Buyer contact lists for retailers across North America. Includes Gift, Houseware and Home Textile Buyers, Independent Sales Representatives and Multi-Line Showrooms, and the Retail Buyer Database.<br>&nbsp;</p>",
         "url": "https://sites.google.com/fitnyc.edu/librarydatabases/home",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 0,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "tn_alt_text": ""
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<p>1) Enter username and password in Customer Login<br>2) Click Open on the far right in Purchased Product box&nbsp;<br>3) Logout when finished - limited to one user at a time<br><br>Reports cannot be downloaded</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-06-15 19:45:24",
+        "updated": "2024-06-13 15:21:42",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -7721,7 +7786,7 @@
     {
         "id": 2354112,
         "name": "WGSN Fashion",
-        "description": "Trend reports &amp; forecasting for fashion",
+        "description": "<p>Trend reports &amp; forecasting for fashion</p>",
         "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
@@ -7732,14 +7797,14 @@
             "tn_width": "",
             "tn_height": "",
             "tn_alt_text": "",
-            "desc_pos": "1",
-            "enable_proxy": 0,
-            "more_info": "Students must create an account and re-activate their account every 90 days: click to create or re-activate account:<br />\r\nhttps://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\n<br />\r\nTo access WGSN Fashion<br />\r\n<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource.Students must create an account and re-activate their account every 90 days: click on re-activate account.",
-            "target": "0",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account<br><br>Locked out of your account for too many incorrect login attempts? Reset your password here:<br>https://www.wgsn.com/auth/forgotpassword<br><br>To access WGSN Fashion<br>login via the proxy and then with your WGSN username and password<br>select the part of the site you wish to use from the top menu&nbsp;</p><p><br>Use an incognito browser to access this resource.</p>",
+            "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-03-15 15:43:45",
+        "updated": "2024-06-13 15:27:40",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -7884,30 +7949,41 @@
                 "content_id": 2354112,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 2354112,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=0ie2EoluN-Q&list=PLslrwoPJuxvGDiBr2LWTNMghBjaI3gu9R&pp=iAQB"
             }
         ]
     },
     {
         "id": 2354113,
         "name": "WWD Online (1994-Current)",
-        "description": "Full-text coverage of Woman\u2019s Wear Daily from 1994 - current.",
+        "description": "<p>Full-text coverage of Woman\u2019s Wear Daily from 1994 - current.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://wwd.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
+            "tn_height": "",
+            "tn_alt_text": "",
             "desc_pos": 1,
-            "tn_alt_text": ""
+            "enable_proxy": true,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 17:50:30",
+        "updated": "2024-06-13 15:28:34",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -8587,24 +8663,25 @@
     {
         "id": 7006914,
         "name": "WindowsWear",
-        "description": "Contains images, 360 degree panoramas, and descriptions of physical and digital window displays in a real-time, searchable database of community-generated content that provides data on what retail environments look like around the world with coverage from 1931 to present.\u200b<br />\r\n1. Visit \u200bWindowsWear<br />\r\n2. Click \u201cJoin now\u201d on the top right<br />\r\n3. Select \"Academic\" on the right<br />\r\n4. Under \"existing members\" select \"FIT\"<br />\r\n5. Create profile<br />\r\n6. Under \"get started\" select \"student\" or \"faculty\"<br />\r\n7. Use your FIT email and create a password<br />\r\n8. Click \"join\"<br />\r\nYou will need to login to WindowsWear after authenticating via the proxy to use the site.",
+        "description": "<p>Contains images, 360 degree panoramas, and descriptions of physical and digital window displays in a real-time, searchable database of community-generated content that provides data on what retail environments look like around the world with coverage from 1931 to present.<br>&nbsp;</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.windowswear.com/membership-plan/?plan=free&school=27",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 1,
-            "tn_alt_text": ""
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "<p>1. Visit \u200bWindowsWear<br>2. Click \u201cJoin now\u201d on the top right<br>3. Select \"Academic\" on the right<br>4. Under \"existing members\" select \"FIT\"<br>5. Create profile<br>6. Under \"get started\" select \"student\" or \"faculty\"<br>7. Use your FIT email and create a password<br>8. Click \"join\"<br>You will need to login to WindowsWear after authenticating via the proxy to use the site.</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-12-10 18:54:16",
-        "updated": "2023-06-15 19:45:08",
+        "updated": "2024-06-13 15:28:01",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -8751,7 +8828,7 @@
             "cover_url": ""
         },
         "created": "2014-12-10 19:01:45",
-        "updated": "2023-11-10 19:12:36",
+        "updated": "2024-06-13 15:30:15",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -8848,6 +8925,16 @@
                 "content_id": 7007025,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 7007025,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=b_7d0Gf-mCI&list=PLslrwoPJuxvFQpABFHYfUNJEwngP-pc2Z&pp=iAQB"
             }
         ]
     },
@@ -9912,24 +9999,25 @@
     {
         "id": 34685845,
         "name": "Sophicolor",
-        "description": "A color service with more than 4,500 unique colors. Includes Trend Intelligence with the latest color palettes.<br />\r\n<br />\r\nExtensive cotton color swatch collections<br />\r\n<br />\r\nRegister for an account here using your FIT email. Select \"Design Clients\" -- https://www.sophicolor.com/register<br />\r\n<br />\r\nIn the Company field, enter \"FIT,\" and for job title enter \"FIT Student\" or \"FIT Faculty\" <br />\r\n<br />\r\nYou will receive an email from Sophicolor once your account has been approved.",
+        "description": "<p>A color service with more than 4,500 unique colors. Includes Trend Intelligence with the latest color palettes.<br><br>&nbsp;</p>",
         "url": "https://sophicolor.com/register",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 0
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<p>Register for an account here using your FIT email. Select \"Design Clients\" -- https://www.sophicolor.com/register<br><br>In the Company field, enter \"FIT,\" and for job title enter \"FIT Student\" or \"FIT Faculty\"&nbsp;<br><br>You will receive an email from Sophicolor once your account has been approved.</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2017-08-09 18:26:36",
-        "updated": "2023-10-10 19:37:36",
+        "updated": "2024-06-13 15:22:10",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -10026,7 +10114,7 @@
     {
         "id": 35072182,
         "name": "WGSN Insight",
-        "description": "<p>Consumer, marketing, retail, and innovation trends<br />\r\n<br />\r\nStudents must create an account and re-activate their account every 90 days: click to create or re-activate account: https://www-wgsn-com.libproxy.fitsuny.edu/accounts/edu<br />\r\n<br />\r\nLocked out of your account for too many incorrect login attempts? Reset your password here:<br />\r\nhttps://www.wgsn.com/auth/forgotpassword<br />\r\nTo access WGSN Insight:<br />\r\n<br />\r\nlogin via the proxy and then with your WGSN username and password<br />\r\nselect the part of the site you wish to use from the top menu under \"Fashion\"<br />\r\nUse an incognito browser to access this resource</p>",
+        "description": "<p>Consumer, marketing, retail, and innovation trends<br><br>&nbsp;</p>",
         "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
@@ -10037,14 +10125,14 @@
             "tn_width": "",
             "tn_height": "",
             "tn_alt_text": "",
-            "desc_pos": "1",
-            "enable_proxy": 0,
-            "more_info": "",
-            "target": "0",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account</p><p><br>Locked out of your account for too many incorrect login attempts? Reset your password here:<br>https://www.wgsn.com/auth/forgotpassword<br>To access WGSN Insight:<br>login via the proxy and then with your WGSN username and password<br>select the part of the site you wish to use from the top menu&nbsp;</p><p><br>Use an incognito browser to access this resource</p>",
+            "target": 0,
             "cover_url": ""
         },
         "created": "2017-08-22 16:07:17",
-        "updated": "2023-10-10 19:39:07",
+        "updated": "2024-06-13 15:26:56",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -10189,6 +10277,16 @@
                 "content_id": 35072182,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 35072182,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=0ie2EoluN-Q&list=PLslrwoPJuxvGDiBr2LWTNMghBjaI3gu9R&pp=iAQB"
             }
         ]
     },
@@ -16492,7 +16590,7 @@
             "cover_url": ""
         },
         "created": "2023-01-23 18:35:18",
-        "updated": "2024-06-12 20:42:02",
+        "updated": "2024-06-13 15:29:57",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -16626,6 +16724,16 @@
                 "content_id": 70238371,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 70238371,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=b_7d0Gf-mCI&list=PLslrwoPJuxvFQpABFHYfUNJEwngP-pc2Z&pp=iAQB"
             }
         ]
     },
