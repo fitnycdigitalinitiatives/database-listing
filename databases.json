@@ -9435,6 +9435,138 @@
         ]
     },
     {
+        "id": 18928598,
+        "name": "Peclers(+)",
+        "description": "<p>Fashion and trend forecasting service</p>",
+        "url": "https://sites.google.com/fitnyc.edu/librarydatabases/home",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<p>To access Peclers(+):<br><br>Click \"register\" on the bottom right where it says \"I am a student. I have an activation code.\"&nbsp;<br>Use activation code: JXWYEND7<br>Use your FIT email address<br>For \"position\" type student or employee job title</p>",
+            "target": 2,
+            "cover_url": ""
+        },
+        "created": "2016-01-20 16:55:42",
+        "updated": "2024-06-24 15:31:16",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48299,
+                "name": "Forecasting & Trend Reporting",
+                "site_id": 942
+            },
+            {
+                "id": 48314,
+                "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            }
+        ],
+        "subjects": [
+            {
+                "id": 25086,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Companies, Brands, & Products",
+                "ordering": 0,
+                "slug_id": 960975,
+                "subject_id": 25086,
+                "content_id": 18928598,
+                "featured": 0
+            },
+            {
+                "id": 25088,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Fashion & Accessory Design",
+                "ordering": 0,
+                "slug_id": 960977,
+                "subject_id": 25088,
+                "content_id": 18928598,
+                "featured": 0
+            },
+            {
+                "id": 25089,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Fashion Industry",
+                "ordering": 0,
+                "slug_id": 960980,
+                "subject_id": 25089,
+                "content_id": 18928598,
+                "featured": 0
+            },
+            {
+                "id": 114532,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Images, Multimedia, & Visual Resources",
+                "ordering": 0,
+                "slug_id": 1042148,
+                "subject_id": 114532,
+                "content_id": 18928598,
+                "featured": 0
+            },
+            {
+                "id": 102758,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Marketing, Media, & Demographics",
+                "ordering": 0,
+                "slug_id": 907246,
+                "subject_id": 102758,
+                "content_id": 18928598,
+                "featured": 0
+            },
+            {
+                "id": 25090,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Textiles",
+                "ordering": 0,
+                "slug_id": 960992,
+                "subject_id": 25090,
+                "content_id": 18928598,
+                "featured": 0
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 18928598,
+                "icon_id": 2574,
+                "custom_url": ""
+            }
+        ]
+    },
+    {
         "id": 20430647,
         "name": "Dissertations & Theses @ Fashion Institute of Technology (ProQuest)",
         "description": "Provides access to the dissertations and theses produced by students at FIT.",
