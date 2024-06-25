@@ -17303,7 +17303,7 @@
     {
         "id": 76815861,
         "name": "Daily News Record Archive",
-        "description": "<p>Coverage from 1917-2008<br><br>Features 90+ years of breaking news, expert analysis, and\u200b imagery chronicling fashion\u200b market dynamics, design evolution, and business strategies. Standing as one of the longest-running fashion trade titles\u200b and\u200b a leading news resource for the fashion industry, this exclusive archive brings a focus on men\u2019s fashion, an area\u200b largely unrepresented by digital archives until now. Highly influential in the industry, this publication contributed to the\u200b establishment\u200b of several early menswear fashion shows</p>",
+        "description": "<p>Coverage from 1917-2008<br />\r\n<br />\r\nFeatures 90+ years of breaking news, expert analysis, and\u200b imagery chronicling fashion\u200b market dynamics, design evolution, and business strategies. Standing as one of the longest-running fashion trade titles\u200b and\u200b a leading news resource for the fashion industry, this exclusive archive brings a focus on men\u2019s fashion, an area\u200b largely unrepresented by digital archives until now. Highly influential in the industry, this publication contributed to the\u200b establishment\u200b of several early menswear fashion shows</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.proquest.com/dailynewsrecord/index?accountid=27253",
         "site_id": 942,
         "type_id": 10,
@@ -17314,14 +17314,14 @@
             "tn_width": "",
             "tn_height": "",
             "tn_alt_text": "",
-            "desc_pos": 1,
-            "enable_proxy": true,
+            "desc_pos": "1",
+            "enable_proxy": 1,
             "more_info": "",
-            "target": 0,
+            "target": "0",
             "cover_url": ""
         },
         "created": "2024-06-04 16:55:38",
-        "updated": "2024-06-12 17:48:15",
+        "updated": "2024-06-24 19:18:36",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
