@@ -7070,24 +7070,25 @@
     {
         "id": 2354095,
         "name": "Gale OneFile Entrepreneurship",
-        "description": "Trade, scholarly, & general articles, some e-books 1980- present",
+        "description": "<p>Trade, scholarly, &amp; general articles, some e-books 1980- present</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://infotrac.galegroup.com/itweb/fitsuny?db=PPSB",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
+            "tn_height": "",
+            "tn_alt_text": "",
             "desc_pos": 1,
-            "tn_alt_text": ""
+            "enable_proxy": true,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 19:28:13",
+        "updated": "2024-06-25 15:20:08",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -11033,24 +11034,25 @@
     {
         "id": 44443517,
         "name": "WWD Digital Daily",
-        "description": "",
-        "url": "https://subscriptions.pmc.com/register/wwd/0010b00002Y2MdWAAV",
+        "description": "<p>Sign up for the WWD Digital Daily edition sent to your email Monday-Friday</p>",
+        "url": "https://wwd.com/subscribe/?contractId=TMU0TURKBLEH",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
-            "more_info": "Register for a WWD Digital Daily account using your FIT email address. Once registered, the daily edition of WWD will be sent to your email.<br />\r\n<br />\r\nNew registrations take 3-9 days to become active.<br />\r\n<br />\r\nAccess WWD Digital Daily through this WWD Digital Daily  link and not through WWD Online.<br />\r\n<br />\r\nReset your password using this link: https://wwd.com/help/<br />\r\nAccess WWD Digital Daily through this WWD Digital Daily link and not through WWD Online.",
-            "desc_pos": "1",
-            "enable_proxy": 0
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<p>Register for a WWD Digital Daily account using your FIT email address. Once registered, the daily edition of WWD will be sent to your email.<br><br>New registrations take 3-9 days to become active.<br><br>Access WWD Digital Daily through this WWD Digital Daily link and not through WWD Online.<br><br>Reset your password using this link: https://wwd.com/help/<br>&nbsp;</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2018-09-18 18:02:26",
-        "updated": "2024-03-15 15:47:05",
+        "updated": "2024-06-25 15:07:28",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -11884,6 +11886,100 @@
                 "description": "FIT digital resource",
                 "url": "",
                 "content_id": 53185674,
+                "icon_id": 2574,
+                "custom_url": ""
+            }
+        ]
+    },
+    {
+        "id": 53185730,
+        "name": "Bloomsbury Design Library",
+        "description": "<p>Scholarly coverage of design and crafts worldwide from 1500 BCE to the present day</p>",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyvisualarts.com/bloomsbury-design-library",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "<p>Use an Incognito browser&nbsp;</p>",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2020-03-23 19:50:46",
+        "updated": "2024-06-25 14:06:44",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "subjects": [
+            {
+                "id": 25085,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Art, Design & Art History",
+                "ordering": 0,
+                "slug_id": 960972,
+                "subject_id": 25085,
+                "content_id": 53185730,
+                "featured": 0
+            },
+            {
+                "id": 25088,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Fashion & Accessory Design",
+                "ordering": 0,
+                "slug_id": 960977,
+                "subject_id": 25088,
+                "content_id": 53185730,
+                "featured": 0
+            },
+            {
+                "id": 25089,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Fashion Industry",
+                "ordering": 0,
+                "slug_id": 960980,
+                "subject_id": 25089,
+                "content_id": 53185730,
+                "featured": 0
+            },
+            {
+                "id": 102750,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Interdisciplinary Studies and Topics",
+                "ordering": 0,
+                "slug_id": 907236,
+                "subject_id": 102750,
+                "content_id": 53185730,
+                "featured": 0
+            },
+            {
+                "id": 25090,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Textiles",
+                "ordering": 0,
+                "slug_id": 960992,
+                "subject_id": 25090,
+                "content_id": 53185730,
+                "featured": 0
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 53185730,
                 "icon_id": 2574,
                 "custom_url": ""
             }
