@@ -13,7 +13,7 @@ script:
 deploy:
   provider: pages
   edge: 
-    branch: v2.0.3-beta.4
+    branch: v2.0.5-beta
   local_dir: gh-pages
   target_branch: gh-pages
   cleanup: false
