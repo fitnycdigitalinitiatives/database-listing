@@ -3770,12 +3770,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account</p><p>Locked out of your account for too many incorrect login attempts? Reset your password here: <a href=\"https://www.wgsn.com/auth/forgotpassword\">https://www.wgsn.com/auth/forgotpassword</a></p><p>To access WGSN Lifestyle &amp; Interiors:</p><ul><li>login via the proxy and then with your WGSN username and password select the part of the site you wish to use from the top menu&nbsp;</li></ul><p>Use an incognito browser to access this resource</p>",
+            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account</p><p>Locked out of your account for too many incorrect login attempts? Reset your password here: https://www.wgsn.com/auth/forgotpassword</p><p>To access WGSN Lifestyle &amp; Interiors:</p><ul><li>login via the proxy and then with your WGSN username and password select the part of the site you wish to use from the top menu&nbsp;</li></ul><p>Use an incognito browser to access this resource</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-26 16:27:52",
+        "updated": "2024-06-26 20:13:01",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -7800,12 +7800,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account</p><p>Locked out of your account for too many incorrect login attempts? Reset your password here: <a href=\"https://www.wgsn.com/auth/forgotpassword\">https://www.wgsn.com/auth/forgotpassword</a></p><p>To access WGSN Fashion login via the proxy and then with your WGSN username and password select the part of the site you wish to use from the top menu.</p><p>Use an incognito browser to access this resource.</p>",
+            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account</p><p>Locked out of your account for too many incorrect login attempts? Reset your password here: https://www.wgsn.com/auth/forgotpassword</p><p>To access WGSN Fashion login via the proxy and then with your WGSN username and password select the part of the site you wish to use from the top menu.</p><p>Use an incognito browser to access this resource.</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-26 16:25:08",
+        "updated": "2024-06-26 20:12:26",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9954,7 +9954,7 @@
     {
         "id": 26434855,
         "name": "Business of Fashion (BoF)",
-        "description": "<p>Provides information and analysis on the global fashion and beauty industries; includes reports and case studies</p>",
+        "description": "<p>Provides information and analysis on the global fashion and beauty industries; includes reports and case studies.</p>",
         "url": "https://www.businessoffashion.com",
         "site_id": 942,
         "type_id": 10,
@@ -9967,12 +9967,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>1. Click to register for BoF Professional:&nbsp;https://www.businessoffashion.com/register<br>You must use an FIT email address.<br><br>2. Check your inbox for a confirmation email and click the link to confirm your membership (this email is sent from: noreply@businessoffashion.com)<br><br>Tip: Be sure to check your spam inbox and add BoF as a contact to ensure you receive future emails and newsletters.<br><br>3. Once confirmed, you will automatically get full access to your own BoF Professional account.<br><br>For help, please contact BoF at professional.groups@businessoffashion.com<br><br>BoF Professional provides unlimited access to articles, exclusive analysis and briefings, case studies, special reports, online learning courses, the iPhone mobile app as well as invitations to digital and in-person events.</p>",
+            "more_info": "<p>1. Click to register for BoF Professional:&nbsp;https://www.businessoffashion.com/register</p><p>You must use an FIT email address.</p><p>2. Check your inbox for a confirmation email and click the link to confirm your membership (this email is sent from: noreply@businessoffashion.com)</p><p>Tip: Be sure to check your spam inbox and add BoF as a contact to ensure you receive future emails and newsletters.</p><p>3. Once confirmed, you will automatically get full access to your own BoF Professional account.</p><p>For help, please contact BoF at professional.groups@businessoffashion.com</p><p>BoF Professional provides unlimited access to articles, exclusive analysis and briefings, case studies, special reports, online learning courses, the iPhone mobile app as well as invitations to digital and in-person events.</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2016-10-28 17:44:17",
-        "updated": "2024-06-12 20:40:49",
+        "updated": "2024-06-26 20:15:34",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -10146,12 +10146,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>Register for an account here using your FIT email. Select \"Design Clients\" -- https://www.sophicolor.com/register</p><p>In the Company field, enter \"FIT,\" and for job title enter \"FIT Student\" or \u201cFIT Faculty\u201d</p><p>You will receive an email from Sophicolor once your account has been approved.<br><br><br><br>&nbsp;</p>",
+            "more_info": "<p>Register for an account here using your FIT email. Select \"Design Clients\" -- https://www.sophicolor.com/register</p><p>In the Company field, enter \"FIT,\" and for job title enter \"FIT Student\" or \u201cFIT Faculty\u201d</p><p>You will receive an email from Sophicolor once your account has been approved.</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2017-08-09 18:26:36",
-        "updated": "2024-06-26 16:20:30",
+        "updated": "2024-06-26 20:17:12",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -16817,12 +16817,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": true,
-            "more_info": "<p>Users must create an account using an FIT email address. Check your email to click on a link from CB Insights.<br><br>Reset your password using this link:<br>https://app.cbinsights.com/forgot-password</p>",
+            "more_info": "<p>Users must create an account using an FIT email address. Check your email to click on a link from CB Insights.</p><p>Reset your password using this link: https://app.cbinsights.com/forgot-password</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2023-01-23 18:35:18",
-        "updated": "2024-06-13 15:29:57",
+        "updated": "2024-06-26 20:16:10",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
