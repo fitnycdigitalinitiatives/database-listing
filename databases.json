@@ -3757,7 +3757,7 @@
     {
         "id": 2354039,
         "name": "WGSN Interiors",
-        "description": "<p>Trend reports &amp; forecasting for lifestyles and interiors<br>&nbsp;</p>",
+        "description": "<p>Trend reports &amp; forecasting for lifestyles and interiors.</p>",
         "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
@@ -3770,12 +3770,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account<br><br>Locked out of your account for too many incorrect login attempts? Reset your password here:<br>https://www.wgsn.com/auth/forgotpassword<br><br>To access WGSN Lifestyle &amp; Interiors:<br>login via the proxy and then with your WGSN username and password<br>select the part of the site you wish to use from the top menu &nbsp;<br>Use an incognito browser to access this resource</p>",
+            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account</p><p>Locked out of your account for too many incorrect login attempts? Reset your password here: <a href=\"https://www.wgsn.com/auth/forgotpassword\">https://www.wgsn.com/auth/forgotpassword</a></p><p>To access WGSN Lifestyle &amp; Interiors:</p><ul><li>login via the proxy and then with your WGSN username and password select the part of the site you wish to use from the top menu&nbsp;</li></ul><p>Use an incognito browser to access this resource</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-13 15:26:30",
+        "updated": "2024-06-26 16:27:52",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -3930,7 +3930,7 @@
     {
         "id": 2354040,
         "name": "Hoover's Online",
-        "description": "<p>&nbsp;Hoover\u2019s, a subsidiary of The Dun and Bradstreet Corporation (D&amp;B), offers proprietary business information Hoover's provides data on more than 85 million corporations, 100 million people, and 1,000 industries.<br><br>&nbsp;</p>",
+        "description": "<p>&nbsp;Hoover\u2019s, a subsidiary of The Dun and Bradstreet Corporation (D&amp;B), offers proprietary business information Hoover's provides data on more than 85 million corporations, 100 million people, and 1,000 industries.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.mergentonline.com/Hoovers",
         "site_id": 942,
         "type_id": 10,
@@ -3943,12 +3943,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": true,
-            "more_info": "<p>Firefox Private and Google Chrome Incognito are supported browsers.<br>&nbsp;</p>",
+            "more_info": "<p>Firefox Private and Google Chrome Incognito are supported browsers.</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-12 20:48:36",
+        "updated": "2024-06-26 16:15:32",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -4479,7 +4479,7 @@
     {
         "id": 2354049,
         "name": "Vivvix",
-        "description": "<p>Monitors advertising expenditures and occurrence information for 3+ million brands across 18 media.<br>&nbsp;</p>",
+        "description": "<p>Monitors advertising expenditures and occurrence information for 3+ million brands across 18 media.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://edu.app.vivvix.com/360",
         "site_id": 942,
         "type_id": 10,
@@ -4497,7 +4497,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-13 15:31:07",
+        "updated": "2024-06-26 16:06:03",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5097,7 +5097,7 @@
     {
         "id": 2354061,
         "name": "Mintel Reports",
-        "description": "<p>Original market research on product categories, consumer groups, and general trends. Mostly US and Europe-focused.<br><br>&nbsp;</p>",
+        "description": "<p>Original market research on product categories, consumer groups, and general trends. Mostly US and Europe-focused.</p>",
         "url": "https://shibboleth.mintel.com/Shibboleth.sso/Login?target=https%3A%2F%2Fshibboleth.mintel.com%2Fshibboleth%2Flogin%2F%3Fnext%3Dhttps%253A%252F%252Fclients.mintel.com%252Flogin%253Fnext%253D%252F&entityID=https%3A%2F%2Flogin.fitnyc.edu%2Fsamlsso",
         "site_id": 942,
         "type_id": 10,
@@ -5115,7 +5115,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-13 15:18:45",
+        "updated": "2024-06-26 16:16:01",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5239,7 +5239,7 @@
     {
         "id": 2354062,
         "name": "MRI-Simmons Insights",
-        "description": "<p>A profiling system to gain insights and to understand consumer\u2019s media and<br>product usage.<br>&nbsp;</p>",
+        "description": "<p>A profiling system to gain insights and to understand consumer\u2019s media and product usage.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://insights.mrisimmons.com/university/fitnyc",
         "site_id": 942,
         "type_id": 10,
@@ -5257,7 +5257,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-13 15:17:34",
+        "updated": "2024-06-26 16:16:23",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5448,7 +5448,7 @@
     {
         "id": 2354067,
         "name": "New York Times (NYTimes.com)",
-        "description": "<p>Please click here for full instructions on how to access New York Times Academic Pass: https://it.fitnyc.edu/kb/nytimes-com-academic-pass/<br />\r\n<br />\r\n\u00b7 NEW subscribers to NYT can visit accessnyt.com to create an account (register). They type in the school name and follow the instructions based on their location. If the new subscriber encounters an error message that subscriber can email edu@nytimes.com.<br />\r\n<br />\r\n\u00b7 EXISTING registered subscribers with ACTIVE PAID subscriptions need to cancel their personal subscription by connecting with a chat agent on the site, or calling 800-698-4637 before creating an account. Once the subscription is canceled, they can visit accessnyt.com, type in the school name and follow the instructions based on their location. Since the subscriber \u201cAlready has an account \" they click \u201cLog In\" (Found below \"Create an Account\"). Input their email address and the same \u201cPassword\u201d created for their previous account. If the subscriber encounters an error message that subscriber can email with edu@nytimes.com.<br />\r\n<br />\r\n\u00b7 EXISTING registered subscribers that DO NOT HAVE ACTIVE NYT subscription can visit accessnyt.com , type in the name of the school and follow the instructions based on their location. Since the subscriber \"Already has an account \" they click \u201cLog In\" (Found below \"Create an Account\"). Input their email address and the same \u201cPassword\u201d created for their previous account. If the subscriber encounters an error message that subscriber can email edu@nytimes.com.</p>",
+        "description": "",
         "url": "https://nytimesineducation.com/access-nyt",
         "site_id": 942,
         "type_id": 10,
@@ -5459,14 +5459,14 @@
             "tn_width": "",
             "tn_height": "",
             "tn_alt_text": "",
-            "desc_pos": "1",
-            "enable_proxy": 0,
-            "more_info": "",
-            "target": "0",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<p>Please click here for full instructions on how to access New York Times Academic Pass: https://it.fitnyc.edu/kb/nytimes-com-academic-pass/</p><ul><li>NEW subscribers to NYT can visit accessnyt.com to create an account (register). They type in the school name and follow the instructions based on their location. If the new subscriber encounters an error message that subscriber can email edu@nytimes.com.</li><li>EXISTING registered subscribers with ACTIVE PAID subscriptions need to cancel their personal subscription by connecting with a chat agent on the site, or calling 800-698-4637 before creating an account. Once the subscription is canceled, they can visit accessnyt.com, type in the school name and follow the instructions based on their location. Since the subscriber \u201cAlready has an account \" they click \u201cLog In\" (Found below \"Create an Account\"). Input their email address and the same \u201cPassword\u201d created for their previous account. If the subscriber encounters an error message that subscriber can email with edu@nytimes.com.</li><li>EXISTING registered subscribers that DO NOT HAVE ACTIVE NYT subscription can visit accessnyt.com , type in the name of the school and follow the instructions based on their location. Since the subscriber \"Already has an account \" they click \u201cLog In\" (Found below \"Create an Account\"). Input their email address and the same \u201cPassword\u201d created for their previous account. If the subscriber encounters an error message that subscriber can email edu@nytimes.com.</li></ul>",
+            "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-10-10 19:36:01",
+        "updated": "2024-06-26 16:17:59",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -7787,7 +7787,7 @@
     {
         "id": 2354112,
         "name": "WGSN Fashion",
-        "description": "<p>Trend reports &amp; forecasting for fashion</p>",
+        "description": "<p>Trend reports &amp; forecasting for fashion.</p>",
         "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
@@ -7800,12 +7800,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account<br><br>Locked out of your account for too many incorrect login attempts? Reset your password here:<br>https://www.wgsn.com/auth/forgotpassword<br><br>To access WGSN Fashion<br>login via the proxy and then with your WGSN username and password<br>select the part of the site you wish to use from the top menu&nbsp;</p><p><br>Use an incognito browser to access this resource.</p>",
+            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account</p><p>Locked out of your account for too many incorrect login attempts? Reset your password here: <a href=\"https://www.wgsn.com/auth/forgotpassword\">https://www.wgsn.com/auth/forgotpassword</a></p><p>To access WGSN Fashion login via the proxy and then with your WGSN username and password select the part of the site you wish to use from the top menu.</p><p>Use an incognito browser to access this resource.</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-13 15:27:40",
+        "updated": "2024-06-26 16:25:08",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9812,24 +9812,25 @@
     {
         "id": 23287837,
         "name": "EDITED",
-        "description": "Real-time access to retail data to make informed product, marketing and pricing decisions.<br />\r\n<br />\r\nTo register for an account, the professor of each class using EDITED must provide a list of students' names, email, and graduation year to EDITED, support@edited.com. Please first ask students for permission to share their contact information.",
+        "description": "<p>Real-time access to retail data to make informed product, marketing and pricing decisions.</p>",
         "url": "https://accounts.edited.com/login/saml/390",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "2",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 0,
-            "tn_alt_text": ""
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<p>To register for an account, the professor of each class using EDITED must provide a list of students' names, email, and graduation year to EDITED, support@edited.com. Please first ask students for permission to share their contact information.</p>",
+            "target": 2,
+            "cover_url": ""
         },
         "created": "2016-07-14 21:19:40",
-        "updated": "2024-02-13 17:54:50",
+        "updated": "2024-06-26 16:14:58",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -10132,7 +10133,7 @@
     {
         "id": 34685845,
         "name": "Sophicolor",
-        "description": "<p>A color service with more than 4,500 unique colors. Includes Trend Intelligence with the latest color palettes.<br><br>&nbsp;</p>",
+        "description": "<p>A color service with more than 4,500 unique colors. Includes Trend Intelligence with the latest color palettes.</p>",
         "url": "https://sophicolor.com/register",
         "site_id": 942,
         "type_id": 10,
@@ -10145,12 +10146,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>Register for an account here using your FIT email. Select \"Design Clients\" -- https://www.sophicolor.com/register<br><br>In the Company field, enter \"FIT,\" and for job title enter \"FIT Student\" or \"FIT Faculty\"&nbsp;<br><br>You will receive an email from Sophicolor once your account has been approved.</p>",
+            "more_info": "<p>Register for an account here using your FIT email. Select \"Design Clients\" -- https://www.sophicolor.com/register</p><p>In the Company field, enter \"FIT,\" and for job title enter \"FIT Student\" or \u201cFIT Faculty\u201d</p><p>You will receive an email from Sophicolor once your account has been approved.<br><br><br><br>&nbsp;</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2017-08-09 18:26:36",
-        "updated": "2024-06-13 15:22:10",
+        "updated": "2024-06-26 16:20:30",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -10247,7 +10248,7 @@
     {
         "id": 35072182,
         "name": "WGSN Insight",
-        "description": "<p>Consumer, marketing, retail, and innovation trends<br><br>&nbsp;</p>",
+        "description": "<p>Consumer, marketing, retail, and innovation trends.</p>",
         "url": "https://wgsn.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=token&client_id=2kt7vqlasu2v0modt0s4127ul&redirect_uri=https://www.wgsn.com/auth/callback&identity_provider=fit",
         "site_id": 942,
         "type_id": 10,
@@ -10260,12 +10261,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account</p><p><br>Locked out of your account for too many incorrect login attempts? Reset your password here:<br>https://www.wgsn.com/auth/forgotpassword<br>To access WGSN Insight:<br>login via the proxy and then with your WGSN username and password<br>select the part of the site you wish to use from the top menu&nbsp;</p><p><br>Use an incognito browser to access this resource</p>",
+            "more_info": "<p>Students must create an account and re-activate their account every 90 days: click to create or re-activate account.</p><p>Locked out of your account for too many incorrect login attempts? Reset your password here: https://www.wgsn.com/auth/forgotpassword</p><p>To access WGSN Insight:</p><ul><li>login via the proxy and then with your WGSN username and password select the part of the site you wish to use from the top menu</li></ul><p>Use an incognito browser to access this resource.</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2017-08-22 16:07:17",
-        "updated": "2024-06-13 15:26:56",
+        "updated": "2024-06-26 16:26:51",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -11034,7 +11035,7 @@
     {
         "id": 44443517,
         "name": "WWD Digital Daily",
-        "description": "<p>Sign up for the WWD Digital Daily edition sent to your email Monday-Friday</p>",
+        "description": "<p>Sign up for the WWD Digital Daily edition sent to your email Monday-Friday.</p>",
         "url": "https://wwd.com/subscribe/?contractId=TMU0TURKBLEH",
         "site_id": 942,
         "type_id": 10,
@@ -11047,12 +11048,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>Register for a WWD Digital Daily account using your FIT email address. Once registered, the daily edition of WWD will be sent to your email.<br><br>New registrations take 3-9 days to become active.<br><br>Access WWD Digital Daily through this WWD Digital Daily link and not through WWD Online.<br><br>Reset your password using this link: https://wwd.com/help/<br>&nbsp;</p>",
+            "more_info": "<p>Register for a WWD Digital Daily account using your FIT email address. Once registered, the daily edition of WWD will be sent to your email.</p><p>New registrations take 3-9 days to become active.</p><p>Access WWD Digital Daily through this WWD Digital Daily link and not through WWD Online.</p><p>Reset your password using this link: https://wwd.com/help/</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2018-09-18 18:02:26",
-        "updated": "2024-06-25 15:07:28",
+        "updated": "2024-06-26 16:28:41",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -11790,24 +11791,25 @@
     {
         "id": 53185674,
         "name": "Bloomsbury Fashion Business Cases",
-        "description": "Presents real-world business cases on challenges facing the business of fashion, tackling important issues such as sustainability, technology, ethics, and leadership.<br />\r\n<br />\r\nUse an incognito browser to access this resource.",
+        "description": "<p>Presents real-world business cases on challenges facing the business of fashion, tackling important issues such as sustainability, technology, ethics, and leadership.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyfashioncentral.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 114605,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 1
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "<p>Use an incognito browser to access this resource.</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2020-03-23 19:49:53",
-        "updated": "2023-10-10 19:31:53",
+        "updated": "2024-06-26 16:13:56",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -11988,24 +11990,25 @@
     {
         "id": 53186635,
         "name": "Bloomsbury Fairchild Books Library",
-        "description": "Includes textbooks.<br />\r\n<br />\r\nEbooks covering a full spectrum of topics in fashion including construction, draping, fashion business management, history, illustration, journalism, marketing, promotion, theory, pattern making, styling, product development, sustainable fashion, textiles, and more.<br />\r\n<br />\r\nFull-text versions of books from the fashion textbook publisher, Fairchild Books.<br />\r\nUse an incognito browser to access this resource",
+        "description": "<p>Includes textbooks.<br><br>Ebooks covering a full spectrum of topics in fashion including construction, draping, fashion business management, history, illustration, journalism, marketing, promotion, theory, pattern making, styling, product development, sustainable fashion, textiles, and more.<br><br>Full-text versions of books from the fashion textbook publisher, Fairchild Books.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyfashioncentral.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 1
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "<p>Use an incognito browser to access this resource.</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2020-03-23 19:56:10",
-        "updated": "2023-10-10 19:31:41",
+        "updated": "2024-06-26 16:13:27",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -16611,24 +16614,25 @@
     {
         "id": 69690046,
         "name": "Vogue Business",
-        "description": "<b>Registration Instructions</b><br />\r\n<br />\r\n<ul><li>Users must register for an account using an FIT email address: https://voguebusiness-prod.cdn.zephr.com/VBEDU/register</li><li>Students should indicate \"student\" for the \"job title\" and \"seniority\" fields.</li><li>If you already have a free account you will receive an error message\u00a0stating your account already exists---please contact Vogue Business directly using the email that displays on the login page</li></ul><br />\r\n<br />\r\n<ul><li>Check your FIT email for the verification link and follow those instruction---the link expires in an hour from when it is generated.</li></ul><br />\r\n<br />\r\nOur Educational Membership provides access to a Standard Membership, which includes the majority of content and access to all virtual events.\u00a0<br />\r\n<b>*Advance Membership articles and Vogue Business Index are not included.*</b><br />\r\n<br />\r\nPlease note: Vogue Business often redirects or links to Vogue.com and Vogue Runway which are not part of the FIT Library's subscription.",
+        "description": "<p>Our Educational Membership provides access to a Standard Membership, which includes the majority of content and access to all virtual events.&nbsp;</p><p><strong>*Advance Membership articles and Vogue Business Index are not included.*</strong></p><p>Please note: Vogue Business often redirects or links to Vogue.com and Vogue Runway which are not part of the FIT Library's subscription.</p>",
         "url": "https://www.voguebusiness.com/",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": "1",
-            "enable_proxy": 0
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "<ul><li>Users must register for an account using an FIT email address: https://voguebusiness-prod.cdn.zephr.com/VBEDU/register</li><li>Students should indicate \"student\" for the \"job title\" and \"seniority\" fields.</li><li>If you already have a free account you will receive an error message&nbsp;stating your account already exists---please contact Vogue Business directly using the email that displays on the login page</li><li>Check your FIT email for the verification link and follow those instruction---the link expires in an hour from when it is generated.</li></ul><p>&nbsp;</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2022-12-02 16:04:57",
-        "updated": "2023-10-10 19:38:20",
+        "updated": "2024-06-26 16:23:29",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [

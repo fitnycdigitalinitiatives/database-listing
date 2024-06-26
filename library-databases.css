@@ -291,6 +291,20 @@
   margin-bottom: .5rem;
 }
 
+#databases .database .database-body .tutorial {
+  margin-bottom: 20px;
+}
+
+#databases .database .database-body .tutorial .cta--link {
+  font-weight: bold;
+  color: #FF2EAA;
+}
+
+#databases .database .database-body .tutorial .cta--link:hover {
+  color: #0036F9;
+}
+
+
 #databases .database .database-body .subject-nav {
   display: flex;
   flex-wrap: wrap;
@@ -345,5 +359,9 @@
 
   #databases .database .database-link .arrow {
     bottom: 10px;
+  }
+
+  #databases .database .database-body .tutorial .cta--link {
+    font-size: 17px;
   }
 }
