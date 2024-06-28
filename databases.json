@@ -5111,12 +5111,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>If you wish to use Mintel's collaboration features, like saved searches and email alerts, then you must \"Register for a FREE Account:\" Fill-in required information. Enter your FIT email address [firstname_lastname@fitnyc.edu]; no other email address is accepted.</p>",
+            "more_info": "<p>To receive email alerts, click on account settings in the top right, go to \u201cMy account and meet the team,\u201d and then click on the \"Update your details\" button to enter your FIT email address.</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-26 16:16:01",
+        "updated": "2024-06-27 19:29:43",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5449,7 +5449,7 @@
     {
         "id": 2354067,
         "name": "New York Times (NYTimes.com)",
-        "description": "",
+        "description": "<p>Access to nytimes.com website including most of the archive</p>",
         "url": "https://nytimesineducation.com/access-nyt",
         "site_id": 942,
         "type_id": 10,
@@ -5467,7 +5467,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-27 13:13:37",
+        "updated": "2024-06-27 13:51:36",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -17346,65 +17346,6 @@
         ]
     },
     {
-        "id": 76719111,
-        "name": "A&AePortal",
-        "description": "<p>\"The A&amp;AePortal&nbsp;is&nbsp;an authoritative eBook resource that features important works of scholarship in the history of art, architecture, decorative arts, photography, visual culture, and design. With innovative functionality and extensive metadata, the site offers students and scholars an engaging experience, encouraging critical thinking skills and supporting rigorous academic research. The site includes many out-of-print titles, key backlist, and recent releases from some of the world\u2019s finest academic and museum publishers.\"</p>",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://aaeportal.com/",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "tn_url": "",
-            "tn_width": "",
-            "tn_height": "",
-            "tn_alt_text": "",
-            "desc_pos": 1,
-            "enable_proxy": true,
-            "more_info": "",
-            "target": 0,
-            "cover_url": ""
-        },
-        "created": "2024-05-28 20:22:41",
-        "updated": "2024-06-12 17:53:05",
-        "slug_id": 0,
-        "enable_hidden": false,
-        "az_types": [
-            {
-                "id": 48287,
-                "name": "Art History & Fine Arts, Illustration, Photography",
-                "site_id": 942
-            },
-            {
-                "id": 48291,
-                "name": "E-books",
-                "site_id": 942
-            },
-            {
-                "id": 48293,
-                "name": "Encyclopedias / Dictionaries / Directories",
-                "site_id": 942
-            },
-            {
-                "id": 48305,
-                "name": "Images",
-                "site_id": 942
-            }
-        ],
-        "icons": [
-            {
-                "id": 2574,
-                "site_id": 942,
-                "file": "fitbutton_2945.gif",
-                "description": "FIT digital resource",
-                "url": "",
-                "content_id": 76719111,
-                "icon_id": 2574,
-                "custom_url": ""
-            }
-        ]
-    },
-    {
         "id": 76815861,
         "name": "Daily News Record Archive",
         "description": "<p>Coverage from 1917-2008<br />\r\n<br />\r\nFeatures 90+ years of breaking news, expert analysis, and\u200b imagery chronicling fashion\u200b market dynamics, design evolution, and business strategies. Standing as one of the longest-running fashion trade titles\u200b and\u200b a leading news resource for the fashion industry, this exclusive archive brings a focus on men\u2019s fashion, an area\u200b largely unrepresented by digital archives until now. Highly influential in the industry, this publication contributed to the\u200b establishment\u200b of several early menswear fashion shows</p>",
@@ -17532,6 +17473,102 @@
                 "id": 48322,
                 "name": "Textiles",
                 "site_id": 942
+            }
+        ]
+    },
+    {
+        "id": 77085058,
+        "name": "Gale LegalForms (NYS)",
+        "description": "<p>New York legal forms:&nbsp;</p><p>Official, State Specific, Federal, Business, Personal, Real Estate and General forms covering hundreds of legal subjects and issues</p>",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://link.gale.com/apps/TGLF?u=fitsuny",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2024-06-27 14:25:12",
+        "updated": "2024-06-27 14:25:12",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48313,
+                "name": "News / Current Issues / Politics",
+                "site_id": 942
+            },
+            {
+                "id": 48314,
+                "name": "OneSearch Exceptions",
+                "site_id": 942
+            }
+        ]
+    },
+    {
+        "id": 77085574,
+        "name": "Gale Books and Authors",
+        "description": "<p>Book suggestions fiction, non-fiction, biographies and more. Contains book reviews and reading suggestions but does not contain ebooks. &nbsp;</p>",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://link.gale.com/apps/BNA?u=fitsuny",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2024-06-27 14:47:47",
+        "updated": "2024-06-27 15:30:58",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48308,
+                "name": "Literature",
+                "site_id": 942
+            },
+            {
+                "id": 48314,
+                "name": "OneSearch Exceptions",
+                "site_id": 942
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 77085574,
+                "icon_id": 2574,
+                "custom_url": ""
             }
         ]
     }
