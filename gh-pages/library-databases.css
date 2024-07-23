@@ -204,7 +204,7 @@
   top: initial;
   left: initial;
   padding: 0;
-  vertical-align: bottom;
+  margin-top: 4px;
 }
 
 #databases .database:nth-of-type(1) .accordion__icon {
@@ -344,7 +344,7 @@
   }
 
   #databases .database .button-col .accordion__icon {
-    vertical-align: middle;
+    margin-top: 5px;
   }
 
   #databases .database .database-link .arrow {
@@ -354,7 +354,7 @@
 
 @media (min-width: 1025px) {
   #databases .database .button-col .accordion__icon {
-    vertical-align: initial;
+    margin-top: 6px;
   }
 
   #databases .database .database-link .arrow {
