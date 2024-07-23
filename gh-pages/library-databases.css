@@ -354,7 +354,8 @@
 
 @media (min-width: 1025px) {
   #databases .database .button-col .accordion__icon {
-    vertical-align: initial;
+    vertical-align: baseline;
+    vertical-align: -webkit-baseline-middle;
   }
 
   #databases .database .database-link .arrow {
