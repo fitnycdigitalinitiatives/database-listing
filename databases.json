@@ -815,7 +815,7 @@
     },
     {
         "id": 2353984,
-        "name": "Artstor",
+        "name": "Artstor on JSTOR",
         "description": "Digital library of art images from museums and other institutions.<br />\r\n<br />\r\nRegistration for an individual account is required for some features.",
         "url": "https://libproxy.fitsuny.edu/login?url=https://library.artstor.org/#/",
         "site_id": 942,
@@ -829,11 +829,11 @@
             "tn_height": "",
             "tn_width": "",
             "more_info": "",
-            "desc_pos": 1,
+            "desc_pos": "1",
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-10 17:16:35",
+        "updated": "2024-08-01 16:50:53",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
