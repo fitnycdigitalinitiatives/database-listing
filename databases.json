@@ -9453,12 +9453,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>To access Peclers(+):<br><br>Click \"register\" on the bottom right where it says \"I am a student. I have an activation code.\"&nbsp;<br>Use activation code: JXWYEND7<br>Use your FIT email address<br>For \"position\" type student or employee job title</p>",
+            "more_info": "<p>To access Peclers(+):<br><br>Use activation code: JXWYEND7<br>Use your FIT email address<br>For \"position\" type student or employee job title</p>",
             "target": 2,
             "cover_url": ""
         },
         "created": "2016-01-20 16:55:42",
-        "updated": "2024-06-24 15:31:16",
+        "updated": "2024-08-22 18:17:41",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -9480,6 +9480,11 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
                 "site_id": 942
             },
             {
