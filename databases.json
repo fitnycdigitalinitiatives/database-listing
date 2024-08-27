@@ -17576,5 +17576,88 @@
                 "custom_url": ""
             }
         ]
+    },
+    {
+        "id": 77843570,
+        "name": "Clothing and Textiles Research Journal ",
+        "description": "",
+        "url": "https://libproxy.fitsuny.edu/login?&url=https://journals.sagepub.com/loi/ctr",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2024-08-26 15:59:15",
+        "updated": "2024-08-26 15:59:15",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48319,
+                "name": "Scholarly Journals",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            }
+        ],
+        "subjects": [
+            {
+                "id": 25085,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Art, Design & Art History",
+                "ordering": 0,
+                "slug_id": 960972,
+                "subject_id": 25085,
+                "content_id": 77843570,
+                "featured": 0
+            },
+            {
+                "id": 25090,
+                "site_id": 942,
+                "parent_id": 0,
+                "name": "Textiles",
+                "ordering": 0,
+                "slug_id": 960992,
+                "subject_id": 25090,
+                "content_id": 77843570,
+                "featured": 0
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 77843570,
+                "icon_id": 2574,
+                "custom_url": ""
+            }
+        ]
     }
 ]
