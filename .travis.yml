@@ -12,7 +12,8 @@ script:
   python database-list.py
 deploy:
   provider: pages
-  edge: true
+  edge: 
+    branch: v2.0.5-beta.1
   local_dir: gh-pages
   target_branch: gh-pages
   cleanup: false
