@@ -4498,7 +4498,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-26 16:06:03",
+        "updated": "2024-08-28 15:11:02",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -4589,16 +4589,6 @@
                 "content_id": 2354049,
                 "icon_id": 2574,
                 "custom_url": ""
-            },
-            {
-                "id": 33389,
-                "site_id": 942,
-                "file": "video-solid.png",
-                "description": "Watch tutorial",
-                "url": "",
-                "content_id": 2354049,
-                "icon_id": 33389,
-                "custom_url": "https://www.youtube.com/watch?v=b_7d0Gf-mCI&list=PLslrwoPJuxvFQpABFHYfUNJEwngP-pc2Z&pp=iAQB"
             }
         ]
     },
@@ -9974,12 +9964,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": false,
-            "more_info": "<p>1. Click to <a href=\"https://www.businessoffashion.com/register\">register</a> for BoF Professional.</p><p>You must use an FIT email address.</p><p>2. Check your inbox for a confirmation email and click the link to confirm your membership (this email is sent from: noreply@businessoffashion.com)</p><p>Tip: Be sure to check your spam inbox and add BoF as a contact to ensure you receive future emails and newsletters.</p><p>3. Once confirmed, you will automatically get full access to your own BoF Professional account.</p><p>For help, please contact BoF at <a href=\"mailto:professional.groups@businessoffashion.com\">professional.groups@businessoffashion.com</a>.&nbsp;</p><p>BoF Professional provides unlimited access to articles, exclusive analysis and briefings, case studies, special reports, online learning courses, the iPhone mobile app as well as invitations to digital and in-person events.</p>",
+            "more_info": "<p><span style=\"font-size:14px;\"><small class=\"\">Click to </small></span><a href=\"https://www.businessoffashion.com/register\"><span style=\"font-size:14px;\"><small class=\"\">register</small></span></a><span style=\"font-size:14px;\"><small class=\"\"> for BoF Professional.</small></span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(34,34,34);font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><small class=\"\"><span style=\"-webkit-text-stroke-width:0px;display:inline !important;float:none;font-size:small;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Select the option that says \"Log in to your existing account\" and use your FIT email address</span></small></span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(34,34,34);font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><small class=\"\"><span style=\"-webkit-text-stroke-width:0px;display:inline !important;float:none;font-size:small;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">A code will be sent to your email to use to login</span></small></span></p><p><span style=\"font-size:14px;\"><small class=\"\">For help, please contact BoF at </small></span><a href=\"mailto:professional.groups@businessoffashion.com\"><span style=\"font-size:14px;\"><small class=\"\">professional.groups@businessoffashion.com</small></span></a><span style=\"font-size:14px;\"><small class=\"\">.&nbsp;</small></span></p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2016-10-28 17:44:17",
-        "updated": "2024-06-27 13:10:53",
+        "updated": "2024-08-29 16:16:41",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -16530,24 +16520,25 @@
     {
         "id": 68331477,
         "name": "Fashion and Race Database",
-        "description": "The Fashion and Race Database examines the history and impact of race in the fashion system and our everyday life.<br />\r\n<br />\r\n1,600+ research resources (including media) in The Library, covering interdisciplinary topics and categorized by keyword, author and year <br />\r\n<br />\r\nOriginal essays, profiles and object analyses, primarily authored by racialized and minoritized scholars and writers <br />\r\nSearch content across the platform <br />\r\nResources can be collected, saved and emailed with the \"My List\" feature<br />\r\nAccessibility-compliant for screen readers, low vision, dyslexia, and seizure risk <br />\r\n\"Related Content\" on the content pages aids in discovering new and relevant material <br />\r\nFRD adds and updates content on a monthly basis",
+        "description": "<p>The Fashion and Race Database examines the history and impact of race in the fashion system and our everyday life.<br><br>1,600+ research resources (including media) in The Library, covering interdisciplinary topics and categorized by keyword, author and year&nbsp;<br><br>Original essays, profiles and object analyses, primarily authored by racialized and minoritized scholars and writers&nbsp;<br>Search content across the platform&nbsp;<br>Resources can be collected, saved and emailed with the \"My List\" feature<br>Accessibility-compliant for screen readers, low vision, dyslexia, and seizure risk&nbsp;<br>\"Related Content\" on the content pages aids in discovering new and relevant material&nbsp;<br>FRD adds and updates content on a monthly basis</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://fashionandrace.org/database/register/fitnyc-0928/",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
-            "more_info": "Visit The Fashion and Race Database to validate as an FIT user<br />\r\nSign up for an account using an FIT email<br />\r\nAfter the initial visit verifying FIT access, users are free to come back to FRD by way of any link to fashionandrace.org (proxied link not required)",
-            "desc_pos": "1",
-            "enable_proxy": 1
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "<p>Visit The Fashion and Race Database to validate as an FIT user<br>Sign up for an account using an FIT email<br>After the initial visit verifying FIT access, users are free to come back to FRD by way of any link to fashionandrace.org (proxied link not required)</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2022-08-30 14:09:11",
-        "updated": "2023-08-30 15:17:05",
+        "updated": "2024-09-03 16:57:00",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -16831,7 +16822,7 @@
             "cover_url": ""
         },
         "created": "2023-01-23 18:35:18",
-        "updated": "2024-06-27 13:11:21",
+        "updated": "2024-08-28 15:11:39",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -16965,16 +16956,6 @@
                 "content_id": 70238371,
                 "icon_id": 2574,
                 "custom_url": ""
-            },
-            {
-                "id": 33389,
-                "site_id": 942,
-                "file": "video-solid.png",
-                "description": "Watch tutorial",
-                "url": "",
-                "content_id": 70238371,
-                "icon_id": 33389,
-                "custom_url": "https://www.youtube.com/watch?v=b_7d0Gf-mCI&list=PLslrwoPJuxvFQpABFHYfUNJEwngP-pc2Z&pp=iAQB"
             }
         ]
     },
