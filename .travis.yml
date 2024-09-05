@@ -10,10 +10,14 @@ install:
   - pip install requests "urllib3<2"
 script:
   python database-list.py
+before_deploy:
+  - yes | gem update --system --force
+  - gem install bundler
+  - gem install uri
 deploy:
   provider: pages
   edge: 
-    branch: v2.0.5-beta.1
+    branch: v2.0.5-beta
   local_dir: gh-pages
   target_branch: gh-pages
   cleanup: false
