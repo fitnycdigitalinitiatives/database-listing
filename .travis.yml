@@ -18,7 +18,7 @@ before_deploy:
 deploy:
   provider: pages
   edge: 
-    branch: v2.0.5-beta
+    branch: v2.0.5
   local_dir: gh-pages
   target_branch: gh-pages
   cleanup: false
