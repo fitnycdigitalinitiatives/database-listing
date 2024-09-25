@@ -5248,7 +5248,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-26 16:16:23",
+        "updated": "2024-09-24 13:58:06",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5334,6 +5334,16 @@
                 "content_id": 2354062,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 2354062,
+                "icon_id": 33389,
+                "custom_url": "https://youtu.be/2rsiFxiEKJQ"
             }
         ]
     },
@@ -17650,7 +17660,7 @@
     {
         "id": 78228209,
         "name": "LGBT Magazine Archive ",
-        "description": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(34,34,34);font-family:Arial, Helvetica, sans-serif;\"><span style=\"-webkit-text-stroke-width:0px;display:inline !important;float:none;font-size:small;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Archival runs The Advocate and Gay Times,</span></span></p>",
+        "description": "<p><span style=\"color:rgb(34,34,34);font-family:Arial, Helvetica, sans-serif;\"><span style=\"-webkit-text-stroke-width:0px;display:inline !important;float:none;font-size:small;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Archival runs of The Advocate and Gay Times,</span></span></p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.proquest.com/lgbtma",
         "site_id": 942,
         "type_id": 10,
@@ -17668,7 +17678,7 @@
             "cover_url": ""
         },
         "created": "2024-09-19 18:19:25",
-        "updated": "2024-09-19 18:21:04",
+        "updated": "2024-09-19 19:27:29",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -17704,7 +17714,7 @@
     {
         "id": 78228229,
         "name": "ProQuest Historical Newspapers: Black Newspaper Collection ",
-        "description": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(34,34,34);font-family:Arial, Helvetica, sans-serif;\"><span style=\"-webkit-text-stroke-width:0px;display:inline !important;float:none;font-size:small;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Provides genealogists, researchers and scholars with online, easily-searchable first-hand accounts and unparalleled coverage of the politics, society and events of the time.</span></span></p>",
+        "description": "<p>Provides genealogists, researchers and scholars with online, easily-searchable first-hand accounts and unparalleled coverage of the politics, society and events of the time.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.proquest.com/hnpblacknewscoll?accountid=27253",
         "site_id": 942,
         "type_id": 10,
@@ -17722,7 +17732,7 @@
             "cover_url": ""
         },
         "created": "2024-09-19 18:20:26",
-        "updated": "2024-09-19 18:20:26",
+        "updated": "2024-09-19 19:29:31",
         "slug_id": 0,
         "enable_hidden": false,
         "icons": [
@@ -17741,7 +17751,7 @@
     {
         "id": 78228293,
         "name": "Footwear News Archive",
-        "description": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(34,34,34);font-family:Arial, Helvetica, sans-serif;\"><span style=\"-webkit-text-stroke-width:0px;display:inline !important;float:none;font-size:small;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">An archive of Footwear News, with coverage from its first issue in 1945 to the present. Articles, advertisements, and covers are included, with searchable text and article-level metadata. Footwear News was launched as the first dedicated news periodical of the footwear industry and the archive preserves 75+ years of essential global industry news, analysis, and coverage of seasonal trends.</span></span></p>",
+        "description": "<p>An archive of Footwear News, with coverage from its first issue in 1945 to the present. Articles, advertisements, and covers are included, with searchable text and article-level metadata. Footwear News was launched as the first dedicated news periodical of the footwear industry and the archive preserves 75+ years of essential global industry news, analysis, and coverage of seasonal trends.</p>",
         "url": "https://www.proquest.com/footwearnews?accountid=27253",
         "site_id": 942,
         "type_id": 10,
@@ -17759,7 +17769,7 @@
             "cover_url": ""
         },
         "created": "2024-09-19 18:22:07",
-        "updated": "2024-09-19 18:22:07",
+        "updated": "2024-09-19 19:29:14",
         "slug_id": 0,
         "enable_hidden": false,
         "icons": [
@@ -17778,7 +17788,7 @@
     {
         "id": 78228307,
         "name": "Rolling Stone Archive ",
-        "description": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(34,34,34);font-family:Arial, Helvetica, sans-serif;\"><span style=\"-webkit-text-stroke-width:0px;display:inline !important;float:none;font-size:small;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">The backfile of Rolling Stone, from its launch in 1967 to the present. One of the most influential consumer magazines of the 20th-21st centuries, it initially sought to reflect the cultural, social, and political outlook of a generation of students and young adults. It has been a leading vehicle for rock and popular music journalism, as well as covering wider entertainment topics such as film and popular culture. Major journalists and authors to have contributed include Hunter S. Thompson, Patti Smith, and Tom Wolfe.</span></span></p>",
+        "description": "<p>The backfile of Rolling Stone, from its launch in 1967 to the present. One of the most influential consumer magazines of the 20th-21st centuries, it initially sought to reflect the cultural, social, and political outlook of a generation of students and young adults. It has been a leading vehicle for rock and popular music journalism, as well as covering wider entertainment topics such as film and popular culture. Major journalists and authors to have contributed include Hunter S. Thompson, Patti Smith, and Tom Wolfe.</p>",
         "url": "https://www.proquest.com/rsa?accountid=27253",
         "site_id": 942,
         "type_id": 10,
@@ -17796,14 +17806,14 @@
             "cover_url": ""
         },
         "created": "2024-09-19 18:22:47",
-        "updated": "2024-09-19 18:22:47",
+        "updated": "2024-09-19 19:28:55",
         "slug_id": 0,
         "enable_hidden": false
     },
     {
         "id": 78228314,
         "name": "Vibe Archive",
-        "description": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(34,34,34);font-family:Arial, Helvetica, sans-serif;\"><span style=\"-webkit-text-stroke-width:0px;display:inline !important;float:none;font-size:small;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">The full run of Vibe magazine - the US magazine of record for hip-hop culture from 1993-2014. Founded by Quincy Jones, Vibe not only offered influential reporting and news about rap, hip-hop, and R&amp;B music but more broadly represented the associated urban youth culture. It is renowned for its pioneering role in establishing mainstream coverage of this culture and for raising the profile of many major hip-hop and R&amp;B artists.</span></span></p>",
+        "description": "<p>The full run of Vibe magazine - the US magazine of record for hip-hop culture from 1993-2014. Founded by Quincy Jones, Vibe not only offered influential reporting and news about rap, hip-hop, and R&amp;B music but more broadly represented the associated urban youth culture. It is renowned for its pioneering role in establishing mainstream coverage of this culture and for raising the profile of many major hip-hop and R&amp;B artists.</p>",
         "url": "https://www.proquest.com/vibe?accountid=27253",
         "site_id": 942,
         "type_id": 10,
@@ -17821,7 +17831,7 @@
             "cover_url": ""
         },
         "created": "2024-09-19 18:23:36",
-        "updated": "2024-09-19 18:23:36",
+        "updated": "2024-09-19 19:28:28",
         "slug_id": 0,
         "enable_hidden": false,
         "icons": [
