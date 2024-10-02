@@ -1661,7 +1661,7 @@
         "id": 2354001,
         "name": "Credo",
         "description": "Online reference library containing full-text dictionaries, encyclopedias, and other reference books.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.credoreference.com",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://search.credoreference.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -1677,7 +1677,7 @@
             "tn_alt_text": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2023-06-15 19:40:40",
+        "updated": "2024-10-01 19:56:41",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
