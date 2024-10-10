@@ -17735,7 +17735,7 @@
             "cover_url": ""
         },
         "created": "2024-09-19 18:22:47",
-        "updated": "2024-10-07 17:37:33",
+        "updated": "2024-10-09 15:42:33",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -17753,6 +17753,28 @@
                 "id": 48316,
                 "name": "Performing Arts",
                 "site_id": 942
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 78228307,
+                "icon_id": 2574,
+                "custom_url": ""
+            },
+            {
+                "id": 34462,
+                "site_id": 942,
+                "file": "image__33_.png",
+                "description": "Trial database",
+                "url": "https://www.fitnyc.edu/academics/library/databases/",
+                "content_id": 78228307,
+                "icon_id": 34462,
+                "custom_url": ""
             }
         ]
     },
