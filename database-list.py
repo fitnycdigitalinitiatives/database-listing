@@ -20,6 +20,12 @@ databases = requests.get(endpoint, params=params).json()
 for index, database in enumerate(databases):
     if database["meta"]["enable_proxy"]:
         databases[index]["url"] = proxy + databases[index]["url"]
+    if "icons" in database:
+        for icon in database["icons"]:
+            if icon["id"] == 34462:
+                database["enable_trial"] = True
+            if icon["id"] == 34479:
+                database["enable_new"] = True
 
 # remove hidden items
 clean_databases = []
