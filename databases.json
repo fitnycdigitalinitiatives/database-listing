@@ -17563,7 +17563,7 @@
             "cover_url": ""
         },
         "created": "2024-09-19 18:19:25",
-        "updated": "2024-10-07 17:35:28",
+        "updated": "2024-10-11 14:10:49",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -17593,8 +17593,19 @@
                 "content_id": 78228209,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 34462,
+                "site_id": 942,
+                "file": "image__33_.png",
+                "description": "Trial database",
+                "url": "",
+                "content_id": 78228209,
+                "icon_id": 34462,
+                "custom_url": ""
             }
-        ]
+        ],
+        "enable_trial": true
     },
     {
         "id": 78228229,
@@ -17617,7 +17628,7 @@
             "cover_url": ""
         },
         "created": "2024-09-19 18:20:26",
-        "updated": "2024-10-07 17:36:01",
+        "updated": "2024-10-11 14:10:12",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -17647,8 +17658,19 @@
                 "content_id": 78228229,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 34462,
+                "site_id": 942,
+                "file": "image__33_.png",
+                "description": "Trial database",
+                "url": "",
+                "content_id": 78228229,
+                "icon_id": 34462,
+                "custom_url": ""
             }
-        ]
+        ],
+        "enable_trial": true
     },
     {
         "id": 78228293,
@@ -17671,7 +17693,7 @@
             "cover_url": ""
         },
         "created": "2024-09-19 18:22:07",
-        "updated": "2024-10-07 17:34:57",
+        "updated": "2024-10-11 14:09:43",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -17711,8 +17733,19 @@
                 "content_id": 78228293,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 34462,
+                "site_id": 942,
+                "file": "image__33_.png",
+                "description": "Trial database",
+                "url": "",
+                "content_id": 78228293,
+                "icon_id": 34462,
+                "custom_url": ""
             }
-        ]
+        ],
+        "enable_trial": true
     },
     {
         "id": 78228307,
@@ -17735,7 +17768,7 @@
             "cover_url": ""
         },
         "created": "2024-09-19 18:22:47",
-        "updated": "2024-10-09 15:42:33",
+        "updated": "2024-10-11 14:10:23",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -17771,12 +17804,13 @@
                 "site_id": 942,
                 "file": "image__33_.png",
                 "description": "Trial database",
-                "url": "https://www.fitnyc.edu/academics/library/databases/",
+                "url": "",
                 "content_id": 78228307,
                 "icon_id": 34462,
                 "custom_url": ""
             }
-        ]
+        ],
+        "enable_trial": true
     },
     {
         "id": 78228314,
@@ -17799,7 +17833,7 @@
             "cover_url": ""
         },
         "created": "2024-09-19 18:23:36",
-        "updated": "2024-10-07 17:37:53",
+        "updated": "2024-10-11 14:10:37",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -17829,7 +17863,18 @@
                 "content_id": 78228314,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 34462,
+                "site_id": 942,
+                "file": "image__33_.png",
+                "description": "Trial database",
+                "url": "",
+                "content_id": 78228314,
+                "icon_id": 34462,
+                "custom_url": ""
             }
-        ]
+        ],
+        "enable_trial": true
     }
 ]
