@@ -816,24 +816,25 @@
     {
         "id": 2353984,
         "name": "Artstor on JSTOR",
-        "description": "Digital library of art images from museums and other institutions.<br />\r\n<br />\r\nRegistration for an individual account is required for some features.",
+        "description": "<p>Digital library of art images from museums and other institutions.<br><br>Registration for an individual account is required for some features.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://library.artstor.org/#/",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
             "more_info": "",
-            "desc_pos": "1",
-            "tn_alt_text": ""
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-08-01 16:50:53",
+        "updated": "2024-10-22 19:27:24",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -919,6 +920,16 @@
                 "content_id": 2353984,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 2353984,
+                "icon_id": 33389,
+                "custom_url": " https://www.youtube.com/watch?v=-4VtmxihCuo&list=PLslrwoPJuxvF2KmOoFSNVxvHzPTeHZzco&index=1"
             }
         ]
     },
@@ -1814,7 +1825,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-13 15:31:36",
+        "updated": "2024-10-22 19:21:51",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -1910,7 +1921,7 @@
                 "url": "",
                 "content_id": 2354004,
                 "icon_id": 33389,
-                "custom_url": "https://www.youtube.com/watch?v=b_7d0Gf-mCI&list=PLslrwoPJuxvFQpABFHYfUNJEwngP-pc2Z&pp=iAQB"
+                "custom_url": "https://www.youtube.com/watch?v=4eBAfezmljo"
             }
         ]
     },
@@ -1935,7 +1946,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-13 15:23:41",
+        "updated": "2024-10-22 19:22:44",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -2070,16 +2081,6 @@
                 "content_id": 2354007,
                 "icon_id": 2574,
                 "custom_url": ""
-            },
-            {
-                "id": 33389,
-                "site_id": 942,
-                "file": "video-solid.png",
-                "description": "Watch tutorial",
-                "url": "",
-                "content_id": 2354007,
-                "icon_id": 33389,
-                "custom_url": "https://www.youtube.com/watch?v=ZqXReiZ0Cx4&list=PLslrwoPJuxvEhSCyjmpqpsMYaZIGCUQ1m&pp=iAQB"
             }
         ]
     },
@@ -3776,7 +3777,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-27 13:19:29",
+        "updated": "2024-10-22 19:25:15",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -3924,7 +3925,7 @@
                 "url": "",
                 "content_id": 2354039,
                 "icon_id": 33389,
-                "custom_url": "https://www.youtube.com/watch?v=0ie2EoluN-Q&list=PLslrwoPJuxvGDiBr2LWTNMghBjaI3gu9R&pp=iAQB"
+                "custom_url": "https://www.youtube.com/playlist?list=PLslrwoPJuxvGDiBr2LWTNMghBjaI3gu9R "
             }
         ]
     },
@@ -3949,7 +3950,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-26 16:15:32",
+        "updated": "2024-10-22 19:28:51",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -4089,6 +4090,16 @@
                 "content_id": 2354040,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 2354040,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=T83XRQ9uPEQ&list=PLslrwoPJuxvHIslZrAAqcKJ7WHz45BmgP&index=3 "
             }
         ]
     },
@@ -5248,7 +5259,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-09-24 13:58:06",
+        "updated": "2024-10-22 19:28:05",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -5343,7 +5354,7 @@
                 "url": "",
                 "content_id": 2354062,
                 "icon_id": 33389,
-                "custom_url": "https://youtu.be/2rsiFxiEKJQ"
+                "custom_url": "https://www.youtube.com/watch?v=7ve4rhHBFtE&list=PLslrwoPJuxvFQpABFHYfUNJEwngP-pc2Z&index=4 "
             }
         ]
     },
@@ -7478,24 +7489,25 @@
     {
         "id": 2354109,
         "name": "Vogue Archive",
-        "description": "Contains every issue of Vogue from 1892 to present. Each issue can be browsed cover-to-cover in searchable full-text format. Each page and image is reproduced in high-resolution color with indexing, enabling images to be searched by garment type, designer, and brand names, among others. All covers, advertisements, fold outs and pictorial features are captured as separate documents,which are also indexed, searchable, and viewable in high-resolution color.",
+        "description": "<p>Contains every issue of Vogue from 1892 to present. Each issue can be browsed cover-to-cover in searchable full-text format. Each page and image is reproduced in high-resolution color with indexing, enabling images to be searched by garment type, designer, and brand names, among others. All covers, advertisements, fold outs and pictorial features are captured as separate documents,which are also indexed, searchable, and viewable in high-resolution color.</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://search.proquest.com/vogue?accountid=27253",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
+            "tn_height": "",
+            "tn_alt_text": "",
             "desc_pos": 1,
-            "tn_alt_text": ""
+            "enable_proxy": true,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2021-11-11 16:59:41",
+        "updated": "2024-10-22 19:26:36",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -7646,6 +7658,16 @@
                 "content_id": 2354109,
                 "icon_id": 2574,
                 "custom_url": ""
+            },
+            {
+                "id": 33389,
+                "site_id": 942,
+                "file": "video-solid.png",
+                "description": "Watch tutorial",
+                "url": "",
+                "content_id": 2354109,
+                "icon_id": 33389,
+                "custom_url": "https://www.youtube.com/watch?v=mTMVPsg3g1k"
             }
         ]
     },
@@ -7807,7 +7829,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2024-06-27 13:18:33",
+        "updated": "2024-10-22 19:24:39",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -7961,7 +7983,7 @@
                 "url": "",
                 "content_id": 2354112,
                 "icon_id": 33389,
-                "custom_url": "https://www.youtube.com/watch?v=0ie2EoluN-Q&list=PLslrwoPJuxvGDiBr2LWTNMghBjaI3gu9R&pp=iAQB"
+                "custom_url": "https://www.youtube.com/playlist?list=PLslrwoPJuxvGDiBr2LWTNMghBjaI3gu9R "
             }
         ]
     },
@@ -8836,7 +8858,7 @@
             "cover_url": ""
         },
         "created": "2014-12-10 19:01:45",
-        "updated": "2024-06-13 15:30:15",
+        "updated": "2024-10-22 19:23:26",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -8942,7 +8964,7 @@
                 "url": "",
                 "content_id": 7007025,
                 "icon_id": 33389,
-                "custom_url": "https://www.youtube.com/watch?v=b_7d0Gf-mCI&list=PLslrwoPJuxvFQpABFHYfUNJEwngP-pc2Z&pp=iAQB"
+                "custom_url": "https://www.youtube.com/watch?v=3DRJZJbcCpE"
             }
         ]
     },
@@ -10163,7 +10185,7 @@
             "cover_url": ""
         },
         "created": "2017-08-22 16:07:17",
-        "updated": "2024-06-27 13:19:00",
+        "updated": "2024-10-22 19:24:57",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -10317,7 +10339,7 @@
                 "url": "",
                 "content_id": 35072182,
                 "icon_id": 33389,
-                "custom_url": "https://www.youtube.com/watch?v=0ie2EoluN-Q&list=PLslrwoPJuxvGDiBr2LWTNMghBjaI3gu9R&pp=iAQB"
+                "custom_url": "https://www.youtube.com/playlist?list=PLslrwoPJuxvGDiBr2LWTNMghBjaI3gu9R "
             }
         ]
     },
