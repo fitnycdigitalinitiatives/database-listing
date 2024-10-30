@@ -17563,5 +17563,54 @@
                 "custom_url": ""
             }
         ]
+    },
+    {
+        "id": 78754387,
+        "name": "Gale Presents: Peterson's Test and Career Prep",
+        "description": "<p>Search thousands of college and graduate schools, identify scholarships, take practice tests, create resumes, and explore careers.&nbsp;</p>",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://galesupport.com/novelGeo/?loc=fitsuny&db=PTCP",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2024-10-30 13:55:13",
+        "updated": "2024-10-30 13:58:23",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48291,
+                "name": "E-books",
+                "site_id": 942
+            },
+            {
+                "id": 48292,
+                "name": "Education",
+                "site_id": 942
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 78754387,
+                "icon_id": 2574,
+                "custom_url": ""
+            }
+        ]
     }
 ]
