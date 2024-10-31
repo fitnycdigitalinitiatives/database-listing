@@ -17580,12 +17580,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": true,
-            "more_info": "",
+            "more_info": "<p>An account is required to access some resources and save your progress in the prep material. An email address is not required, but highly recommended, to create an account.</p><p>Please register and/or sign in on the top right of the page.</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2024-10-30 13:55:13",
-        "updated": "2024-10-30 13:58:23",
+        "updated": "2024-10-30 16:45:24",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -17598,6 +17598,11 @@
                 "id": 48292,
                 "name": "Education",
                 "site_id": 942
+            },
+            {
+                "id": 55987,
+                "name": "Special Instructions",
+                "site_id": 942
             }
         ],
         "icons": [
@@ -17609,6 +17614,16 @@
                 "url": "",
                 "content_id": 78754387,
                 "icon_id": 2574,
+                "custom_url": ""
+            },
+            {
+                "id": 32238,
+                "site_id": 942,
+                "file": "eyeball-icon-png-eye-icon-1.png",
+                "description": "Look for Special Instructions",
+                "url": "",
+                "content_id": 78754387,
+                "icon_id": 32238,
                 "custom_url": ""
             }
         ]
