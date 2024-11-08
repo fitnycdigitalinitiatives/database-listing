@@ -15669,7 +15669,7 @@
     {
         "id": 64209603,
         "name": "Taylor and Francis Online",
-        "description": "<p>We have full-text access to the following Taylor &amp; Francis publications:</p><ul><li><a href=\"https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/ycos20\">Costume</a> (2012-2016; see Edinburgh University Press for 2000-current)</li><li><a href=\"https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/ydre20\">Dress</a></li><li><a href=\"https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rftd20\">Journal of Textile Design, Research and Practice</a></li><li><a href=\"https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rffp20\">Fashion Practice</a></li><li><a href=\"https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rfft20\">Fashion Theory</a></li><li><a href=\"https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rftx20\">Textile</a></li></ul>",
+        "description": "<p>We have full-text access to the following Taylor &amp; Francis publications:</p><ul><li><a href=\"https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/ycos20\">Costume</a> (2012-2016; see Edinburgh University Press for 2000-current)</li><li><a href=\"https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/ydre20\">Dress</a></li><li><a href=\"https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rftd20\">Journal of Textile Design, Research and Practice</a></li><li><a href=\"https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rffp20\">Fashion Practice</a></li><li><a href=\"https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rfft20\">Fashion Theory</a></li><li><a href=\"https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/loi/rftx20\">Textile</a></li><li>Textile History</li></ul>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.tandfonline.com/page/title-lists",
         "site_id": 942,
         "type_id": 10,
@@ -15687,7 +15687,7 @@
             "cover_url": ""
         },
         "created": "2021-11-05 19:54:01",
-        "updated": "2024-06-27 13:17:16",
+        "updated": "2024-11-07 14:58:47",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
