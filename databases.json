@@ -17627,5 +17627,89 @@
                 "custom_url": ""
             }
         ]
+    },
+    {
+        "id": 78947218,
+        "name": "Robin Report",
+        "description": "<p>Information about retail and consumer products</p>",
+        "url": "https://therobinreport.com/",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2024-11-14 21:15:27",
+        "updated": "2024-11-14 21:15:27",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48289,
+                "name": "Companies & Brands / Industry Profiles",
+                "site_id": 942
+            },
+            {
+                "id": 48309,
+                "name": "Marketing / Media / Demographics",
+                "site_id": 942
+            },
+            {
+                "id": 48315,
+                "name": "Open Access",
+                "site_id": 942
+            }
+        ]
+    },
+    {
+        "id": 78947219,
+        "name": "Robin Report",
+        "description": "<p>Information about retail and consumer products</p>",
+        "url": "https://therobinreport.com/",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2024-11-14 21:15:28",
+        "updated": "2024-11-14 21:15:28",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48289,
+                "name": "Companies & Brands / Industry Profiles",
+                "site_id": 942
+            },
+            {
+                "id": 48309,
+                "name": "Marketing / Media / Demographics",
+                "site_id": 942
+            },
+            {
+                "id": 48315,
+                "name": "Open Access",
+                "site_id": 942
+            }
+        ]
     }
 ]
