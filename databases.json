@@ -3511,24 +3511,25 @@
     {
         "id": 2354033,
         "name": "HarpWeek",
-        "description": "Contains electronic access to Harper\u2019s Weekly, an illustrated 19th century periodical available here from 1857 - 1865: The Civil War Era. Harper's Weekly offers insight into 19th-century America on a cumulative week-to-week basis with news stories, illustrations, cartoons, editorials, biographies, literature, and even advertisements that shaped and reflected public opinion in this era.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://app.harpweek.com",
+        "description": "<p>Contains electronic access to Harper\u2019s Weekly, an illustrated 19th century periodical available here from 1857 - 1865: The Civil War Era. Harper's Weekly offers insight into 19th-century America on a cumulative week-to-week basis with news stories, illustrations, cartoons, editorials, biographies, literature, and even advertisements that shaped and reflected public opinion in this era.</p>",
+        "url": "https://app.harpweek.com",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
-            "enable_proxy": 1,
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
-            "more_info": "",
+            "tn_height": "",
+            "tn_alt_text": "",
             "desc_pos": 1,
-            "tn_alt_text": ""
+            "enable_proxy": false,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2022-02-08 16:51:37",
+        "updated": "2024-11-20 16:43:48",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
