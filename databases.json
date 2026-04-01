@@ -3583,80 +3583,6 @@
         "enable_popular": 0
     },
     {
-        "id": 2354033,
-        "name": "HarpWeek",
-        "description": "<p>Contains electronic access to Harper\u2019s Weekly, an illustrated 19th century periodical available here from 1857 - 1865: The Civil War Era. Harper's Weekly offers insight into 19th-century America on a cumulative week-to-week basis with news stories, illustrations, cartoons, editorials, biographies, literature, and even advertisements that shaped and reflected public opinion in this era.</p>",
-        "url": "https://app.harpweek.com",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "tn_url": "",
-            "tn_width": "",
-            "tn_height": "",
-            "tn_alt_text": "",
-            "desc_pos": 1,
-            "enable_proxy": false,
-            "more_info": "",
-            "target": 0,
-            "cover_url": ""
-        },
-        "created": "2014-06-16 23:31:09",
-        "updated": "2024-11-20 16:43:48",
-        "slug_id": 0,
-        "enable_hidden": false,
-        "az_types": [
-            {
-                "id": 48303,
-                "name": "Historical Articles (pre-1975)",
-                "site_id": 942
-            }
-        ],
-        "subjects": [
-            {
-                "id": 17612,
-                "site_id": 942,
-                "parent_id": 0,
-                "name": "History & Biography",
-                "ordering": 0,
-                "slug_id": 960984,
-                "subject_id": 17612,
-                "content_id": 2354033,
-                "featured": 0
-            },
-            {
-                "id": 26598,
-                "site_id": 942,
-                "parent_id": 0,
-                "name": "Liberal Arts & Sciences",
-                "ordering": 0,
-                "slug_id": 960987,
-                "subject_id": 26598,
-                "content_id": 2354033,
-                "featured": 0
-            }
-        ],
-        "icons": [
-            {
-                "id": 2574,
-                "site_id": 942,
-                "file": "fitbutton_2945.gif",
-                "description": "FIT digital resource",
-                "url": "",
-                "content_id": 2354033,
-                "icon_id": 2574,
-                "custom_url": ""
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": "",
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0
-    },
-    {
         "id": 2354037,
         "name": "Home Furnishings Retailers Database [Chain Store Guide]",
         "description": "Covers buyer contacts and basic information on home furnishings retailers such as IKEA, Rooms To Go, Pier 1 Imports, and more. (To be included, retailers must have two units or operate one unit with sales of at least $10 million. Wholesalers and distributors must have sales of at least $1 million.)",
@@ -15527,65 +15453,6 @@
         "enable_popular": 0
     },
     {
-        "id": 64207503,
-        "name": "New England Journal of Medicine",
-        "description": "Full-text articles 1990 - current (indexing and short summaries only for 1812 - 1989).",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://www.nejm.org",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 18:42:44",
-        "updated": "2021-11-11 15:11:13",
-        "slug_id": 0,
-        "enable_hidden": false,
-        "az_types": [
-            {
-                "id": 48302,
-                "name": "Health & Medicine",
-                "site_id": 942
-            },
-            {
-                "id": 48319,
-                "name": "Scholarly Journals",
-                "site_id": 942
-            },
-            {
-                "id": 48320,
-                "name": "Sciences",
-                "site_id": 942
-            }
-        ],
-        "icons": [
-            {
-                "id": 2574,
-                "site_id": 942,
-                "file": "fitbutton_2945.gif",
-                "description": "FIT digital resource",
-                "url": "",
-                "content_id": 64207503,
-                "icon_id": 2574,
-                "custom_url": ""
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": "",
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0
-    },
-    {
         "id": 64208513,
         "name": "Newspaper Source Plus (EBSCO)",
         "description": "Articles and images from US and global English-language newspapers and tv & radio news transcripts, from 1985 - current",
@@ -15729,60 +15596,6 @@
                 "id": 48315,
                 "name": "Open Access",
                 "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": "",
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0
-    },
-    {
-        "id": 64208917,
-        "name": "Regional Business News",
-        "description": "Includes more than 80 regional business newspapers, journals and radio and tv transcripts, covering all metropolitan and rural areas in the United States. Coverage dates back to the 1960s.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=bwh",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "target": "0",
-            "tn_url": "",
-            "tn_height": "",
-            "tn_width": "",
-            "tn_alt_text": "",
-            "more_info": "",
-            "desc_pos": 1,
-            "enable_proxy": 1
-        },
-        "created": "2021-11-05 19:23:19",
-        "updated": "2021-11-11 16:04:43",
-        "slug_id": 0,
-        "enable_hidden": false,
-        "az_types": [
-            {
-                "id": 48288,
-                "name": "Business & Economics",
-                "site_id": 942
-            },
-            {
-                "id": 48313,
-                "name": "News / Current Issues / Politics",
-                "site_id": 942
-            }
-        ],
-        "icons": [
-            {
-                "id": 2574,
-                "site_id": 942,
-                "file": "fitbutton_2945.gif",
-                "description": "FIT digital resource",
-                "url": "",
-                "content_id": 64208917,
-                "icon_id": 2574,
-                "custom_url": ""
             }
         ],
         "internal_note": "",
@@ -17207,61 +17020,6 @@
         "enable_popular": 0
     },
     {
-        "id": 74079115,
-        "name": "Access World News Research Collection",
-        "description": "<p>International, national, regional, and local news</p>",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://infoweb.newsbank.com/apps/news/easy-search?p=AWNB",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "tn_url": "",
-            "tn_width": "",
-            "tn_height": "",
-            "tn_alt_text": "",
-            "desc_pos": 1,
-            "enable_proxy": true,
-            "more_info": "",
-            "target": 0,
-            "cover_url": ""
-        },
-        "created": "2023-10-25 16:11:27",
-        "updated": "2024-09-04 14:14:38",
-        "slug_id": 0,
-        "enable_hidden": false,
-        "az_types": [
-            {
-                "id": 48300,
-                "name": "General & Multiple Topics",
-                "site_id": 942
-            },
-            {
-                "id": 48313,
-                "name": "News / Current Issues / Politics",
-                "site_id": 942
-            }
-        ],
-        "icons": [
-            {
-                "id": 2574,
-                "site_id": 942,
-                "file": "fitbutton_2945.gif",
-                "description": "FIT digital resource",
-                "url": "",
-                "content_id": 74079115,
-                "icon_id": 2574,
-                "custom_url": ""
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": "NewsBank",
-        "enable_new": 0,
-        "enable_trial": 0,
-        "enable_popular": 0
-    },
-    {
         "id": 74357925,
         "name": "Fashion Calendar Research Database",
         "description": "The Fashion Calendar (1941-2014) was  an independent, weekly periodical that served as the official scheduling clearinghouse for the American fashion industry. This resource, originally published by Ruth Finley, was digitized by FIT as part of digital humanities project in 2021 and is now available online as the Fashion Calendar Research Database. Users can search, map and graph historic events from the fashion and the creative industries.",
@@ -17943,49 +17701,6 @@
         "library_review": "",
         "alt_names": "Wall Street Journal",
         "enable_new": 1,
-        "enable_trial": 0,
-        "enable_popular": 0
-    },
-    {
-        "id": 81504109,
-        "name": "Newswires",
-        "description": "<p>Provides near real-time access to top world-wide news from Associated Press, United Press International, CNN Wire, and Business Wire.</p>",
-        "url": "https://research.ebsco.com/c/hsgpxb/search?defaultdb=nsm",
-        "site_id": 942,
-        "type_id": 10,
-        "owner_id": 21364,
-        "az_vendor_id": 0,
-        "meta": {
-            "tn_url": "",
-            "tn_width": "",
-            "tn_height": "",
-            "tn_alt_text": "",
-            "desc_pos": 1,
-            "enable_proxy": false,
-            "more_info": "",
-            "target": 0,
-            "cover_url": ""
-        },
-        "created": "2025-07-10 20:10:43",
-        "updated": "2025-07-10 20:19:12",
-        "slug_id": 0,
-        "enable_hidden": false,
-        "az_types": [
-            {
-                "id": 48300,
-                "name": "General & Multiple Topics",
-                "site_id": 942
-            },
-            {
-                "id": 48313,
-                "name": "News / Current Issues / Politics",
-                "site_id": 942
-            }
-        ],
-        "internal_note": "",
-        "library_review": "",
-        "alt_names": "",
-        "enable_new": 0,
         "enable_trial": 0,
         "enable_popular": 0
     }
