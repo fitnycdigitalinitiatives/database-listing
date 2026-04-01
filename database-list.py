@@ -3,11 +3,12 @@
 import os
 import json
 import requests
+from datetime import datetime
 
 endpoint = "https://lgapi-us.libapps.com/1.1/assets"
 params = {
     "site_id": "942",
-    "key": os.environ["API_KEY"],
+    "key": os.environ.get("LIB_APPS_KEY"),
     "asset_types": "10",
     "expand": "permitted_uses,az_types,az_props,subjects,icons",
 }
@@ -33,6 +34,14 @@ for database in databases:
     if database["enable_hidden"] == False:
         clean_databases.append(database)
 
-filename = "gh-pages/databases.json"
+filename = "databases.json"
 with open(filename, "w") as outfile:
     json.dump(clean_databases, outfile, indent=4)
+
+
+timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+filename = f"action-log.txt"
+file_content = f"This action was last run {timestamp}."
+
+with open(filename, 'w') as f:
+    f.write(file_content)
