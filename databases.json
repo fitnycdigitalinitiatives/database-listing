@@ -1920,7 +1920,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2025-03-28 16:20:41",
+        "updated": "2026-04-01 16:41:00",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -1999,7 +1999,7 @@
         ],
         "internal_note": "",
         "library_review": "",
-        "alt_names": "Demographics Now ",
+        "alt_names": " ",
         "enable_new": 0,
         "enable_trial": 0,
         "enable_popular": 1
@@ -17650,7 +17650,7 @@
             "cover_url": ""
         },
         "created": "2025-07-01 13:35:51",
-        "updated": "2025-07-01 13:35:51",
+        "updated": "2026-04-01 16:36:44",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -17700,7 +17700,7 @@
         "internal_note": "",
         "library_review": "",
         "alt_names": "Wall Street Journal",
-        "enable_new": 1,
+        "enable_new": 0,
         "enable_trial": 0,
         "enable_popular": 0
     }
