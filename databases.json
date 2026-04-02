@@ -1920,7 +1920,7 @@
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2026-04-01 16:41:00",
+        "updated": "2026-04-02 16:27:10",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -2002,7 +2002,7 @@
         "alt_names": " ",
         "enable_new": 0,
         "enable_trial": 0,
-        "enable_popular": 1
+        "enable_popular": 0
     },
     {
         "id": 2354007,
