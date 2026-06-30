@@ -17539,5 +17539,95 @@
         "enable_new": 0,
         "enable_trial": 0,
         "enable_popular": 0
+    },
+    {
+        "id": 85394813,
+        "name": "Bloomsbury Dress and Costume Library",
+        "description": "<p>&nbsp;An online collection supporting the interdisciplinary study of dress and costume history, design, and construction, created to enhance research and learning in dress history, costume studies, and costume design.</p>",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.bloomsburyfashioncentral.com",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2026-06-30 15:11:54",
+        "updated": "2026-06-30 15:11:54",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48289,
+                "name": "Companies & Brands / Industry Profiles",
+                "site_id": 942
+            },
+            {
+                "id": 48291,
+                "name": "E-books",
+                "site_id": 942
+            },
+            {
+                "id": 48293,
+                "name": "Encyclopedias / Dictionaries / Directories",
+                "site_id": 942
+            },
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48305,
+                "name": "Images",
+                "site_id": 942
+            },
+            {
+                "id": 48311,
+                "name": "Multimedia",
+                "site_id": 942
+            },
+            {
+                "id": 48319,
+                "name": "Scholarly Journals",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 85394813,
+                "icon_id": 2574,
+                "custom_url": ""
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 1,
+        "enable_trial": 0,
+        "enable_popular": 0
     }
 ]
