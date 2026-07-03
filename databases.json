@@ -17262,6 +17262,96 @@
         "enable_popular": 0
     },
     {
+        "id": 78228293,
+        "name": "Footwear News Archive",
+        "description": "<p>An archive of Footwear News, with coverage from its first issue in 1945 to the present. Articles, advertisements, and covers are included, with searchable text and article-level metadata. Footwear News was launched as the first dedicated news periodical of the footwear industry and the archive preserves 75+ years of essential global industry news, analysis, and coverage of seasonal trends.</p>",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.proquest.com/footwearnews/accountid=27253",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2024-09-19 18:22:07",
+        "updated": "2026-07-02 18:55:05",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48324,
+                "name": "Advertising",
+                "site_id": 942
+            },
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48288,
+                "name": "Business & Economics",
+                "site_id": 942
+            },
+            {
+                "id": 48289,
+                "name": "Companies & Brands / Industry Profiles",
+                "site_id": 942
+            },
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48303,
+                "name": "Historical Articles (pre-1975)",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            },
+            {
+                "id": 48323,
+                "name": "Trade Publications",
+                "site_id": 942
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 78228293,
+                "icon_id": 2574,
+                "custom_url": ""
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 1,
+        "enable_trial": 0,
+        "enable_popular": 0
+    },
+    {
         "id": 78754387,
         "name": "Gale Presents: Peterson's Test and Career Prep",
         "description": "<p>Search thousands of college and graduate schools, identify scholarships, take practice tests, create resumes, and explore careers.&nbsp;</p>",
@@ -17627,6 +17717,124 @@
         "library_review": "",
         "alt_names": "",
         "enable_new": 1,
+        "enable_trial": 0,
+        "enable_popular": 0
+    },
+    {
+        "id": 85431231,
+        "name": "The GQ Archive",
+        "description": "<p>The backfile of GQ magazine, from its launch in 1931 (as Apparel Arts) to the present. One of the longest-running, most influential men's magazines, GQ expanded its initial focus on fashion to cover general men\u2019s-interest subjects. The digital archive makes available editorial content and photography, providing essential insights into the 20th/21st-century history of fashion, popular culture, masculinity, and society.</p><p>&nbsp;</p>",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.proquest.com/gqa/accountid=27253",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2026-07-02 18:54:16",
+        "updated": "2026-07-02 18:54:16",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48303,
+                "name": "Historical Articles (pre-1975)",
+                "site_id": 942
+            },
+            {
+                "id": 48305,
+                "name": "Images",
+                "site_id": 942
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 85431231,
+                "icon_id": 2574,
+                "custom_url": ""
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 1,
+        "enable_trial": 0,
+        "enable_popular": 0
+    },
+    {
+        "id": 85431327,
+        "name": "Fashion Studies Collection (ProQuest)",
+        "description": "",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.proquest.com/fashionstudies/arts/fromDatabasesLayer?accountid=27253",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2026-07-02 18:59:54",
+        "updated": "2026-07-02 18:59:54",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 85431327,
+                "icon_id": 2574,
+                "custom_url": ""
+            }
+        ],
+        "internal_note": "",
+        "library_review": "<p>An array of major fashion magazine archives and exclusive video content documenting more than 150 years of fashion history.&nbsp;</p><p>Includes:&nbsp;</p><ul><li>The Daily News Record Archive (1917-2008)</li><li>Fashion Studies Online: The VideoFashion Library</li><li>The Footwear News Archive (1945-current)</li><li>The GQ Archive (1931-current)</li><li>The Harper's Bazaar Archive (1867-current)</li><li>The Vogue Archive (1892-current)</li><li>The Vogue Italia Archive (1964-current)</li><li>The Women's Wear Daily Archive (1910-last twelve months)</li></ul>",
+        "alt_names": "",
+        "enable_new": 0,
         "enable_trial": 0,
         "enable_popular": 0
     }
