@@ -17722,7 +17722,7 @@
     },
     {
         "id": 85431231,
-        "name": "The GQ Archive",
+        "name": "GQ Archive",
         "description": "<p>The backfile of GQ magazine, from its launch in 1931 (as Apparel Arts) to the present. One of the longest-running, most influential men's magazines, GQ expanded its initial focus on fashion to cover general men\u2019s-interest subjects. The digital archive makes available editorial content and photography, providing essential insights into the 20th/21st-century history of fashion, popular culture, masculinity, and society.</p><p>&nbsp;</p>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.proquest.com/gqa/accountid=27253",
         "site_id": 942,
@@ -17741,7 +17741,7 @@
             "cover_url": ""
         },
         "created": "2026-07-02 18:54:16",
-        "updated": "2026-07-02 18:54:16",
+        "updated": "2026-07-07 13:20:03",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
