@@ -17620,7 +17620,7 @@
     {
         "id": 85431327,
         "name": "Fashion Studies Collection (ProQuest)",
-        "description": "",
+        "description": "<ul><li>Daily News Record&nbsp;</li><li>Fashion Studies Online: The Videofashion Library</li><li>Footwear News (new!)</li><li>GQ (new!)</li><li>Harper's Bazaar (US and UK editions)</li><li>Vogue&nbsp;</li><li>Vogue Italia&nbsp;</li><li>Women's Wear Daily&nbsp;</li></ul>",
         "url": "https://libproxy.fitsuny.edu/login?url=https://www.proquest.com/fashionstudies/arts/fromDatabasesLayer?accountid=27253",
         "site_id": 942,
         "type_id": 10,
@@ -17638,9 +17638,56 @@
             "cover_url": ""
         },
         "created": "2026-07-02 18:59:54",
-        "updated": "2026-07-02 18:59:54",
+        "updated": "2026-07-22 14:12:32",
         "slug_id": 0,
         "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48287,
+                "name": "Art History & Fine Arts, Illustration, Photography",
+                "site_id": 942
+            },
+            {
+                "id": 48289,
+                "name": "Companies & Brands / Industry Profiles",
+                "site_id": 942
+            },
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48303,
+                "name": "Historical Articles (pre-1975)",
+                "site_id": 942
+            },
+            {
+                "id": 48305,
+                "name": "Images",
+                "site_id": 942
+            },
+            {
+                "id": 48311,
+                "name": "Multimedia",
+                "site_id": 942
+            },
+            {
+                "id": 48322,
+                "name": "Textiles",
+                "site_id": 942
+            }
+        ],
         "icons": [
             {
                 "id": 2574,
