@@ -17706,5 +17706,75 @@
         "enable_new": 0,
         "enable_trial": 0,
         "enable_popular": 0
+    },
+    {
+        "id": 85625233,
+        "name": "NellyRodi Color Intelligence",
+        "description": "<p>NellyRodi Color Intelligence Forecasts - PDF version. Please visit Periodicals and Electronic Resource Services (E436) to view the print trend books</p><p><a href=\"https://drive.google.com/file/d/1v1-LsahkhmcnqKk43Gep2B0CWAZQEXn8/view?usp=drive_link\">Click here to access NellyRodi Color Intelligence Spring/Summer 2028</a></p>",
+        "url": "https://drive.google.com/file/d/1v1-LsahkhmcnqKk43Gep2B0CWAZQEXn8/view?usp=drive_link",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": false,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2026-07-23 14:15:00",
+        "updated": "2026-07-23 14:15:00",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48295,
+                "name": "Fashion & Accessory Design",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48299,
+                "name": "Forecasting & Trend Reporting",
+                "site_id": 942
+            },
+            {
+                "id": 48305,
+                "name": "Images",
+                "site_id": 942
+            },
+            {
+                "id": 48314,
+                "name": "OneSearch Exceptions",
+                "site_id": 942
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 85625233,
+                "icon_id": 2574,
+                "custom_url": ""
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 0,
+        "enable_trial": 0,
+        "enable_popular": 0
     }
 ]
