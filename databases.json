@@ -11184,24 +11184,25 @@
     {
         "id": 64207223,
         "name": "LinkedIn Learning",
-        "description": "Access training tutorials via the MyFIT platform.",
+        "description": "<p>Access training tutorials via the MyFIT platform.</p>",
         "url": "https://lnkd.in/e5vheNv",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
-            "more_info": "",
             "desc_pos": 1,
-            "enable_proxy": 0
+            "enable_proxy": false,
+            "more_info": "<p>LinkedIn Learning is managed by FIT's IT department. <a href=\"https://it.fitnyc.edu/linkedin-learning/\">Click to learn more about LinkedIn Learning</a>.</p><p>If you are experiencing access issues, please <a href=\"https://it.fitnyc.edu/help/#contactus\">contact Tech Help</a> to report the problem.</p>",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2021-11-05 18:35:19",
-        "updated": "2021-11-10 22:38:59",
+        "updated": "2026-09-08 17:16:51",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -11213,6 +11214,11 @@
             {
                 "id": 48311,
                 "name": "Multimedia",
+                "site_id": 942
+            },
+            {
+                "id": 55988,
+                "name": "Unavailable",
                 "site_id": 942
             }
         ],
