@@ -17637,5 +17637,80 @@
         "enable_new": 0,
         "enable_trial": 0,
         "enable_popular": 0
+    },
+    {
+        "id": 86451373,
+        "name": "Fashion Law",
+        "description": "<p>Delivers legal and strategic intelligence on the global retail economy. Helps users understand litigation, regulation, enforcement, and competitive developments across fashion, beauty, technology, automotive, and related industries.</p>",
+        "url": "https://libproxy.fitsuny.edu/login?url=https://www.thefashionlaw.com ",
+        "site_id": 942,
+        "type_id": 10,
+        "owner_id": 21364,
+        "az_vendor_id": 0,
+        "meta": {
+            "tn_url": "",
+            "tn_width": "",
+            "tn_height": "",
+            "tn_alt_text": "",
+            "desc_pos": 1,
+            "enable_proxy": true,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
+        },
+        "created": "2026-10-01 20:02:53",
+        "updated": "2026-10-01 20:02:53",
+        "slug_id": 0,
+        "enable_hidden": false,
+        "az_types": [
+            {
+                "id": 48288,
+                "name": "Business & Economics",
+                "site_id": 942
+            },
+            {
+                "id": 48289,
+                "name": "Companies & Brands / Industry Profiles",
+                "site_id": 942
+            },
+            {
+                "id": 48296,
+                "name": "Fashion Industry",
+                "site_id": 942
+            },
+            {
+                "id": 48300,
+                "name": "General & Multiple Topics",
+                "site_id": 942
+            },
+            {
+                "id": 48314,
+                "name": "OneSearch Exceptions",
+                "site_id": 942
+            },
+            {
+                "id": 48323,
+                "name": "Trade Publications",
+                "site_id": 942
+            }
+        ],
+        "icons": [
+            {
+                "id": 2574,
+                "site_id": 942,
+                "file": "fitbutton_2945.gif",
+                "description": "FIT digital resource",
+                "url": "",
+                "content_id": 86451373,
+                "icon_id": 2574,
+                "custom_url": ""
+            }
+        ],
+        "internal_note": "",
+        "library_review": "",
+        "alt_names": "",
+        "enable_new": 1,
+        "enable_trial": 0,
+        "enable_popular": 0
     }
 ]
