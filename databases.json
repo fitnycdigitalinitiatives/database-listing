@@ -15051,8 +15051,8 @@
     {
         "id": 74078990,
         "name": "Center for Art Law",
-        "description": "<p>Database of articles and art law resources</p>",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://itsartlaw.org",
+        "description": "<p>Database of articles and art law resources</p><p>Use FIT email address to register for an account.</p><p>Use code<strong> </strong><span style=\"background-color:rgb(255,255,255);color:rgb(34,34,34);font-family:Arial, Helvetica, sans-serif;\"><span style=\"-webkit-text-stroke-width:0px;display:inline !important;float:none;font-size:small;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\"><strong>FIT2026!</strong></span></span></p>",
+        "url": "https://itsartlaw.org/account-setup/?level_id=25",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
@@ -15063,13 +15063,13 @@
             "tn_height": "",
             "tn_alt_text": "",
             "desc_pos": 1,
-            "enable_proxy": true,
+            "enable_proxy": false,
             "more_info": "<p>Register using the code shared in the URL</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2023-10-25 16:06:37",
-        "updated": "2026-09-22 17:58:28",
+        "updated": "2026-10-05 17:46:18",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
