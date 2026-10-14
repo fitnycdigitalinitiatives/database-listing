@@ -8908,24 +8908,25 @@
     {
         "id": 64203843,
         "name": "Britannica Academic Edition",
-        "description": "Encyclopedia with a searchable and browsable collection of authoritative references, including Britannica's latest articles, hundreds of articles not found in the print Britannica, Merriam-Webster's Collegiate Dictionary (Tenth Edition), the Britannica Book of the Year, and links to non-Britannica sites curated by Britannica editors.",
-        "url": "https://libproxy.fitsuny.edu/login?url=https://galesupport.com/novelGeo/novelGeoLink.php?loc=fitsuny&db=EBacademic",
+        "description": "<p>Encyclopedia with a searchable and browsable collection of authoritative references, including Britannica's latest articles, hundreds of articles not found in the print Britannica, Merriam-Webster's Collegiate Dictionary (Tenth Edition), the Britannica Book of the Year, and links to non-Britannica sites curated by Britannica editors.</p>",
+        "url": "https://galesupport.com/novelGeo/novelGeoLink.php?loc=fitsuny&db=EBacademic",
         "site_id": 942,
         "type_id": 10,
         "owner_id": 21364,
         "az_vendor_id": 0,
         "meta": {
-            "target": "0",
             "tn_url": "",
-            "tn_height": "",
             "tn_width": "",
+            "tn_height": "",
             "tn_alt_text": "",
-            "more_info": "",
             "desc_pos": 1,
-            "enable_proxy": 1
+            "enable_proxy": false,
+            "more_info": "",
+            "target": 0,
+            "cover_url": ""
         },
         "created": "2021-11-05 16:29:25",
-        "updated": "2021-11-10 17:26:36",
+        "updated": "2026-10-14 19:47:50",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
