@@ -2933,12 +2933,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": true,
-            "more_info": "<p>Access is limited to ten (10) concurrent users.<br>Use an incognito browser to access this resource.</p>",
+            "more_info": "<p>Access is limited to twenty (20) concurrent users.<br>Use an incognito browser to access this resource.</p>",
             "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2026-06-09 13:28:42",
+        "updated": "2026-10-20 15:32:44",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
