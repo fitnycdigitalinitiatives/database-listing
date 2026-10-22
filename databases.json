@@ -2114,12 +2114,12 @@
             "tn_alt_text": "",
             "desc_pos": 1,
             "enable_proxy": true,
-            "more_info": "<p>&nbsp;Hoovers is currently unavailable due to technical issues. The vendor is working to restore access.</p>",
+            "more_info": "",
             "target": 0,
             "cover_url": ""
         },
         "created": "2014-06-16 23:31:09",
-        "updated": "2026-10-21 19:29:08",
+        "updated": "2026-10-22 16:41:12",
         "slug_id": 0,
         "enable_hidden": false,
         "az_types": [
@@ -2151,11 +2151,6 @@
             {
                 "id": 48314,
                 "name": "OneSearch Exceptions",
-                "site_id": 942
-            },
-            {
-                "id": 55988,
-                "name": "Unavailable",
                 "site_id": 942
             }
         ],
